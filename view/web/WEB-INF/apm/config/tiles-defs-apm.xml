@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+
+	<!-- Seccion -->
+	<definition name=".apm.seccion.view.seccionSearchPage"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/seccionSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.seccion.view.seccionViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/seccionViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.seccion.view.seccionEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/seccionEditAdapter.jsp" />
+	</definition>
+	<!-- fin Seccion -->
+
+	<!-- Dispositivo Movil -->
+	<definition name=".apm.dispositivoMovil.view.dispositivoMovilSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/dispositivoMovilSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.dispositivoMovil.view.dispositivoMovilViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/dispositivoMovilViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.dispositivoMovil.view.dispositivoMovilEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/dispositivoMovilEditAdapter.jsp" />
+	</definition>
+	<!-- fin Dispositivo Movil -->
+
+	<!-- Campo -->
+	<definition name=".apm.campo.view.campoSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.campo.view.campoViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.campo.view.campoAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoAdapter.jsp" />
+	</definition>
+	<!-- Encabezado -->
+	<definition name=".apm.campo.view.campoEncEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoEncEditAdapter.jsp" />
+	</definition>
+	<!-- Campo -->
+
+	<!-- Campo Valor -->
+	<definition name=".apm.campoValor.view.campoValorViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoValorViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.campoValor.view.campoValorAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoValorAdapter.jsp" />
+	</definition>
+	<definition name=".apm.campoValor.view.campoValorEncEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoValorEncEditAdapter.jsp" />
+	</definition>
+	<!-- Campo Valor -->
+
+	<!-- Campo Valor Opcion -->
+	<definition name=".apm.campoValorOpcion.view.campoValorOpcionViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoValorOpcionViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.campoValorOpcion.view.campoValorOpcionEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/campoValorOpcionEditAdapter.jsp" />
+	</definition>
+	<!-- Campo Valor Opcion -->
+
+	<!-- AplicacionPerfil -->
+	<definition name=".apm.aplicacionPerfil.view.aplicacionPerfilSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilSearchPage.jsp" />
+	</definition>
+
+	<definition name=".apm.aplicacionPerfil.view.aplicacionPerfilViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilViewAdapter.jsp" />
+	</definition>
+
+	<definition name=".apm.aplicacionPerfil.view.aplicacionPerfilAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilAdapter.jsp" />
+	</definition>
+	<!-- Encabezado -->
+	<definition name=".apm.aplicacionPerfil.view.aplicacionPerfilEncEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilEncEditAdapter.jsp" />
+	</definition>
+	<!-- AplicacionPerfil -->
+
+	<!-- Aplicacion Perfil Seccion -->
+	<definition name=".apm.aplicacionPerfilSeccion.view.aplicacionPerfilSeccionViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilSeccionViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacionPerfilSeccion.view.aplicacionPerfilSeccionAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilSeccionAdapter.jsp" />
+	</definition>
+	<!-- Encabezado -->
+	<definition	name=".apm.aplicacionPerfilSeccion.view.aplicacionPerfilSeccionEncEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilSeccionEncEditAdapter.jsp" />
+	</definition>
+	<!-- Aplicacion Perfil Seccion -->
+
+	<!-- Apl Perfil Seccion Campo -->
+	<definition	name=".apm.aplPerfilSeccionCampo.view.aplPerfilSeccionCampoViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplPerfilSeccionCampoViewAdapter.jsp" />
+	</definition>
+	<definition	name=".apm.aplPerfilSeccionCampo.view.aplPerfilSeccionCampoAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplPerfilSeccionCampoAdapter.jsp" />
+	</definition>
+	<!-- Encabezado -->
+	<definition	name=".apm.aplPerfilSeccionCampo.view.aplPerfilSeccionCampoEncEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplPerfilSeccionCampoEncEditAdapter.jsp" />
+	</definition>
+	<!-- Apl Perfil Seccion Campo -->
+
+	<!-- Apl Perfil Seccion Campo Valor -->
+	<definition	name=".apm.aplPerfilSeccionCampoValor.view.aplPerfilSeccionCampoValorViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplPerfilSeccionCampoValorViewAdapter.jsp" />
+	</definition>
+	<definition	name=".apm.aplPerfilSeccionCampoValor.view.aplPerfilSeccionCampoValorAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplPerfilSeccionCampoValorAdapter.jsp" />
+	</definition>
+	<!-- Encabezado -->
+	<definition	name=".apm.aplPerfilSeccionCampoValor.view.aplPerfilSeccionCampoValorEncEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplPerfilSeccionCampoValorEncEditAdapter.jsp" />
+	</definition>
+	<!-- Apl Perfil Seccion Campo Valor -->
+
+	<!-- Apl Perfil Seccion Campo Valor Opcion -->
+	<definition name=".apm.aplPerfilSeccionCampoValorOpcion.view.aplPerfilSeccionCampoValorOpcionViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplPerfilSeccionCampoValorOpcionViewAdapter.jsp" />
+	</definition>
+
+	<definition	name=".apm.aplPerfilSeccionCampoValorOpcion.view.aplPerfilSeccionCampoValorOpcionEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplPerfilSeccionCampoValorOpcionEditAdapter.jsp" />
+	</definition>
+	<!-- Apl Perfil SeccionCampo Valor Opcion -->
+
+	<!-- Aplicacion Perfil Parametro -->
+	<definition	name=".apm.aplicacionPerfilParametro.view.aplicacionPerfilParametroViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilParametroViewAdapter.jsp" />
+	</definition>
+	<definition	name=".apm.aplicacionPerfilParametro.view.aplicacionPerfilParametroEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionPerfilParametroEditAdapter.jsp" />
+	</definition>
+	<!-- Aplicacion Perfil Parametro -->
+
+	<!-- Impresora -->
+	<definition name=".apm.impresora.view.impresoraSearchPage"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/impresoraSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.impresora.view.impresoraViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/impresoraViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.impresora.view.impresoraEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/impresoraEditAdapter.jsp" />
+	</definition>
+	<!-- fin Impresora -->
+
+	<!-- Aplicacion -->
+	<definition name=".apm.aplicacion.view.aplicacionSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.aplicacionViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.aplicacionAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionAdapter.jsp" />
+	</definition>
+	<!-- Encabezado -->
+	<definition name=".apm.aplicacion.view.aplicacionEncEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionEncEditAdapter.jsp" />
+	</definition>
+	<!-- Aplicacion -->
+
+	<!-- Aplicacion Parametro -->
+	<definition name=".apm.aplicacion.view.aplicacionParametroViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionParametroViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.aplicacionParametroEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionParametroEditAdapter.jsp" />
+	</definition>
+	<!-- Aplicacion Parametro -->
+
+	<!-- Aplicacion BinarioVersion -->
+	<definition name=".apm.aplicacion.view.aplicacionBinarioVersionViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionBinarioVersionViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.aplicacionBinarioVersionEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionBinarioVersionEditAdapter.jsp" />
+	</definition>
+	<!-- Aplicacion BinarioVersion -->
+
+	<!-- UsuarioApm -->
+	<definition name=".apm.aplicacion.view.usuarioApmSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/usuarioApmSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.usuarioApmViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/usuarioApmViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.usuarioApmAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/usuarioApmAdapter.jsp" />
+	</definition>
+	<!-- Encabezado -->
+	<definition name=".apm.aplicacion.view.usuarioApmEncEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/usuarioApmEncEditAdapter.jsp" />
+	</definition>
+	<!-- UsuarioApm -->
+
+	<!-- UsuarioApmDM -->
+	<definition name=".apm.aplicacion.view.usuarioApmDMViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/usuarioApmDMViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.usuarioApmDMEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/usuarioApmDMEditAdapter.jsp" />
+	</definition>
+	<!-- UsuarioApmDM -->
+	
+	<!-- UsuarioApmImpresora -->
+	<definition name=".apm.aplicacion.view.usuarioApmImpresoraViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/usuarioApmImpresoraViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.usuarioApmImpresoraEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/usuarioApmImpresoraEditAdapter.jsp" />
+	</definition>
+	<!-- UsuarioApmImpresora -->
+
+	<!-- Perfil Acceso Usuario -->
+	<definition name=".apm.aplicacion.view.perfilAccesoUsuarioViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/perfilAccesoUsuarioViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.perfilAccesoUsuarioEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/perfilAccesoUsuarioEditAdapter.jsp" />
+	</definition>
+	<!-- Perfil Acceso Usuario -->
+
+	<!-- TablaVersion -->
+	<definition name=".apm.aplicacion.view.tablaVersionSearchPage"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/tablaVersionSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.tablaVersionViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/tablaVersionViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.tablaVersionEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/tablaVersionEditAdapter.jsp" />
+	</definition>
+	<!-- fin TablaVersion -->
+
+	<!-- AplicacionTabla -->
+	<definition name=".apm.aplicacion.view.aplicacionTablaSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionTablaSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.aplicacionTablaViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionTablaViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.aplicacionTablaEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionTablaEditAdapter.jsp" />
+	</definition>
+	<!-- fin AplicacionTabla -->
+
+	<!-- HistoriaGPS -->
+	<definition name=".apm.aplicacion.view.historiaGPSSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/historiaGPSSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.historiaGPSViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/historiaGPSViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.historiaGPSEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/historiaGPSEditAdapter.jsp" />
+	</definition>
+	<!-- fin HistoriaGPS -->
+
+	<!-- AplicacionTipoBinario -->
+	<definition name=".apm.aplicacion.view.aplicacionTipoBinarioSearchPage"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionTipoBinarioSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.aplicacionTipoBinarioViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionTipoBinarioViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.aplicacionTipoBinarioEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/aplicacionTipoBinarioEditAdapter.jsp" />
+	</definition>
+	<!-- fin AplicacionTipoBinario -->
+
+	<!-- PerfilAcceso -->
+	<definition name=".apm.aplicacion.view.perfilAccesoSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/perfilAccesoSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.perfilAccesoViewAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/perfilAccesoViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.perfilAccesoAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/perfilAccesoAdapter.jsp" />
+	</definition>
+	<!-- Encabezado -->
+	<definition name=".apm.aplicacion.view.perfilAccesoEncEditAdapter"	extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/perfilAccesoEncEditAdapter.jsp" />
+	</definition>
+	<!-- PerfilAcceso -->
+	
+	<!-- AreaAplicacionPerfil -->
+	<definition name=".def.configuracion.view.areaAplicacionPerfilViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/def/configuracion/areaAplicacionPerfilViewAdapter.jsp" />
+	</definition>
+	<definition name=".def.configuracion.view.areaAplicacionPerfilEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/def/configuracion/areaAplicacionPerfilEditAdapter.jsp" />
+	</definition>
+	<!-- AreaAplicacionPerfil -->
+	
+	<!-- TelefonoPanico -->
+	<definition name=".apm.aplicacion.view.telefonoPanicoViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/telefonoPanicoViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.telefonoPanicoEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/telefonoPanicoEditAdapter.jsp" />
+	</definition>
+	<!-- TelefonoPanico -->
+	
+	<!-- Panico -->
+	<definition name=".apm.panico.view.panicoSearchPage" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/panicoSearchPage.jsp" />
+	</definition>
+	<definition name=".apm.panico.view.panicoViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/panicoViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.panico.view.panicoAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/apm/aplicacion/panicoAdapter.jsp"/>
+    </definition>
+    <definition name=".apm.panico.view.cambioEstadoPanicoAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/apm/aplicacion/cambioEstadoPanicoAdapter.jsp"/>
+    </definition>
+    <definition name=".apm.panico.view.hisEstPanViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/apm/aplicacion/hisEstPanViewAdapter.jsp"/>
+    </definition>
+	<!-- Panico -->
+	
+	<!-- PerfilAccesoAplicacion -->
+	<definition name=".apm.aplicacion.view.perfilAccesoAplicacionViewAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/perfilAccesoAplicacionViewAdapter.jsp" />
+	</definition>
+	<definition name=".apm.aplicacion.view.perfilAccesoAplicacionEditAdapter" extends=".gaitStdLayout">
+		<put name="body" value="/apm/aplicacion/perfilAccesoAplicacionEditAdapter.jsp" />
+	</definition>
+</tiles-definitions>

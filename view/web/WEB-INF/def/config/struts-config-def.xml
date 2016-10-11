@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"  
+"[WWW] http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+
+<struts-config>
+	<form-beans>		
+		<form-bean name="parametroSearchPage" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="parametroAdapter"    type="org.apache.struts.action.DynaActionForm"/>
+		<!-- Direccion -->
+		<form-bean name="direccionSearchPage" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="direccionAdapter"    type="org.apache.struts.action.DynaActionForm"/>
+		<!-- Area -->
+		<form-bean name="areaAdapter"    type="org.apache.struts.action.DynaActionForm"/>
+		<!-- Direccion Aplicacion Perfil --> |
+		<form-bean name="direccionAplicacionPerfilAdapter" type="org.apache.struts.action.DynaActionForm"/>	
+		<!-- Area Aplicacion Perfil --> |
+		<form-bean name="areaAplicacionPerfilAdapter" type="org.apache.struts.action.DynaActionForm"/>		
+	</form-beans>
+
+	<action-mappings>    
+	    <!-- Parametro -->	    
+	    <action
+	    	path="/def/BuscarParametro"
+	        type="ar.gov.rosario.gait.def.view.struts.BuscarParametroDAction"
+			scope="request"
+	       	validate="false"
+	        name="parametroSearchPage"
+	        parameter="method"
+	   		input=".def.configuracion.view.parametroSearchPage"
+	        attribute="parametroSearchPage">
+	           
+	   	    <forward name="parametroSearchPage"   	path=".def.configuracion.view.parametroSearchPage" />
+	   	    <forward name="administrarParametro" 	path="/def/AdministrarParametro.do?method=inicializar" />
+	    </action>
+		
+		<action
+     		path="/def/AdministrarParametro"
+	        type="ar.gov.rosario.gait.def.view.struts.AdministrarParametroDAction"
+		    scope="request"
+        	validate="false"
+	        name="parametroAdapter"
+            parameter="method"
+    	    input=".def.configuracion.view.parametroEditAdapter"
+	        attribute="parametroAdapter">
+            
+    	    <forward name="parametroViewAdapter" 	path=".def.configuracion.view.parametroViewAdapter" />
+    	    <forward name="parametroEditAdapter"    path=".def.configuracion.view.parametroEditAdapter" />
+	    </action>
+	    <!-- Fin Parametro -->
+	    
+	    <!-- Cache -->
+       	<action path="/def/AdministrarCache" parameter=".def.configuracion.view.cacheViewAdapter" type="org.apache.struts.actions.ForwardAction"/>
+        <!-- Fin Cache -->
+	
+ 	 <!-- Direccion -->	  
+	    <action
+	    	path="/def/BuscarDireccion"
+	        type="ar.gov.rosario.gait.def.view.struts.BuscarDireccionDAction"
+			scope="request"
+	       	validate="false"
+	        name="direccionSearchPage"
+	        parameter="method"
+	   		input=".def.configuracion.view.direccionSearchPage"
+	        attribute="direccionSearchPage">
+	           
+	   	    <forward name="direccionSearchPage"         path=".def.configuracion.view.direccionSearchPage" />
+	   	    <forward name="administrarDireccion" 	    path="/def/AdministrarDireccion.do?method=inicializar" />
+	   	    <forward name="administrarEncDireccion" 	path="/def/AdministrarEncDireccion.do?method=inicializar" />
+	   	    <forward name="administrarEncArea" 	   		path="/def/AdministrarEncArea.do?method=inicializar" />
+	    </action>
+		
+		<action
+     		path="/def/AdministrarDireccion"
+	        type="ar.gov.rosario.gait.def.view.struts.AdministrarDireccionDAction"
+		    scope="request"
+        	validate="false"
+	        name="direccionAdapter"
+            parameter="method"
+    	    input=".def.configuracion.view.direccionAdapter"
+	        attribute="direccionAdapter">
+             
+		    <forward name="buscarDireccion" 	          					 path="/def/BuscarDireccion.do?method=inicializar" />
+    	    <forward name="direccionViewAdapter" 	     					 path=".def.configuracion.view.direccionViewAdapter" />
+    	    <forward name="direccionAdapter" 	  	     					 path=".def.configuracion.view.direccionAdapter" />
+    	    <forward name="administrarEncDireccion"      					 path="/def/AdministrarEncDireccion.do?method=inicializar" />
+    	    <forward name="administrarArea" 	 		 					 path="/def/AdministrarArea.do?method=inicializar" />
+    	    <forward name="administrarDireccionAplicacionPerfil" 	 		 path="/def/AdministrarDireccionAplicacionPerfil.do?method=inicializar" />
+    	    <forward name="administrarEncArea"  		 					 path="/def/AdministrarEncArea.do?method=inicializar" />
+	    </action>
+		     
+	     <action
+     		path="/def/AdministrarEncDireccion"
+	        type="ar.gov.rosario.gait.def.view.struts.AdministrarEncDireccionDAction"
+		    scope="request"
+        	validate="false"
+	        name="direccionAdapter"
+            parameter="method"
+    	    input=".def.configuracion.view.direccionEncEditAdapter"
+	        attribute="direccionAdapter">
+
+   			<forward name="administrarArea" 	 		  path="/def/AdministrarArea.do?method=inicializar" />
+    	    <forward name="administrarEncArea"  		  path="/def/AdministrarEncArea.do?method=inicializar" />
+	       	<forward name="buscarDireccion" 	   		  path="/def/BuscarDireccion.do?method=inicializar" />
+    	    <forward name="direccionEncEditAdapter"       path=".def.configuracion.view.direccionEncEditAdapter" />
+	    </action>
+	    <!-- Fin Direccion-->
+ 	
+ 	 	<!-- Area -->	  
+			<action
+     		path="/def/AdministrarArea"
+	        type="ar.gov.rosario.gait.def.view.struts.AdministrarAreaDAction"
+		    scope="request"
+        	validate="false"
+	        name="areaAdapter"
+            parameter="method"
+    	    input=".def.configuracion.view.areaAdapter"
+	        attribute="areaAdapter">
+		    
+    	    <forward name="areaViewAdapter" 	      path=".def.configuracion.view.areaViewAdapter" />
+    	    <forward name="areaAdapter" 	  	      path=".def.configuracion.view.areaAdapter" />
+    	    <forward name="administrarEncArea"        path="/def/AdministrarEncArea.do?method=inicializar" />
+    	    <forward name="administrarPerfilAcceso"   path="/apm/AdministrarPerfilAcceso.do?method=inicializar" />
+      		<forward name="areaEncEditAdapter"   	  path=".def.configuracion.view.areaEncEditAdapter" />
+      		<forward name="administrarTelefonoPanico"   path="/apm/AdministrarTelefonoPanico.do?method=inicializar" />
+	    </action>
+		     
+	     <action
+     		path="/def/AdministrarEncArea"
+	        type="ar.gov.rosario.gait.def.view.struts.AdministrarEncAreaDAction"
+		    scope="request"
+        	validate="false"
+	        name="areaAdapter"
+            parameter="method"
+    	    input=".def.configuracion.view.areaEncEditAdapter"
+	        attribute="areaAdapter">
+	      
+    	    <forward name="areaEncEditAdapter"   path=".def.configuracion.view.areaEncEditAdapter" />
+	    </action>
+	    <!-- Fin Area-->
+	    
+	    <!-- Direccion Aplicacion Perfil -->
+	    <action
+     		path="/def/AdministrarDireccionAplicacionPerfil"
+	        type="ar.gov.rosario.gait.def.view.struts.AdministrarDireccionAplicacionPerfilDAction"
+		    scope="request"
+        	validate="false"
+	        name="direccionAplicacionPerfilAdapter"
+            parameter="method"
+    	    input=".def.configuracion.view.direccionAplicacionPerfilEditAdapter"
+	        attribute="direccionAplicacionPerfilAdapter">
+            
+    	    <forward name="direccionAplicacionPerfilViewAdapter" 	path=".def.configuracion.view.direccionAplicacionPerfilViewAdapter" />
+    	    <forward name="direccionAplicacionPerfilEditAdapter"    path=".def.configuracion.view.direccionAplicacionPerfilEditAdapter" />
+	    </action>
+	    
+	    <!-- Area Aplicacion Perfil -->
+	    <action
+     		path="/def/AdministrarAreaAplicacionPerfil"
+	        type="ar.gov.rosario.gait.def.view.struts.AdministrarAreaAplicacionPerfilDAction"
+		    scope="request"
+        	validate="false"
+	        name="areaAplicacionPerfilAdapter"
+            parameter="method"
+    	    input=".def.configuracion.view.areaAplicacionPerfilEditAdapter"
+	        attribute="areaAplicacionPerfilAdapter">
+            
+    	    <forward name="areaAplicacionPerfilViewAdapter"		path=".def.configuracion.view.areaAplicacionPerfilViewAdapter" />
+    	    <forward name="areaAplicacionPerfilEditAdapter"		path=".def.configuracion.view.areaAplicacionPerfilEditAdapter" />
+	    </action>
+ 	 </action-mappings>    
+</struts-config>

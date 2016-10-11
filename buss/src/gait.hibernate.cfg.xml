@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+		<!-- View -->
+		<property name="connection.datasource">java:comp/env/ds/gait</property>
+
+		<!-- JDBC connection pool (use the built-in) -->
+		<!--property name="connection.pool_size">1</property-->
+
+		<!-- Enable Hibernate's automatic session context management -->
+		<!--property name="current_session_context_class">thread</property-->
+
+		<!-- Disable the second-level cache  -->
+		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+		<!-- Dirty read / read uncommited -->
+		<property name="hibernate.connection.isolation">1</property>
+
+		<!-- List of annotated classes-->
+		
+		<!--  Definicion -->		
+		<mapping class="ar.gov.rosario.gait.def.buss.bean.Parametro"/>
+		<mapping class="ar.gov.rosario.gait.def.buss.bean.Direccion"/>
+		<mapping class="ar.gov.rosario.gait.def.buss.bean.DireccionAplicacionPerfil"/>
+		<mapping class="ar.gov.rosario.gait.def.buss.bean.Area"/>
+		<mapping class="ar.gov.rosario.gait.def.buss.bean.AreaAplicacionPerfil"/>
+		<!--  Fin Definicion -->
+				
+		<!--  Proceso -->		
+		<mapping class="ar.gov.rosario.gait.pro.buss.bean.Proceso"/>
+		<mapping class="ar.gov.rosario.gait.pro.buss.bean.TipoEjecucion"/>
+		<mapping class="ar.gov.rosario.gait.pro.buss.bean.TipoProgEjec"/>
+		<mapping class="ar.gov.rosario.gait.pro.buss.bean.Corrida"/>
+		<mapping class="ar.gov.rosario.gait.pro.buss.bean.EstadoCorrida"/>	
+		<mapping class="ar.gov.rosario.gait.pro.buss.bean.PasoCorrida"/>
+		<mapping class="ar.gov.rosario.gait.pro.buss.bean.LogCorrida"/>	
+		<mapping class="ar.gov.rosario.gait.pro.buss.bean.FileCorrida"/>	
+		<!--  Fin Proceso -->		
+			
+		<!-- Seguridad -->	
+		<mapping class="ar.gov.rosario.gait.seg.buss.bean.UsuarioGait"/>
+		<!-- Fin Seguridad -->		
+		
+		<!-- Notificacion -->	
+		<mapping class="ar.gov.rosario.gait.not.buss.bean.Notificacion"/>
+		<mapping class="ar.gov.rosario.gait.not.buss.bean.TipoNotificacion"/>
+		<mapping class="ar.gov.rosario.gait.not.buss.bean.EstadoNotificacion"/>
+		<!-- Fin Notificacion -->	
+		
+		<!-- Aplicacion -->
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.UsuarioApm"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.UsuarioApmDM"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.DispositivoMovil"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.Seccion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.Aplicacion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplicacionTabla"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.TablaVersion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplicacionBinarioVersion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplicacionParametro"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplicacionPerfil"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplicacionPerfilParametro"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplicacionPerfilSeccion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplicacionTipoBinario"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplPerfilSeccionCampo"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplPerfilSeccionCampoValor"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.AplPerfilSeccionCampoValorOpcion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.Campo"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.CampoValor"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.CampoValorOpcion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.Impresora"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.PerfilAcceso"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.PerfilAccesoAplicacion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.PerfilAccesoUsuario"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.Reparticion"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.UsuarioApmImpresora"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.TelefonoPanico"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.Panico"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.EstadoPanico"/>
+		<mapping class="ar.gov.rosario.gait.apm.buss.bean.HisEstPan"/>
+		<!--  Fin Aplicacion -->
+		
+		<!-- Formulario -->
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.Formulario"/>
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.FormularioDetalle"/>
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.TipoFormulario"/>
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.EstadoTipoFormulario"/>
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.MotivoAnulacionTipoFormulario"/>
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.MotivoCierreTipoFormulario"/>
+		<!--  Fin Formulario -->
+		
+		<!-- Numeracion -->
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.Numeracion"/>
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.Serie"/>
+		<mapping class="ar.gov.rosario.gait.frm.buss.bean.Talonario"/>
+		<!--  Fin Numeracion -->
+		
+		<!-- Sincronismo -->
+		<mapping class="ar.gov.rosario.gait.aid.buss.bean.ClaseLicencia"/>
+		<mapping class="ar.gov.rosario.gait.aid.buss.bean.MarcaVehiculo"/>
+		<mapping class="ar.gov.rosario.gait.aid.buss.bean.Infraccion"/>
+		<mapping class="ar.gov.rosario.gait.aid.buss.bean.TipoDocumento"/>
+		<mapping class="ar.gov.rosario.gait.aid.buss.bean.TipoVehiculo"/>
+		<mapping class="ar.gov.rosario.gait.aid.buss.bean.LineaTUP"/>
+		<!--  Fin Sincronismo -->
+		
+		<!-- GPS -->
+		<mapping class="ar.gov.rosario.gait.gps.buss.bean.HistorialUbicacion"/>
+		<!--  Fin GPS -->
+	</session-factory>
+</hibernate-configuration>
+

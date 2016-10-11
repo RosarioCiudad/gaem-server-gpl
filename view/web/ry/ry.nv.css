@@ -1,0 +1,320 @@
+/* Nouvo CSS (ver nv.d3.css) 
+============================= */
+
+.nvtooltip {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+
+}
+
+.nvtooltip h3 {
+  font-size: 1em;
+}
+
+/* Grs 
+============================= */
+
+.grid-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,
+big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,
+dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,
+canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,
+time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* #Basic Styles
+================================================== */
+body {
+	background: #fff;
+	font-size: 14px;
+	color: #444;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+
+/* #Typography
+================================================== */
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #181818;
+	font-weight: normal;
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+	font-weight: inherit;
+}
+
+h1 {
+	font-size: 2.6em;
+	margin: 0 0 16px 0;
+}
+
+h2 {
+	font-size: 2.0em;
+	margin: 0 0 8px 0;
+}
+
+h3 {
+	font-size: 1.6em;
+	margin: 0 0 0px 0;
+}
+
+h4 {
+	font-size: 1.4em;
+	margin: 0 0 0 0;
+}
+
+h5 {
+	font-size: 1.2em;
+	margin: 0 0 0 0;
+}
+
+h6 {
+	font-size: 1em;
+	margin: 0 0 0 0;
+}
+
+.subheader {
+	color: #777;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+p img {
+	margin: 0;
+}
+
+p.lead {
+	font-size: 1.1em;
+	color: #777;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+	color: #333;
+}
+
+small {
+	font-size: 80%;
+}
+
+hr {
+	border: solid #ddd;
+	border-width: 1px 0 0;
+	clear: both;
+	height: 0;
+	margin: 0.4em 0 0px;
+}
+
+/* #Links
+================================================== */
+a,a:visited {
+	color: #333;
+	text-decoration: underline;
+	outline: 0;
+}
+
+a:hover,a:focus {
+	color: #000;
+}
+
+p a,p a:visited {
+	line-height: inherit;
+}
+
+/* #Lists
+================================================== */
+ul,ol {
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none outside;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ol,ul.square,ul.circle,ul.disc {
+	margin-left: 30px;
+}
+
+ul.square {
+	list-style: square outside;
+}
+
+ul.circle {
+	list-style: circle outside;
+}
+
+ul.disc {
+	list-style: disc outside;
+}
+
+ul ul,ul ol,ol ol,ol ul {
+	margin: 4px 0 5px 30px;
+	font-size: 90%;
+}
+
+ul ul li,ul ol li,ol ol li,ol ul li {
+	margin-bottom: 6px;
+}
+
+li {
+	line-height: 18px;
+	margin-bottom: 12px;
+}
+
+ul.large li {
+	line-height: 21px;
+}
+
+li p {
+	line-height: 21px;
+}
+
+/* #Images
+================================================== */
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto;
+}
+
+
+table {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+        border-collapse: collapse;
+        border: 1px solid #ccc;
+        color: #555;
+}
+
+table th {
+		padding: 3px 3px 3px 3px;
+        border-bottom: 1px dashed #ccc;
+        color: #111;
+        text-align: center;
+}
+table td {
+		font-size:0.9em;
+		padding: 3px 5px 3px 3px;
+        border-left: 1px solid #ddd;
+        border-radius: 4px 4px 4px 4px;
+}
+
+table td.data {
+        text-align: right;
+}
+
+table tbody tr:hover td {
+        background-color: #ccc;
+}
+
+
+table.small {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: left;
+        border-collapse: collapse;
+        border: 1px solid #ccc;
+        color: #555;
+}
+
+table.small th {
+		font-size:0.8em;
+		padding: 3px 1px 3px 1px;
+        border-bottom: 1px dashed #ccc;
+        color: #111;
+        text-align: center;
+}
+table.small td {
+		font-size:0.8em;
+		padding: 3px 4px 3px 1px;
+        border-left: 1px solid #ddd;
+        border-radius: 4px 4px 4px 4px;
+}
+
+table.small td.data {
+        text-align: right;
+}
+
+table.small tbody tr:hover td {
+        background-color: #ccc;
+}
+
+svg {
+	margin: 1em 0 1em 0;
+	width : 300px;
+	height : 300px;
+}
+
+/* #OpenLayer svg map
+================================================== */
+#map svg {
+	margin: 0;
+	width: auto;
+	height: auto;
+}
+
+.map svg {
+	margin: 0;
+	width: auto;
+	height: auto;
+}

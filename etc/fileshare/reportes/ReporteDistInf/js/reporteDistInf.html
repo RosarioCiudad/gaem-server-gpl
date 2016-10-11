@@ -1,0 +1,31 @@
+
+
+<section class="grid-container">
+
+<section class=grid-100>
+	<h1>Reporte de Distribuci&oacute;n de Infracciones</h1>
+	<h3>Informe del ${msg.fechaDesde} al ${msg.fechaHasta}.</h3>
+</section>
+
+<section class=grid-100>
+	<h3>Distribuci&oacute;n</h3>
+	<p>El siguiente mapa muestra la distribuci&oacute;n asociada a los filtros de consulta</p>
+	<div style="height:600px;" id="map"></div>
+	<p></p>
+</section>
+</section> <!-- grid-container -->
+<footer></footer>
+
+
+
+<script>
+var datos = ry.json("reporteDistInf.json");
+
+document.title = datos.msg.titulo;
+ry.curly('body', datos);
+
+var ol = ol.openlayer(); 
+//ol.draw(datos.geojson); // Dibuja geojson sobre un single layer
+ol.draw(datos.geojson, true);  // Dibuja geojson multilayer
+
+</script>

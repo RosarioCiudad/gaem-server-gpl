@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"  
+"[WWW] http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+<form-beans>
+    <form-bean name="loginForm" type="org.apache.struts.action.DynaActionForm">
+        <form-property name="username" type="java.lang.String"/>
+    	<form-property name="password" type="java.lang.String"/>
+    	<form-property name="newPassword" type="java.lang.String"/>
+    	<form-property name="newPasswordReentry" type="java.lang.String"/>
+    </form-bean>
+
+    <form-bean name="gaitMenu" type="org.apache.struts.action.DynaActionForm">
+        <form-property name="idItemMenuNivel1" type="java.lang.Long"/>
+	  	<form-property name="idItemMenuNivel2" type="java.lang.Long"/>
+		<form-property name="idAccionModulo" type="java.lang.Long"/>
+    </form-bean>
+    <form-bean name="usuarioGaitSearchPage" type="org.apache.struts.action.DynaActionForm"/>
+	<form-bean name="usuarioGaitAdapter"    type="org.apache.struts.action.DynaActionForm"/>
+
+</form-beans>
+
+<action-mappings>
+    <action
+     	path="/login/LoginSsl"
+		type="ar.gov.rosario.gait.seg.view.struts.LoginSslAction"
+		scope="request"
+        validate="false"
+		name="loginForm"
+    	input=".seg.view.loginForm"
+        parameter="method"
+		attribute="loginForm">
+            
+    	<forward name="webLoginForm" path=".seg.view.webLoginForm" />
+    	<forward name="intranetLoginForm" path=".seg.view.intranetLoginForm" />
+    	<forward name="gaitMenu"  path="/seg/GaitMenu.do?method=build"/>
+    	<forward name="loginSelecOficina"  path=".seg.view.loginSelecOficina"/>
+    	<forward name="changePassForm"	 path=".seg.view.changePassForm" />
+    </action>
+
+    <action
+     	path="/seg/Login"
+		type="ar.gov.rosario.gait.seg.view.struts.LoginAction"
+		scope="request"
+        validate="false"
+		name="loginForm"
+    	input=".seg.view.loginForm"
+        parameter="method"
+		attribute="loginForm">
+            
+    	<forward name="gaitMenu"  path="/seg/GaitMenu.do?method=build"/>
+    	<forward name="webLoginForm" path=".seg.view.webLoginForm" />
+    	<forward name="intranetLoginForm" path=".seg.view.intranetLoginForm" />
+    </action>
+
+    <action
+        path="/seg/GaitMenu"
+        type="ar.gov.rosario.gait.seg.view.struts.GaitMenuAction"
+		parameter="method"
+		name="gaitMenu">
+
+        <forward name="menuForm" path=".seg.view.menuForm" />
+    </action>
+
+	<!-- Usuario Gait -->	    
+    <action
+    	path="/seg/BuscarUsuarioGait"
+        type="ar.gov.rosario.gait.seg.view.struts.BuscarUsuarioGaitDAction"
+		scope="request"
+       	validate="false"
+        name="usuarioGaitSearchPage"
+        parameter="method"
+   		input=".seg.seguridad.view.usuarioGaitSearchPage"
+        attribute="usuarioGaitSearchPage">
+           
+   	    <forward name="usuarioGaitSearchPage"   path=".seg.seguridad.view.usuarioGaitSearchPage" />
+   	    <forward name="administrarUsuarioGait" 	path="/seg/AdministrarUsuarioGait.do?method=inicializar" />
+    </action>
+	
+	<action
+    	path="/seg/AdministrarUsuarioGait"
+        type="ar.gov.rosario.gait.seg.view.struts.AdministrarUsuarioGaitDAction"
+	    scope="request"
+       	validate="false"
+        name="usuarioGaitAdapter"
+        parameter="method"
+   	    input=".seg.seguridad.view.usuarioGaitEditAdapter"
+        attribute="usuarioGaitAdapter">
+           
+   	    <forward name="usuarioGaitViewAdapter"		path=".seg.seguridad.view.usuarioGaitViewAdapter" />
+   	    <forward name="usuarioGaitEditAdapter"      path=".seg.seguridad.view.usuarioGaitEditAdapter" />
+    </action>
+    <!-- Fin Usuario Gait -->
+    
+</action-mappings>
+
+</struts-config>

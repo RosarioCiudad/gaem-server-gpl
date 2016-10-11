@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      
+	<!-- nouvo -->    
+    <link rel="stylesheet" href="/gait/ry/nv.d3.css"/>
+    <script src="/gait/ry/d3.v2.js"></script>
+    <script src="/gait/ry/nv.d3.js"></script>        
+
+	<!-- royal -->    
+    <link rel="stylesheet" href="/gait/ry/unsemantic-grid-desktop.css"/>
+    <link rel="stylesheet" href="/gait/ry/ry.nv.css"/>
+    <script src="/gait/ry/ry.nv.js"></script>
+    
+    <!-- openlayers -->
+    <link rel="stylesheet" href="/gait/ry/openlayers.2.11-mr.css"/>
+    <script src="/gait/ry/openlayers.2.11.js"></script>
+    <script src="/gait/ry/proj4js-compressed.js"></script> 
+    <script src="/gait/ry/FeaturePopups.js"></script>
+    <script src="/gait/ry/directions.js"></script>
+    <script src="/gait/ry/ry.ol.js"></script>
+<style>
+
+
+header, footer {
+	text-align:left; 
+	display: inline-block; 
+	font-size:0.8em;color:#000; 
+	width:100%; 
+	margin:0;
+	padding:0;
+	margin-top:2em;
+}
+
+body {
+	background-color: #333;
+	padding: 30px
+}
+
+.grid-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 10px;
+    padding-right: 10px;    
+	/*max-width: 8.2in;*/ /* A4 impresion */
+	max-width: 6.8in; /* A4 impresion */
+	background-color:#fff;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+@media print {
+	html {margin: 0; padding:0; }
+
+	body {margin: 0; padding:0; background-color: #fff; }
+
+	header, footer {margin: 0; padding:0; }
+
+	.grid-container {margin: 0; padding:0; }
+}
+
+
+</style>
+
+</head>
+
+<body id=main>
+
+<div class="grid-container grid-100">
+<header>
+	<div style="text-align: center; display: inline-block;" >
+			<img src="/gait/images/escudo2.jpg" alt="Escudo" title="Escudo MSF" height="60px" style="margin:0;padding:0">
+<!-- 		<p style="margin:0;padding:0:float:left">SANTE FE<br>CIUDAD</p> -->
+	</div>
+	
+	<div style="text-align:right; float:right;margin:0;padding:0;" >
+		<p style="margin:0;padding:0;margin-top:10px">Usuario: ${msg.usuario}<br>Fecha de Reporte: ${msg.fechaReporte}</p>
+	</div>	
+	<hr>
+</header>
+</div>

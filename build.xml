@@ -1,0 +1,115 @@
+<project name="gait" default="build" xmlns:ivy="antlib:org.apache.ivy.ant">
+	
+	<property name="build" value="./build"/>
+	<property name="webapps" value="${build}/webapps"/>	
+	
+	<property name="etc" value="etc"/>
+
+	<target name="lib">
+		<mkdir dir="${build}/lib"/>
+		<copy todir="${build}/lib" failonerror="false">
+			<fileset dir="lib" includes="*/**"/>
+		</copy>		
+	</target>
+
+	<target name="build">
+		<antcall target="lib"/>
+
+		<ant dir="demoda" inheritAll="false" inheritRefs="false"/>
+		<ant dir="iface" inheritAll="false" inheritRefs="false"/>
+		<ant dir="buss" inheritAll="false" inheritRefs="false"/>
+		<ant dir="view" inheritAll="false" inheritRefs="false"/>
+		<ant dir="adpgait" inheritAll="false" inheritRefs="false"/>
+
+		<antcall target="web"/>
+	</target>
+	
+	<target name="web">
+		<echo message="web: ${webapps}/gait"/>
+		<copy todir="${webapps}/gait" >
+			<fileset dir="view/web" includes="**/*"/>
+		</copy>
+		<copy todir="${webapps}/gait/WEB-INF/lib" flatten="true" includeemptydirs="false">
+			<fileset dir="${build}/lib/runtime" includes="**/*" excludes="servlet-api-*.jar"/>
+		</copy>
+		<copy todir="${webapps}/gait/WEB-INF/lib" flatten="true" includeemptydirs="false">
+			<fileset dir="${build}">
+				<include name="demoda/*.jar"/>
+				<include name="iface/*.jar"/>
+				<include name="buss/*.jar"/>
+				<include name="view/*.jar"/>
+				<include name="ext/*.jar"/>
+			</fileset>
+		</copy>
+		
+		<echo message="adpsiat : ${webapps}/adpgait"/>
+		<copy todir="${webapps}/adpgait" >
+			<fileset dir="adpgait/web" includes="**/*"/>
+		</copy>
+		<copy todir="${webapps}/adpgait/WEB-INF/lib" flatten="true" includeemptydirs="false">
+			<fileset dir="${build}/lib/runtime" includes="**/*" excludes="servlet-api.jar"/>
+		</copy>
+		<copy todir="${webapps}/adpgait/WEB-INF/lib" flatten="true" includeemptydirs="false">
+			<fileset dir="${build}">
+				<include name="demoda/*.jar"/>
+				<include name="iface/*.jar"/>
+				<include name="buss/*.jar"/>
+				<include name="view/*.jar"/>
+				<include name="ext/*.jar"/>
+				<include name="adpgait/*.jar"/>
+			</fileset>
+		</copy>
+
+	</target>
+	
+	<target name="war" depends="clean, build" description="Genera los war de gait" >
+		<echo message="adpgait : ${webapps}/gait.war"/>
+		<jar destfile="${webapps}/gait.war">
+			<fileset dir="${webapps}/gait" includes="**/*"/>
+		</jar>
+
+		<echo message="adpgait : ${webapps}/adpgait.war"/>
+		<jar destfile="${webapps}/adpgait.war">
+			<fileset dir="${webapps}/adpgait" includes="**/*"/>
+		</jar>
+	</target>
+	
+	<target name="clean" description="Limpia las classes y estructuras intermedias de la compilacion.">
+		<delete dir="${build}"/>
+	</target>
+	
+	<target name="reportes">
+		<copy failonerror="false" todir="/mnt/gait">
+			<fileset dir="${etc}/fileshare" includes="**/*"/>
+		</copy>
+	</target>
+
+	<!-- setproxy proxyhost="" proxyport="" proxyuser="" proxypassword=""/ -->
+	<!-- export ANT_OPTS="$ANT_OPS -Dhttp.proxyHost=172.16.17.18 -Dhttp.proxyPort=3128" -->
+	<target name="resolve" description="Trae desde los repositorios las depencias de gait. NOTA: solo usar si esta modificando alguna dependencia.">
+		<ivy:retrieve type="jar,bundle" pattern="./lib/[conf]/[artifact]-[revision].[ext]" sync="false" refresh="false"/>
+		<ivy:report graph="false" todir="./lib/report-deps"/> 
+	</target>
+
+	<target name="tomcat" depends="build" description="Despliega en tomcat de desarrollo.">
+		<property environment="env"/>
+		<property name="env.CATALINA_HOME" value=".env/tomcat"/>
+		
+		<copy todir="${env.CATALINA_HOME}/webapps/gait">
+			<fileset dir="${webapps}/gait"/>
+		</copy>
+		
+		<copy todir="${env.CATALINA_HOME}/webapps/adpgait">
+			<fileset dir="${webapps}/adpgait"/>
+		</copy>
+	</target>
+	
+	<target name="mkenv" description="Baja y Expande y Configura Tomcat.">
+		<exec executable="bash">
+			<arg value="etc/mkenv.sh"/>
+			<arg value="--tomcat"/>
+			<arg value="--conf"/>
+		</exec>
+	</target>
+
+</project>

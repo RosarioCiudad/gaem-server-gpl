@@ -1,0 +1,31 @@
+
+
+<section class="grid-container">
+
+<section class=grid-100>
+	<h1>Reporte de Desplazamiento de Inspectores</h1>
+	<h3>Informe del ${msg.fechaDesde} al ${msg.fechaHasta}.</h3>
+</section>
+
+<section class=grid-100>
+	<h3>Desplazamiento</h3>
+	<p>El siguiente mapa muestra el desplazamiento asociado a los distintos inspectores</p>
+	<div style="height:600px;" id="map"></div>
+	<p></p>
+</section>
+</section> <!-- grid-container -->
+<footer></footer>
+
+
+
+<script>
+var datos = ry.json("inspectorDesp.json");
+
+document.title = datos.msg.titulo;
+ry.curly('body', datos);
+
+var ol = ol.openlayer(); 
+ol.draw(datos.geojson, true, true, true);  // Dibuja geojson multilayer + flechas + globos
+
+
+</script>

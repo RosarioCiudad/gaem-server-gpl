@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+    <!-- Formulario -->
+    <definition name=".frm.formulario.view.formularioSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/formularioSearchPage.jsp"/>
+    </definition>
+	<definition name=".frm.formulario.view.formularioViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/formularioViewAdapter.jsp"/>
+    </definition>
+    <definition name=".frm.formulario.view.formularioAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/formularioAdapter.jsp"/>
+    </definition>
+    <definition name=".frm.formulario.view.formularioEncEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/formularioEncEditAdapter.jsp"/>
+    </definition>  	
+    <!-- Fin Formulario -->
+    
+    <!-- FormularioDetalle -->
+	<definition name=".frm.formulario.view.formularioDetalleViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/formularioDetalleViewAdapter.jsp" />
+    </definition>
+    <definition name=".frm.formulario.view.formularioDetalleEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/formularioDetalleEditAdapter.jsp"/>
+    </definition>  	
+    <!-- Fin FormularioDetalle -->
+	
+     <!-- TipoFormulario -->
+    <definition name=".frm.formulario.view.tipoFormularioSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/tipoFormularioSearchPage.jsp"/>
+    </definition>
+	<definition name=".frm.formulario.view.tipoFormularioViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/tipoFormularioViewAdapter.jsp"/>
+    </definition>
+    <definition name=".frm.formulario.view.tipoFormularioEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/tipoFormularioEditAdapter.jsp"/>
+    </definition>
+    <!-- Fin TipoFormulario -->
+    
+    <!-- Serie -->
+    <definition name=".frm.formulario.view.serieSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/numeracion/serieSearchPage.jsp"/>
+    </definition>
+	<definition name=".frm.formulario.view.serieViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/numeracion/serieViewAdapter.jsp"/>
+    </definition>
+    <definition name=".frm.formulario.view.serieEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/numeracion/serieEditAdapter.jsp"/>
+    </definition>
+    <!-- Fin Serie -->
+    
+    <!-- MotivoCierreTipoFormulario -->
+    <definition name=".frm.formulario.view.motivoCierreTipoFormularioSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/motivoCierreTipoFormularioSearchPage.jsp"/>
+    </definition>
+	<definition name=".frm.formulario.view.motivoCierreTipoFormularioViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/motivoCierreTipoFormularioViewAdapter.jsp"/>
+    </definition>
+    <definition name=".frm.formulario.view.motivoCierreTipoFormularioEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/motivoCierreTipoFormularioEditAdapter.jsp"/>
+    </definition>
+    <!-- fin MotivoCierreTipoFormulario -->
+    
+    <!-- MoivoAnulacioneTipoFormulario -->
+    <definition name=".frm.formulario.view.motivoAnulacionTipoFormularioSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/motivoAnulacionTipoFormularioSearchPage.jsp"/>
+    </definition>
+	<definition name=".frm.formulario.view.motivoAnulacionTipoFormularioViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/motivoAnulacionTipoFormularioViewAdapter.jsp"/>
+    </definition>
+    <definition name=".frm.formulario.view.motivoAnulacionTipoFormularioEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/motivoAnulacionTipoFormularioEditAdapter.jsp"/>
+    </definition>
+    <!-- Fin MoivoAnulacioneTipoFormulario -->
+    
+    <!-- Numeracion -->
+    <definition name=".frm.formulario.view.numeracionSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/numeracion/numeracionSearchPage.jsp"/>
+    </definition>
+	<definition name=".frm.formulario.view.numeracionViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/numeracion/numeracionViewAdapter.jsp"/>
+    </definition>
+    <definition name=".frm.formulario.view.numeracionEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/numeracion/numeracionEditAdapter.jsp"/>
+    </definition>
+    <!-- Fin Numeracion -->
+    
+    <!-- EstadoTipoFormulario -->
+    <definition name=".frm.formulario.view.estadoTipoFormularioSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/estadoTipoFormularioSearchPage.jsp"/>
+    </definition>
+	<definition name=".frm.formulario.view.estadoTipoFormularioViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/estadoTipoFormularioViewAdapter.jsp"/>
+    </definition>
+    <definition name=".frm.formulario.view.estadoTipoFormularioEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/formulario/estadoTipoFormularioEditAdapter.jsp"/>
+    </definition>
+    <!-- Fin EstadoTipoFormulario -->
+    <!--  -->
+    <definition name=".frm.reporte.view.reporteFormularioSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/frm/reporte/reporteFormularioSearchPage.jsp"/>
+    </definition>
+    <!--  -->
+</tiles-definitions>

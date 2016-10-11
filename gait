@@ -1,0 +1,27 @@
+#!/bin/bash
+
+PrgDir=$(dirname $0)
+PrjDir=$(cd $PrgDir > /dev/null; pwd)
+
+if [ -z "$CATALINA_HOME" ]; then
+	CATALINA_HOME=$(find ${PrjDir}/.env/*tomcat* -maxdepth 0 -type d)
+fi
+
+. $PrjDir/etc/devenv.sh
+
+
+if [ "$1" = "tomcat" ]; then	
+	$CATALINA_HOME/bin/catalina.sh ${@:2}
+fi
+
+if [ "$1" = "log" ]; then	
+	less -F $CATALINA_HOME/logs/catalina.out
+fi
+
+if [ "$1" = "pkill" ]; then	
+	pkill $2 -f $CATALINA_HOME
+fi
+
+if [ "$1" = "pgrep" ]; then	
+	pgrep -af $CATALINA_HOME
+fi

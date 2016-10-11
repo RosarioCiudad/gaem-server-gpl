@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC  "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+ "[WWW] http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+	<form-beans>
+	    <!-- Formulario -->
+	    <form-bean name="formularioAdapter"    type="org.apache.struts.action.DynaActionForm" />
+	    <form-bean name="formularioSearchPage" type="org.apache.struts.action.DynaActionForm" />
+	    <!-- FormularioDetalle -->
+	    <form-bean name="formularioDetalleAdapter" type="org.apache.struts.action.DynaActionForm" />
+	    <!-- TipoFormulario -->
+		<form-bean name="tipoFormularioSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="tipoFormularioAdapter"    type="org.apache.struts.action.DynaActionForm" />
+		<!-- MotivoCierreTipoFormulario -->
+		<form-bean name="motivoCierreTipoFormularioSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="motivoCierreTipoFormularioAdapter"    type="org.apache.struts.action.DynaActionForm" />
+		<!-- MotivoAnulacionTipoFormulario -->
+		<form-bean name="motivoAnulacionTipoFormularioSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="motivoAnulacionTipoFormularioAdapter"    type="org.apache.struts.action.DynaActionForm" />
+		<!-- Numeracion -->
+		<form-bean name="numeracionSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="numeracionAdapter"    type="org.apache.struts.action.DynaActionForm" />
+		<!-- Serie -->
+		<form-bean name="serieSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="serieAdapter" 	  type="org.apache.struts.action.DynaActionForm" />
+		<!-- EstadoTipoFormulario -->
+		<form-bean name="estadoTipoFormularioSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="estadoTipoFormularioAdapter"    type="org.apache.struts.action.DynaActionForm" />
+		<!-- ReporteFormulario -->
+		<form-bean name="reporteFormularioSearchPage" type="org.apache.struts.action.DynaActionForm" />
+	</form-beans>
+
+	<action-mappings>
+	    <!-- Formulario -->	  
+	    <action
+	    	path="/frm/BuscarFormulario"
+	        type="ar.gov.rosario.gait.frm.view.struts.BuscarFormularioDAction"
+			scope="request"
+	       	validate="false"
+	        name="formularioSearchPage"
+	        parameter="method"
+	   		input=".frm.formulario.view.formularioSearchPage"
+	        attribute="formularioSearchPage">
+	           
+	   	    <forward name="formularioSearchPage"	path=".frm.formulario.view.formularioSearchPage" />
+	   	    <forward name="administrarFormulario"	path="/frm/AdministrarFormulario.do?method=inicializar" />
+	    </action>
+		
+		<action
+     		path="/frm/AdministrarFormulario"
+	        type="ar.gov.rosario.gait.frm.view.struts.AdministrarFormularioDAction"
+		    scope="request"
+        	validate="false"
+	        name="formularioAdapter"
+            parameter="method"
+    	    input=".frm.formulario.view.formularioAdapter"
+	        attribute="formularioAdapter">
+		    
+    	    <forward name="formularioViewAdapter" 	      path=".frm.formulario.view.formularioViewAdapter" />
+    	    <forward name="formularioAdapter" 	  	      path=".frm.formulario.view.formularioAdapter" />
+    	    <forward name="administrarEncFormulario"      path="/frm/AdministrarEncFormulario.do?method=inicializar" />
+    	    <forward name="administrarFormularioDetalle"  path="/frm/AdministrarFormularioDetalle.do?method=inicializar" />
+	    </action>
+		     
+	     <action
+     		path="/frm/AdministrarEncFormulario"
+	        type="ar.gov.rosario.gait.frm.view.struts.AdministrarEncFormularioDAction"
+		    scope="request"
+        	validate="false"
+	        name="formularioAdapter"
+            parameter="method"
+    	    input=".frm.formulario.view.formularioEncEditAdapter"
+	        attribute="formularioAdapter">
+	      
+    	    <forward name="formularioEncEditAdapter"   path=".frm.formulario.view.formularioEncEditAdapter" />
+	    </action>
+	    <!-- Fin Formulario-->
+	    
+	    <!-- FormularioDetalle -->
+	    <action
+     		path="/frm/AdministrarFormularioDetalle"
+	        type="ar.gov.rosario.gait.frm.view.struts.AdministrarFormularioDetalleDAction"
+		    scope="request"
+        	validate="false"
+	        name="formularioDetalleAdapter"
+            parameter="method"
+    	    input=".frm.formulario.view.formularioDetalleAdapter"
+	        attribute="formularioDetalleAdapter">
+		    
+    	    <forward name="formularioDetalleViewAdapter"   path=".frm.formulario.view.formularioDetalleViewAdapter" />
+    	    <forward name="formularioDetalleEditAdapter"   path=".frm.formulario.view.formularioDetalleEditAdapter" />
+	    </action>
+	    <!-- Fin FormuarioDetalle -->
+	    
+		<!-- TipoFormulario -->
+		<action 
+		    path="/frm/BuscarTipoFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.BuscarTipoFormularioDAction"
+			scope="request" 
+			validate="false"
+			name="tipoFormularioSearchPage"
+			parameter="method" 
+			input=".frm.formulario.view.tipoFormularioSearchPage"
+			attribute="tipoFormularioSearchPage">
+
+			<forward name="tipoFormularioSearchPage"  path=".frm.formulario.view.tipoFormularioSearchPage" />
+			<forward name="administrarTipoFormulario" path="/frm/AdministrarTipoFormulario.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/frm/AdministrarTipoFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.AdministrarTipoFormularioDAction"
+			scope="request" 
+			validate="false" 
+			name="tipoFormularioAdapter"
+			parameter="method" 
+			input=".frm.formulario.view.tipoFormularioEditAdapter"
+			attribute="tipoFormularioAdapter">
+
+			<forward name="tipoFormularioViewAdapter" path=".frm.formulario.view.tipoFormularioViewAdapter" />
+			<forward name="tipoFormularioEditAdapter" path=".frm.formulario.view.tipoFormularioEditAdapter" />
+		</action>
+		<!-- Fin TipoFormulario -->
+
+		<!-- Serie -->
+		<action 
+		    path="/frm/BuscarSerie"
+			type="ar.gov.rosario.gait.frm.view.struts.BuscarSerieDAction" 
+			scope="request"
+			validate="false" 
+			name="serieSearchPage" 
+			parameter="method"
+			input=".frm.formulario.view.serieSearchPage" 
+			attribute="serieSearchPage">
+
+			<forward name="serieSearchPage" path=".frm.formulario.view.serieSearchPage" />
+			<forward name="administrarSerie" path="/frm/AdministrarSerie.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/frm/AdministrarSerie"
+			type="ar.gov.rosario.gait.frm.view.struts.AdministrarSerieDAction"
+			scope="request" 
+			validate="false" 
+			name="serieAdapter" 
+			parameter="method"
+			input=".frm.formulario.view.serieEditAdapter" 
+			attribute="serieAdapter">
+
+			<forward name="serieViewAdapter" path=".frm.formulario.view.serieViewAdapter" />
+			<forward name="serieEditAdapter" path=".frm.formulario.view.serieEditAdapter" />
+		</action>
+		<!-- Serie -->
+
+		<!-- Motivo Cierre Tipo Formulario -->
+		<action 
+		    path="/frm/BuscarMotivoCierreTipoFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.BuscarMotivoCierreTipoFormularioDAction"
+			scope="request" 
+			validate="false" 
+			name="motivoCierreTipoFormularioSearchPage"
+			parameter="method" 
+			input=".frm.formulario.view.motivoCierreTipoFormularioSearchPage"
+			attribute="motivoCierreTipoFormularioSearchPage">
+
+			<forward name="motivoCierreTipoFormularioSearchPage"  path=".frm.formulario.view.motivoCierreTipoFormularioSearchPage" />
+			<forward name="administrarMotivoCierreTipoFormulario" path="/frm/AdministrarMotivoCierreTipoFormulario.do?method=inicializar" />
+		</action>
+
+		<action path="/frm/AdministrarMotivoCierreTipoFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.AdministrarMotivoCierreTipoFormularioDAction"
+			scope="request" 
+			validate="false" 
+			name="motivoCierreTipoFormularioAdapter"
+			parameter="method"
+			input=".frm.formulario.view.motivoCierreTipoFormularioEditAdapter"
+			attribute="motivoCierreTipoFormularioAdapter">
+
+			<forward name="motivoCierreTipoFormularioViewAdapter" path=".frm.formulario.view.motivoCierreTipoFormularioViewAdapter" />
+			<forward name="motivoCierreTipoFormularioEditAdapter" path=".frm.formulario.view.motivoCierreTipoFormularioEditAdapter" />
+		</action>
+		<!-- Fin Motivo Cierre Tipo Formulario -->
+
+		<!-- Motivo Anulacion Tipo Formulario -->
+		<action 
+		    path="/frm/BuscarMotivoAnulacionTipoFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.BuscarMotivoAnulacionTipoFormularioDAction"
+			scope="request" 
+			validate="false" 
+			name="motivoAnulacionTipoFormularioSearchPage"
+			parameter="method"
+			input=".frm.formulario.view.motivoAnulacionTipoFormularioSearchPage"
+			attribute="motivoAnulacionTipoFormularioSearchPage">
+
+			<forward name="motivoAnulacionTipoFormularioSearchPage"  path=".frm.formulario.view.motivoAnulacionTipoFormularioSearchPage" />
+			<forward name="administrarMotivoAnulacionTipoFormulario" path="/frm/AdministrarMotivoAnulacionTipoFormulario.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/frm/AdministrarMotivoAnulacionTipoFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.AdministrarMotivoAnulacionTipoFormularioDAction"
+			scope="request" 
+			validate="false" 
+			name="motivoAnulacionTipoFormularioAdapter"
+			parameter="method"
+			input=".frm.formulario.view.motivoAnulacionTipoFormularioEditAdapter"
+			attribute="motivoAnulacionTipoFormularioAdapter">
+
+			<forward name="motivoAnulacionTipoFormularioViewAdapter" path=".frm.formulario.view.motivoAnulacionTipoFormularioViewAdapter" />
+			<forward name="motivoAnulacionTipoFormularioEditAdapter" path=".frm.formulario.view.motivoAnulacionTipoFormularioEditAdapter" />
+		</action>
+		<!-- Fin Motivo Anulacion Tipo Formulario -->
+
+		<!-- Numeracion -->
+		<action 
+		    path="/frm/BuscarNumeracion"
+			type="ar.gov.rosario.gait.frm.view.struts.BuscarNumeracionDAction"
+			scope="request" 
+			validate="false" 
+			name="numeracionSearchPage"
+			parameter="method" 
+			input=".frm.formulario.view.numeracionSearchPage"
+			attribute="numeracionSearchPage">
+
+			<forward name="numeracionSearchPage" path=".frm.formulario.view.numeracionSearchPage" />
+			<forward name="administrarNumeracion" path="/frm/AdministrarNumeracion.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/frm/AdministrarNumeracion"
+			type="ar.gov.rosario.gait.frm.view.struts.AdministrarNumeracionDAction"
+			scope="request" 
+			validate="false" 
+			name="numeracionAdapter" 
+			parameter="method"
+			input=".frm.formulario.view.numeracionEditAdapter" 
+			attribute="numeracionAdapter">
+
+			<forward name="numeracionViewAdapter" path=".frm.formulario.view.numeracionViewAdapter" />
+			<forward name="numeracionEditAdapter" path=".frm.formulario.view.numeracionEditAdapter" />
+		</action>
+		<!-- Fin Numeracion -->
+
+		<!-- EstadoTipoFormulario -->
+		<action 
+		    path="/frm/BuscarEstadoTipoFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.BuscarEstadoTipoFormularioDAction"
+			scope="request" 
+			validate="false" 
+			name="estadoTipoFormularioSearchPage"
+			parameter="method" 
+			input=".frm.formulario.view.estadoTipoFormularioSearchPage"
+			attribute="estadoTipoFormularioSearchPage">
+
+			<forward name="estadoTipoFormularioSearchPage" path=".frm.formulario.view.estadoTipoFormularioSearchPage" />
+			<forward name="administrarEstadoTipoFormulario" path="/frm/AdministrarEstadoTipoFormulario.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/frm/AdministrarEstadoTipoFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.AdministrarEstadoTipoFormularioDAction"
+			scope="request" 
+			validate="false" 
+			name="estadoTipoFormularioAdapter" 
+			parameter="method"
+			input=".frm.formulario.view.estadoTipoFormularioEditAdapter" 
+			attribute="estadoTipoFormularioAdapter">
+
+			<forward name="estadoTipoFormularioViewAdapter" path=".frm.formulario.view.estadoTipoFormularioViewAdapter" />
+			<forward name="estadoTipoFormularioEditAdapter" path=".frm.formulario.view.estadoTipoFormularioEditAdapter" />
+		</action>
+		<!-- Fin EstadoTipoFormulario -->
+		<!-- ReporteFormulario -->
+		<action 
+		    path="/frm/BuscarReporteFormulario"
+			type="ar.gov.rosario.gait.frm.view.struts.BuscarReporteFormularioDAction"
+			scope="request" 
+			validate="false" 
+			name="reporteFormularioSearchPage"
+			parameter="method" 
+			input=".frm.reporte.view.reporteFormularioSearchPage"
+			attribute="reporteFormularioSearchPage">
+
+			<forward name="reporteFormularioSearchPage" path=".frm.reporte.view.reporteFormularioSearchPage" />
+			<forward name="administrarFormulario" path="/frm/AdministrarFormulario.do?method=inicializar" />
+		</action>
+		<!-- Fin ReporteFormulario -->
+	</action-mappings>
+</struts-config>

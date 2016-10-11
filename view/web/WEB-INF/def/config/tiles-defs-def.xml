@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+        	
+    <!-- Parametro -->
+    <definition name=".def.configuracion.view.parametroSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/parametroSearchPage.jsp"/>
+    </definition>
+	
+	<definition name=".def.configuracion.view.parametroViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/parametroViewAdapter.jsp"/>
+    </definition>
+    
+    <definition name=".def.configuracion.view.parametroEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/parametroEditAdapter.jsp"/>
+    </definition>
+    <!-- fin Parametro -->
+
+	<!-- Cache -->
+    <definition name=".def.configuracion.view.cacheViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/cacheViewAdapter.jsp"/>
+    </definition>
+	<!-- Fin Cache -->
+	
+	     <!-- Direccion -->
+    <definition name=".def.configuracion.view.direccionSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/direccionSearchPage.jsp"/>
+    </definition>	
+	<definition name=".def.configuracion.view.direccionViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/direccionViewAdapter.jsp"/>
+    </definition>    
+    <definition name=".def.configuracion.view.direccionAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/direccionAdapter.jsp"/>
+    </definition>
+      <!-- Encabezado -->
+     <definition name=".def.configuracion.view.direccionEncEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/direccionEncEditAdapter.jsp"/>
+    </definition>  	
+    <!-- Direccion -->
+    
+    <!-- Area -->	
+	<definition name=".def.configuracion.view.areaViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/areaViewAdapter.jsp"/>
+    </definition>    
+    <definition name=".def.configuracion.view.areaAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/areaAdapter.jsp"/>
+    </definition>
+      <!-- Encabezado -->
+     <definition name=".def.configuracion.view.areaEncEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/areaEncEditAdapter.jsp"/>
+    </definition>  	
+    <!-- Area -->
+    
+     <!-- Direccion Aplicacion Perfil -->	
+	<definition name=".def.configuracion.view.direccionAplicacionPerfilViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/direccionAplicacionPerfilViewAdapter.jsp"/>
+    </definition>    
+    <definition name=".def.configuracion.view.direccionAplicacionPerfilEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/direccionAplicacionPerfilEditAdapter.jsp"/>
+    </definition>
+    <!--  -->
+    
+    <!-- Area Aplicacion Perfil -->	
+	<definition name=".def.configuracion.view.areaAplicacionPerfilViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/areaAplicacionPerfilViewAdapter.jsp"/>
+    </definition>    
+    <definition name=".def.configuracion.view.areaAplicacionPerfilEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/def/configuracion/areaAplicacionPerfilEditAdapter.jsp"/>
+    </definition>
+    <!-- Area Aplicacion Perfil -->
+		
+</tiles-definitions>

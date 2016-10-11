@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+	
+     <!-- Notificacion -->
+    <definition name=".not.notificacion.view.notificacionSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/notificacionSearchPage.jsp"/>
+    </definition>
+	
+	<definition name=".not.notificacion.view.notificacionViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/notificacionViewAdapter.jsp"/>
+    </definition>
+    
+    <definition name=".not.notificacion.view.notificacionEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/notificacionEditAdapter.jsp"/>
+    </definition>
+    <!-- fin Notificacion -->
+
+
+     <!-- Tipo Notificacion -->
+    <definition name=".not.notificacion.view.tipoNotificacionSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/tipoNotificacionSearchPage.jsp"/>
+    </definition>
+	
+	<definition name=".not.notificacion.view.tipoNotificacionViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/tipoNotificacionViewAdapter.jsp"/>
+    </definition>
+    
+    <definition name=".not.notificacion.view.tipoNotificacionEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/tipoNotificacionEditAdapter.jsp"/>
+    </definition>
+    <!-- fin Tipo Notificacion -->
+	
+     <!-- Estado Notificacion -->
+    <definition name=".not.notificacion.view.estadoNotificacionSearchPage" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/estadoNotificacionSearchPage.jsp"/>
+    </definition>
+	
+	<definition name=".not.notificacion.view.estadoNotificacionViewAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/estadoNotificacionViewAdapter.jsp"/>
+    </definition>
+    
+    <definition name=".not.notificacion.view.estadoNotificacionEditAdapter" extends=".gaitStdLayout">
+	    <put name="body" value="/not/notificacion/estadoNotificacionEditAdapter.jsp"/>
+    </definition>
+    <!-- fin Estado Notificacion -->
+    
+</tiles-definitions>

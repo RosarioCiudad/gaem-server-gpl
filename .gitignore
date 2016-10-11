@@ -1,0 +1,8 @@
+build/
+/.env
+/env
+/tmp
+/.metadata
+/nbproject/private/
+/nbbuild/
+/dist/

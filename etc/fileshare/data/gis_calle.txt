@@ -1,0 +1,935 @@
+CODIGO|DESCRIPCION|ABREVIATURA
+51200 |                                                                                                    |P.COLGANTE AE       
+51300 |                                                                                                    |P.COLGANTE AO       
+51400 |                                                                                                    |R.DE LA MUJER       
+51500 |                                                                                                    |R.AGUAS PROV.       
+51600 |                                                                                                    |P.D LA LAGUNA       
+51700 |                                                                                                    |C.OESTE XALEM       
+51800 |                                                                                                    |C.OESTE X BV.       
+51900 |                                                                                                    |P.VILLAVERDE        
+04850 |PASAJE PUBLICO S/N. (48.50)- CORRE( S A N) S. PLANO 140111-                                         |PJE. PUBLICO        
+08350 |PJE. PUBLICO S/N. (83.50) S-N- SEG. PLANO MCPAL. Nº 123920-                                         |PJE. PCO. S/N       
+54500 |SARA PINASCO DE JULIERAC-(E-O) ORD.11702/10- (PUERTO)                                               |SARA PINASCO        
+52000 |"RUTA NACIONAL Nº168 ""CIUDADES HERMANAS""                                                             "|RUTA 168            
+52100 |CALLE INTERNA TERMINAL DE OMNIBUS                                                                   |CALLETERMINAL       
+52200 |FUENTE DE LA CORDIALIDAD                                                                            |F.CORDIALIDAD       
+52300 |MARTA ADELINA ZAMARO                                                                                |MARTA ZAMARO        
+52400 |ITALIA ARGENTINA MARINI                                                                             |ITALIA MARINI       
+52500 |ROSAUDA SCHWEIZER                                                                                   |R. SCHWEIZER        
+52600 |ROSA CARMEN ALL                                                                                     |ROSA C. ALL         
+52700 |SARA PINASCO DE JULLERAC DE BAJA YA EXISTE 545                                                      |SARA PINASCO        
+52800 |RAQUEL NEGRO                                                                                        |RAQUEL NEGRO        
+52900 |FARO COSTANERA                                                                                      |FAROCOSTANERA       
+53000 |CICLOVIA                                                                                            |CICLOVIA            
+53100 |LAVANDERAS DEL PUERTO                                                                               |LAVANDERAS P.       
+53200 |FRIDA SHULTZ DE MANTOVANI                                                                           |FRIDA SHULTZ        
+53300 |ELIZABETH J.GUILLAMON DE AGNELLINI                                                                  |E. GUILLAMON        
+53400 |ANGELA TERESA VIGETTI                                                                               |A. VIGETTI          
+53500 |CARMEN VICTORIA ROVITTI                                                                             |C. V. ROVITTI       
+53600 |GABRIELA AQUILINA ULLUA                                                                             |G. A. ULLUA         
+53700 |RUTA PROV.Nº1 KM0                                                                                   |RUTA1 KM0           
+53800 |RUTA PROV.Nº1 KM1.5                                                                                 |RUTA1 KM1.5         
+53900 |RUTA PROV.Nº1 KM3                                                                                   |RUTA1 KM3           
+54000 |RUTA PROV.Nº1 KM0.5                                                                                 |RUTA1 KM0.5         
+54100 |RUTA PROV.Nº1 KM2                                                                                   |RUTA1 KM2           
+54200 |RUTA PROV.Nº1 KM3.5                                                                                 |RUTA1 KM3.5         
+54300 |RUTA PROV.Nº1 KM1                                                                                   |RUTA1 KM1           
+54400 |RUTA PROV.Nº1 KM2.5                                                                                 |RUTA1 KM2.5         
+54600 |RUTA PROV.Nº1 KM4                                                                                   |RUTA1 KM4           
+09050A|BORDE OESTE BARRANQUITAS AL SUR DE AUTOPISTA                                                        |PJE S/N 90,50 A     
+09275A|BORDE OESTE BARRANQUITAS AL NORTE DE AUTOPISTA                                                      |PJE DNAL S/N 92,75 A
+07925 |BORDE OESTE BARRANQUITAS PARALELO AL NORTE DE AUTOPISTA                                             |PJE DGNAL 79,25     
+03850 |S/PL158308 D.P.V.U. PLANES 6042 Y 6118- R.I.19/09                                                   |PJE S/N 38.50       
+05050B|(S-N) PJE RIVADAVIA-ORDENANZA Nº11886                                                               |PJE. RIVADAVIA      
+03650 |PJE S/N 36,50 D.P.V.U. PL Nº158308 / (TRAMO 8800 AL 8999 MI TIERRA MI CASA)                         |PJE S/N 36,50       
+35560 |E/ CJON LOS CANILLITAS Y SAN FCO DE ASIS - PL 154269                                                |PJE S/N 355,60      
+36975 |DESDE CALLE COLEC 365,25 HASTA MOCOVI                                                               |CALLE S/N 369,75    
+37280 |DESDE PJE 369,50 HASTA MOCOVI                                                                       |PJE S/N 372,80      
+37150 |DESDE PJE 372,80 HASTA PJE 376,50                                                                   |PJE S/N 371,50      
+37470 |DESDE PJE 369,50 HASTA PJE 371,50                                                                   |PJE S/N 374,70      
+32425 |ENTRE CALLE MOCOVI   HASTA LOS ZORZALES.                                                            |PCA.S/N.            
+34800 |ENTRE CALLE COD. 355-357 B                                                                          |PUBLICA             
+41500 |ENTRE CALLE COD. 300-499                                                                            |CJÓN. LABORIE       
+35000A|ENTRE CALLE MEPENES COD 371Y NTRA SRA. DE GUADALUPE COD.355 S/ORD.11709/2010                        |COCÚ                
+35050 |E/ PROLONG. CALLE COD. 357A-359 A                                                                   |PJE. PUBLICO        
+35200 |ENTRE CALLE COD. 407-415                                                                            |LOS DAMASCOS        
+35250 |ENTRE CALLE COD. 405-407                                                                            |PJE. PUBLICO        
+35400A|ENTRE CALLE COD. 355-375                                                                            |LOS GUARANIES       
+35600 |ENTRE CALLE COD. 369-371                                                                            |PUBLICA             
+35800 |ENTRE CALLE COD.361B-363 Y ENTRE COD. 377-381 Y ENTRE COD. 391-405                                  |LAS MAGNOLIAS       
+35450 |ENTRE CALLE COD. 391-399(SE CAMBIÓ Nº PASAJE POR LOS PERALES)                                       |PJE. PUBLICO        
+35650 |ENTRE CALLE COD. 391-399                                                                            |LAS ORQUIDEAS       
+34850 |ENTRE CALLE COD. 391-405                                                                            |LAS VIOLETAS        
+35850 |ENTRE CALLE COD. 391-399-LAS HORTENSIAS                                                             |L HORTENSIAS        
+36050A|ENTRE CALLE COD. 391-399                                                                            |LAS AZALEAS         
+36200 |ENTRE CALLE COD 353-RUTA PROV. Nº 1- SAN FRANCISCO DE ASIS                                          |S.F.DE ASIS         
+36250 |ENTRE CALLE COD. 391-399(SE CAMBIÓ Nº PASAJE POR LAS DALIAS)                                        |PJE. PUBLICO        
+36400 |E/ CALLE COD.377-381 Y E/ CALLE COD.391-399 Y E/ CALLE COD. 405-409                                 |LAS DALIAS          
+36600A|ENTRE CALLE COD. 357B-361B-CALLEJON DE LOS BIOQUIMICOS                                              |CJON. BIOQUIM       
+36800A|ENTRE CALLE COD. 361B-365                                                                           |MBEGUÁES            
+36850 |ENTRE CALLE COD. 381-391                                                                            |PJE. PUBLICO        
+37000 |ENTRE PROLONGACION DE CALLE LOS INGAS COD.405-Y  LAS MACLURAS 391,00 S/ORD. 11709/2010              |GARABATOS           
+37050 |ENTRE CALLE COD. 381-391                                                                            |PJE. PUBLICO        
+37200 |ENTRE CALLE  CORONDAS-CHANAES Y ENTRE CALLE MOCOVI - LOS JAZMINES                                   |GUAYCURÚES          
+37225 |ENTRE RUTA PROV Nº 1-369.50                                                                         |PUBLICA             
+37400 |E/ PROLONG  CALLE LOS INGAS COD. 405 Y MOCOVI-373  S/ORD.11709/2010-                                |GUARANIMÁ           
+37600A|ENTRE PROLG.  CALLE MOCOVI 373- LOS JAZMINES 379 S/ORD. 11709/2010-                                 |PALOS CRUZ          
+37625 |ENTRE CALLE COD. 345.25-361B-CALLEJON DE LOS CANILLITAS                                             |C. CANILLITAS       
+37675 |ENTRE CALLE COD. 376.25-RUTA PROV Nº1                                                               |LOS CHARRUAS        
+37800 |ENTRE CALLE MOCOVI 373-LOS JAZMINES 379 S/ORD. 11709/2010-                                          |POROROCAS           
+37825 |ENTRE CALLE COD. 345.25-351.25                                                                      |PUBLICA             
+37875 |ENTRE CALLE COD. 353-RUTA PROV. Nº1                                                                 |GUINUANES           
+38000A|ENTRE CALLE COD. 345.25-347.25-RAMON SUREDA BORDAS                                                  |RAMON SUREDA        
+38200A|MANZ. 8782 Y ENTRE CALLES COD. 347.25-351.25                                                        |PUBLICA             
+39000A|ENTRE RUTA PROV. 1-PROLONG. CALLE COD. 363                                                          |PUBLICA             
+39200A|ENTRE RUTA PROV. 1-PROLONG. CALLE COD. 363                                                          |PUBLICA             
+35725 |RUTA PROVINCIAL Nº 1 TEOFILO MADREJÓN                                                               |T. MADREJÓN         
+32375 |RUTA NACIONAL Nº 168 CIUDADES HERMANAS                                                              |C.HERMANAS          
+33100 |E/ RIO COLASTINÉ-CALLE COD. 326 A                                                                   |PUBLICA             
+34600B|ENTRE CALLE COD.373-379 Y ENTRE CALLE COD. 385-PROLONG. CALLE COD.405                               |LAS TALAS           
+33300 |ENTRE RIO COLASTINE-CALLE COD. 326 A                                                                |PUBLICA             
+35000B|EN MANZANA 12371 Y ENTRE CALLE COD. 391-399                                                         |LOS DURAZNOS        
+33500 |ENTRE RIO COLASTINE-CALLE COD. 326 A                                                                |PUBLICA             
+33700 |ENTRE RIO COLASTINE-CALLE COD. 322 A                                                                |PUBLICA             
+34100 |ENTRE RIO COLASTINE-CALLE COD. 324 A                                                                |PUBLICA             
+34300 |ENTRE RIO COLASTINE-CALLE COD. 326 A                                                                |PUBLICA             
+34525 |ENTRE CALLE COD. 362-RUTA NAC. 168                                                                  |PUBLICA             
+34725A|E/RUTA NAC. Nº 168-CALLE COD.390G-URBANO PEDRIEL                                                    |U. PEDRIEL          
+35125 |E/ PROLONG.CALLE COD.376.25-384A -CALLE COD. 386G-388G-FELIPE CAITO                                 |FELIPE CAITO        
+35300 |ENTRE CALLE COD. 346 A- HASTA CIUDADES HERMANAS                                                     |PROF. A. D´AURIA    
+35500 |E/ CALLE COD. 346 A HASTA 384 A (BOHANES)                                                           |SRA GUADALUPE       
+35525 |ENTRE PROL. CALLE COD.390 A-378.75                                                                  |MATACOS             
+35400B|E/CALLE COD. 377-381 Y MANZ. 12371-CALLE 399 Y CALLE  409-415                                       |LOS PERALES         
+35325 |ENTRE CALLE COD. 376.75-378.75                                                                      |PUBLICA             
+35700B|ENTRE CALLE COD. 342-376.75                                                                         |CORONDAS            
+35900A|ENTRE PROLONG CALLE COD 330-CALLE COD. 362                                                          |CARCARAES           
+36600B|ENTRE CALLE COD. 391-409                                                                            |LOS CLAVELES        
+36800B|ENTRE CALLE MOCOVI HASTA 381,00                                                                     |LAS CAMELIAS        
+38000B|ENTRE CALLE MOCOVI 373-LOS JAZMINES 379 S/ORD.11709/2010-                                           |PEZUÑAS DE VACA     
+35950 |E/LAS PROLGS DE CALLES,  MADRESELVAS COD. 334-Y LAS GUINDAS COD 340S/ORD.11709/2010-                |CANELONES           
+38000C|ENTRE CALLE COD. 391-PROLONG. 405 S/ORD-11709/2010-                                                 |MISTOLES            
+38200B|ENTRE RUTA PROV. Nº1-MANZANA 10382                                                                  |PUBLICA             
+38200C|ENTRE CALLE COD. 377-379 /S. ORD. 11709/2010-                                                       |QUEBRACHOS          
+38400B|ENTRE CALLE COD. 377-379/S. ORD. 11709/2010-                                                        |SANGRE DE DRAGO     
+38600B|ENTRE CALLE 377-379/ S. ORD. 11709/2010-                                                            |SAUCES              
+38800B|ENTRE CALLE COD. 377-379 / S. ORD. 11709/2010-                                                      |TUSCAS              
+39000B|ENTRE CALLE COD. 377-379                                                                            |PUBLICA             
+39200B|ENTRE CALLE COD.377-379                                                                             |PUBLICA             
+32200A|ENTRE RUTA Nº168-CALLE COD.339.75 Y CALLE COD. 341-343                                              |PUBLICA             
+35900B|ENTRE CALLE COD. 388A-390A                                                                          |PUBLICA             
+32400A|ENTRE CALLE COD. 339.75-PROLONG. CALLE COD.345                                                      |PUBLICA             
+32600A|ENTRE RUTA NAC. Nº168-PROLONGACIÓN CALLE 345                                                        |PUBLICA             
+35700A|E/ LAS PRLGS DE LAS MADRESELVAS 334,Y LOS MANDARINOS 342-S/ORD.11709/2010-                          |IGARI               
+35700C|ENTRE CALLE COD.388A-392A                                                                           |PUBLICA             
+36100A|E/ LAS  PROLGS. DE CALLE LOS ALISOS.330 Y QUERANDÍES 346 A S/ORD.11709/2010-                        |CAMBAY              
+36100B|ENTRE CALLE COD.358-RUTA PROV. Nº1                                                                  |CHANAES             
+36300 |ENTRE CALLE COD.330-334 Y CALLE COD. 354A-RUTA PROV.Nº1                                             |TIMBUES             
+36500 |ENTRE PROLONG. CALLE COD. 324-334 Y CALLE COD. 354A-RUTA PROV. Nº1                                  |QUILOAZAS           
+36050B|ENTRE CALLE COD. 399-403                                                                            |LOS IRUPÉ           
+36700 |E/ PROLONG. CALLE LOS CHAÑARES COD. 326B Y LAS MADRESELVAS COD.334-S/ORD.11709/2010-                |BREAS               
+36900 |E/ PROL.CALLES 326B-334 Y 346A-RUTA PROV. Nº1 Y  334.50 A PROL. LAS GUINDAS                         |MOCORETÁES          
+36950 |EN MANZANA 10778 Y DESDE PJE 374,70 HASTA PJE 376,50                                                |PJE. S/N 369,50     
+37100 |E/ PROLONG. CALLE COD. 324B-RUTA PROV. Nº1                                                          |MEPENES             
+37300 |E/ CALLE LAS ENCINAS 324B-RUTA PROV. Nº1 Y  MZ Nº11372- POROROCAS                                   |CJON. MOCOVI        
+37500 |E/ CALLE LAS ENCINAS 324B-RUTA PROV. Nº1 Y LOS MEMBRILLOS - PROL 382C                               |LOS ALGARROBOS      
+37700 |ENTRE PROLONG. CALLE COD.316-PROLONG. CALLE COD.394                                                 |LOS ZORZALES        
+37900 |ENTRE PROLONG. CALLE COD.328-RUTA PROV. Nº1 Y PROLONG. CALLE COD.370-394                            |LOS JAZMINES        
+38100 |E/ PROLONG. CALLES COD.328-PROLOG.CALLE COD. 394-LOS EUCALIPTUS                                     |L EUCALIPTUS        
+38300 |ENTRE PROLONG.CALLE COD. 316-RUTA PROV. Nº1-BV. LAS GREVILEAS                                       |LAS GREVILEAS       
+38500 |E/ RUTA PROV. Nº1-354B-MONS. MARIO MENDOZA                                                          |MONS. MENDOZA       
+38700 |ENTRE PROLONG. CALLE COD. 316-RUTA PROV. Nº1-LOS CARDENALES                                         |L CARDENALES        
+38900 |ENTRE RUTA PROV. Nº 1-PROLONG. CALLE COD. 358                                                       |LOS CURUPIES        
+39100 |ENTRE PROLONG. CALLE COD. 330-380C                                                                  |LAS MACLURAS        
+39300 |ENTRE PROLONG.CALLE COD. 328-RUTA PROV. Nº1                                                         |LOS FRESNOS         
+39500 |E/PROLONG. CALLE COD. 328-RUTA PROV. Nº1 Y E/CALLE COD. 374-380C-LOS GUAYACANES                     |L GUAYACANES        
+39900 |ENTRE PROLONG.CALLE COD.324B-380C                                                                   |LOS ÑANDUBAY        
+40100A|E/ PROLGS DE.CALLES .310- 318 ,322-Y AL NTE LOS CHAÑARES  CD.326B S/ORD.11709/2010-                 |VIRARÓ.             
+40100B|ENTRE CALLE COD. 348.50-360.50                                                                      |LAS FRESIAS         
+40300A|ENTRE PROLONG. CALLE COD. 310-332-LOS IBIRA PITA                                                    |L IBIRA PITA        
+40300B|ENTRE CALLE COD. 346B-380C                                                                          |LAS DIAMELAS        
+40500 |ENTRE CALLE COD.328-332 Y ENTRE CALLE COD. 346B-PROLONG. CALLE COD. 370                             |LOS INGA            
+40700 |ENTRE PROLONG.CALLE COD310-PROLONG. CALLE COD. 356.50-LAS CASUARINAS                                |L CASUARINAS        
+40900 |ENTRE RUTA PROV. Nº1-PROLONG. CALLE COD.384B                                                        |LOS URUNDAY         
+41100 |ENTRE CALLE COD.310-RUTA PROV. Nº1 Y ENTRE CALLE COD.326B-334                                       |LAS MORAS           
+41300 |ENTRE RUTA PROV. Nº1-CALLE COD. 328                                                                 |LOS ABETOS          
+37600B|E/PLG. CALLE LOS INGAS  COD.405  Y LAS MACLURAS 391,00 S/ORD. 11709/2010                            |MAMONES             
+37325 |ENTRE PROLONG. CALLE COD. 373-MANZ. 11171 II                                                        |LOS JACINTOS        
+37375 |ENTRE RUTA PROV. Nº1-PROLONG. CALLE COD. 366B-LOS MEMBRILLOS                                        |L MEMBRILLOS        
+34500 |ENTRE PROLONG. CALLE COD. 384.50-390A                                                               |PUBLICA             
+34925 |ENTRE PROLONG.386G- 392G-TEODORA GONZALEZ                                                           |T. GONZALEZ         
+35100 |ENTRE PROLONG. CALLE COD. 392G-PROLONG. CALLE COD. 404-DOMINGO FIGUEROA                             |D. FIGUEROA         
+34900 | E/CALLE 392G-PROLONG.404 Y E/CALLE 410-PROLONG. 412 --HERMANA CERAFINA BOAGLIO                     |H. C BOAGLIO        
+12950A|PUJATO, RAUL (PJE.PRIVADO) (E - O)                                                                  |PJE.PUJATO          
+34700 |E/ CALLE COD. 392G-PROLONG. 404-HUMBERTO MANUEL ANNICHINI                                           |H M ANNICHINI       
+38450 |ENTRE CALLE COD. 345-347.25-BENEDICTO DIAZ                                                          |B. DIAZ             
+39400 |ENTRE CALLE COD. 347-353                                                                            |CARLOTA SORIA       
+39600 |ENTRE CALLE COD. 347-353-HERMANOS ALASSIO                                                           |HNOS. ALASSIO       
+39800 |AV. ANTONIO DE PETRE (LA GUARDIA) - ORDENANZA 5158                                                  |DE PETRE            
+40000 |ENTRE PROLONG. CALLE COD. 345-PROLONG. 355                                                          |P. MARIO MENDOZA    
+40200 |ENTRE PROLONG. CALLE COD. 345-353                                                                   |MAFALDA FRANCO      
+41000 |ENTRE PROLONG. CALLE COD. 347-353                                                                   |ENRIQUE UCEDO       
+31600 |E/CALLE COD. Nº401A-EX RAMAL FERROC. Y E/CALLE COD 411-415                                          |LOS ALERCES         
+31800 |ENTRE CALLE COD 403A-EX RAMAL FFCC                                                                  |LOS AGUARIBAY       
+31000 |ENTRE CALLEJÓN LABORIE COD. 415 Y LAS MORAS COD.411,00-                                             |AMBAY               
+31200 |ENTRE CALLE COD. 411-415                                                                            |LOS LAPACHOS        
+31400 |ENTRE CALLE COD. 401A-403A                                                                          |PUBLICA             
+32000 |ENTRE CALLE COD 403A-EX RAMAL FFCC                                                                  |LAS TIPAS           
+32200B|E/PROL CALLE  COD 397-EX RAMAL FFCC Y PROL 411-415                                                  |LAS CINACINAS       
+32400B|E/CALLE COD 373-377 Y E/CALLE COD 403A-EX RAMAL FFCC                                                |LAS ENCINAS         
+32600B|E/PROLONG. 363-371 Y E/383-387 Y E/ 399-EX FFCC Y E/COD. 409-415                                    |LOS CHAÑARES        
+00250 |ROMERO, DOMINGO (S - N) (PJE.)                                                                      |DGO. ROMERO         
+00375 |RECONQUISTA (DE BUENOS AIRES) (DGNAL. SE - NO)                                                      |RECONQUISTA         
+00400 |ITALIA (S - N)                                                                                      |ITALIA              
+00575 |COLON, CRISTOBAL (DGNAL. SE - NO)                                                                   |C. COLON            
+00600 |RIO BAMBA (BATALLA DE) (S - N)                                                                      |RIO BAMBA           
+00775A|MALVINAS, ISLAS (DGNAL. SE - NO)                                                                    |MALVINAS            
+00775B|MALVINAS ARGENTINAS (DGNAL. SE - NO)                                                                |MALVINAS ARG.       
+00785 |PUJATO CRESPO, MERCEDES (DGNAL. SE - NO) (PJE.)                                                     |PUJATO CRESPO       
+00800 |DEFENSA (S - N)                                                                                     |DEFENSA             
+00975 |INDEPENDENCIA (DGNAL. SE - NO)                                                                      |INDEPENDENCIA       
+00985 |CAIDOS DEL A.R.A.GENERAL M.BELGRANO (DGNAL. SE-NO) (PJE)                                            |CDOS.BELGRANO       
+01000 |TALCAHUANO (S - N)                                                                                  |TALCAHUANO          
+01050 |FRANCISCO DE VILLALTA (S - N) (PJE)                                                                 |VILLALTA F.D.       
+01175A|O'HIGGINS, GENERAL BERNARDO (DGNAL. SE - NO)                                                        |B. O'HIGGINS        
+01175B|LIBERTAD (DGNAL. SE - NO)ORD. 8753-85                                                               |LIBERTAD            
+01200 |ECHAGUE, CANONIGO SEVERO (S - N)SEG.PLANO DE URB.11699-                                             |CNGO. ECHAGUE       
+01250 |ANGELELLI, MONSEÑOR (S - N) (PJE.)                                                                  |PJE.ANGELELLI       
+01375 |BOLIVAR, GENERAL SIMON (DGNAL. SE - NO)                                                             |GRAL. BOLIVAR       
+01400 |CULLEN, PATRICIO (S - N)                                                                            |PATRIC.CULLEN       
+10665 |SIN NOMBRE (DGNAL. SE - NO) (PJE.)                                                                  |PJ.S/N 106.65       
+01475 |BROWN, AVENIDA ALMIRANTE GUILLERMO (DGNAL. SE - NO)                                                 |AV.ALTE.BROWN       
+01575 |CABAL, GOBERNADOR MARIANO (DGNAL. SE - NO)                                                          |MARIANO CABAL       
+01600 |GODOY, ANTONIA (S - N)                                                                              |ANTONIA GODOY       
+60000 |                                                                                                    |LAS FLORES II       
+01625 |7 JEFES, AVENIDA (DGNAL. SO - NE) ORD. 2615/1928-                                                   |AVDA. 7 JEFES       
+01700 |HERNANDEZ, JOSE (E - O)                                                                             |J. HERNANDEZ        
+01700A|ARLT, ROBERTO (E - O) (PJE.) (Bº CHALET) ORD.9657/1993-                                             |ROBERTO ARLT        
+01725 |LOYOLA, SAN IGNACIO DE (DGNAL. SO - NE)                                                             |S.I.DE LOYOLA       
+01800A|GRAND BOURG (S - N)                                                                                 |GRAND BOURG         
+01800B|PIEDRAS (BATALLA DE LAS) (S - N)                                                                    |PIEDRAS             
+01900A|PIETRANERA, ROMULO (E - O)                                                                          |R. PIETRANERA       
+01900B|RIO GALLEGO, CIUDAD DE (E - O)Bº CHALET-DCT.206-ORD.9802/94-                                        |RIO GALLEGO         
+02000A|LAPRIDA, FRANCISCO NARCISO DE (S - N)                                                               |F. DE LAPRIDA       
+60100 |                                                                                                    |CENTENARIO          
+02000B|TACUARI (BATALLA DE) (S - N)                                                                        |TACUARI             
+02100 |PASO, AVENIDA DOCTOR JUAN JOSE (E - O)                                                              |AV. J.J.PASO        
+02125A|IRIGOYEN, HIPOLITO (DGNAL. SO - NE)                                                                 |DIAG.IRIGOYEN       
+02125B|ILLIA, ARTURO (DGNAL. SO - NE)                                                                      |ARTURO ILLIA        
+02150 |ALIGHIERI, DANTE (E - O) (PJE.)                                                                     |PJE.ALIGHIERI       
+02200 |VELEZ SARSFIELD, DALMACIO (S - N)                                                                   |D.V.SARSFIELD       
+02300 |JUJUY (E - O)                                                                                       |JUJUY               
+10675 |FERNANDEZ MONTIEL, ALONSO (DGNAL. SE - NO) (PJE.) ORD./ DIRECCIÓN.SEGÚN PLANO DEL LOTEO TOTAL       |A.F. MONTIEL        
+02350 |ANDRADE, OLEGARIO VICTOR (E - O) (PJE.)                                                             |PJE.O.ANDRADE       
+11075A|SUAREZ, WALDINO (DGNAL. SE - NO)ORD.9606/1992-                                                      |W. SUAREZ           
+02400 |DORREGO, CORONEL MANUEL (S - N)                                                                     |CNEL. DORREGO       
+11075B|SIN NOMBRE (DGNAL. SE - NO)                                                                         |S/N 110.75-B        
+02450 |PIZZORNO, ANTONIO M. (S - N) (PJE.)                                                                 |PJE.PIZZORNO        
+14350 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 143.50       
+02500 |URUGUAY (E - O)                                                                                     |URUGUAY             
+02550 |CERVANTES SAAVEDRA, MIGUEL DE (E - O) (PJE.)                                                        |PJE.CERVANTES       
+60200 |                                                                                                    |EL POZO             
+02600 |AVELLANEDA, NICOLAS (S - N)                                                                         |N. AVELLANEDA       
+60300 |                                                                                                    |ACERIA              
+02650A|ARZAMENDIA, CONCEJAL (S - N) (PJE.)                                                                 |PJ.ARZAMENDIA       
+02650B|REPUBLICA (S - N) (PJE.)                                                                            |PJE.REPUBLICA       
+02700 |ENTRE RIOS (E - O)                                                                                  |ENTRE RIOS          
+02750 |ESCALADA DE SAN MARTIN, REMEDIOS DE (E - O) (PJE.)                                                  |PJ.R.ESCALADA       
+02800 |GUEMES, GENERAL MARTIN MIGUEL DE (S - N)                                                            |GRAL. GUEMES        
+60500 |                                                                                                    |LA ESMERALDA        
+02900 |AMENABAR, DOCTOR JOSE DE (E - O)                                                                    |DR.J.AMENABAR       
+02925 |BOOZ, MATEO (DGNAL. SO - NE)                                                                        |MATEO BOOZ          
+02950 |VERA MUXICA, RAFAELA DE (E - O) (PJE.)                                                              |R.DE V.MUXICA       
+03000 |LAVALLE, GENERAL JUAN (S - N)                                                                       |GRAL. LAVALLE       
+60700 |                                                                                                    |DON BOSCO           
+03050A|DIEGO RUIZ (S - N) (PJE.)                                                                           |PJ.DIEGO RUIZ       
+03050B|PREBISTERO JOSE GUNTERN  (S- N) (PJE.) ORED.11493-   (ANTES ROLDAN BELISARIO)                       |PJE.GUNTERN J       
+03100 |3 DE FEBRERO (E - O)                                                                                |3 DE FEBRERO        
+03200 |MITRE, BARTOLOME (S - N)                                                                            |B. MITRE            
+61000 |EMPADRONADO CON CALLE Y NUMERO (156979 AL 157088)                                                   |JUAN DE GARAY       
+03250A|GRIGOLATTO (S - N) (PJE.)ORD.9970/95-                                                               |PJ.GRIGOLATTO       
+03250B|SIN NOMBRE (S - N) (PJE.)                                                                           |PJE. 32.50-B        
+61100 |C0100001/C0100062-UBIC.Y DOMICILIO CON CALLE Y NUMERO                                               |COOP.EMP.VIV.       
+03300 |LOPEZ, GENERAL ESTANISLAO (E - O)                                                                   |GRAL. E.LOPEZ       
+03350 |CULLEN, GOBERNADOR JOSE MARIA (E - O) (PJE.)                                                        |PJE.CULLEN          
+03400 |ALBERDI, JUAN BAUTISTA (S - N)                                                                      |J. B. ALBERDI       
+61200 |C0110001/C0110060-UBIC.Y DOMICILIO CON CALLE Y NUMERO                                               |LAS FLORES(M)       
+03430 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 34.30       
+03450 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 34.50       
+03500 |ZAZPE, MONSEÑOR VICENTE FAUSTINO (E - O) (EX BS. AS.)                                               |VICENTE ZAZPE       
+62000 |                                                                                                    |LAS FLORES I        
+03550 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJE.S/N 35.50       
+03600 |SARMIENTO, DOMINGO FAUSTINO (S - N)                                                                 |D.F.SARMIENTO       
+62200 |                                                                                                    |SAN LORENZO         
+03700 |MORENO, DOCTOR MARIANO (E - O)                                                                      |M. MORENO           
+03800 |NECOCHEA, GENERAL MARIANO (S - N)                                                                   |GRAL.NECOCHEA       
+62300 |EMPADRONADO C/CALLE Y NUMERO (147659/713 Y 147929/983)                                              |T. CANDIOTI         
+03900 |CORRIENTES (E - O)                                                                                  |CORRIENTES          
+03950 |BAIGORRIA, JUAN BAUTISTA (E - O) (PJE.) S/ORD. 11825-                                               |PJE.BAIGORRIA       
+50200 |                                                                                                    |CAS.DE CORREO       
+04000 |CANDIOTI, MARCIAL (S - N)                                                                           |M. CANDIOTI         
+04025 |PAZ, AVENIDA GENERAL JOSE MARIA (DGNAL. SO - NE)                                                    |AV.GRAL.J.PAZ       
+04050 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 40.50       
+04100 |GARAY, JUAN DE (E - O)                                                                              |JUAN DE GARAY       
+04200 |ALVEAR, GENERAL CARLOS MARIA DE (S - N)                                                             |GRAL.C.ALVEAR       
+04250 |SAVOINI, ANGEL (S - N) (PJE.)                                                                       |PJE.A.SAVOINI       
+04300 |TORRE, LISANDRO DE LA (E - O)                                                                       |L.DE LA TORRE       
+50300 |                                                                                                    |SUC.DE CORREO       
+04400 |LAS HERAS, GENERAL JUAN GREGORIO DE (S - N) S/PLANO 162167-2011-                                    |J.G.LAS HERAS       
+04450A|BALBIN, RICARDO (S - N) (PJE.)                                                                      |R. BALBIN           
+04450B|SIN NOMBRE (S - N) (PJE.)                                                                           |PJE. 44.50-B        
+04500 |SALTA (E - O)                                                                                       |SALTA               
+55000 |PUJATO PJE.-(PRIVADO)-SE LE ASIGNA CODIGO REAL(129.50-A) PARA FACILITAR LA DISTRIBUCION             |PJE.PUJATO          
+04530 |DONNET, ENFERMERO (E - O) (PJE.)                                                                    |PJE. DONNET         
+04550 |LINIERS Y BREMOND, SANTIAGO DE (E - O) (PJE.)                                                       |PJE.S.LINIERS       
+10075 |CACIQUE BAIGORRITA (DGNAL. SE - NO)S/ORD.11825/2011-                                                |C. BAIGORRITA       
+04570 |DE PAUL SAN VICENTE (E - O)(PJE.)ORD.9809/94                                                        |S.VTE.DE PAUL       
+04600 |BELGRANO, GENERAL MANUEL (S - N)                                                                    |GRAL.BELGRANO       
+10085 |CACIQUE CAFULCURÁ (DGNAL. SE - NO) (PJE.)                                                           |C. CAFULCURÁ        
+04650 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 46.50       
+10095 |CACIQUE PINCEN (DGNAL. SE - NO) (PJE.)                                                              |C. PINCEN           
+04675 |ESPAÑA (DGNAL. SE - NO)                                                                             |DGNAL. ESPAÑA       
+04700 |MENDOZA (E - O)                                                                                     |MENDOZA             
+04750 |FALUCHO (ANTONIO RUIZ) (E - O) (PJE.)                                                               |PJE. FALUCHO        
+10275B|SIN NOMBRE (DGNAL. SE - NO) EXTENSIÓN  PEDIDO DE DIRECCIÓN POR PLANO DEL LOTEO  TOTAL..             |S/N 102.75-B        
+04800A|SAN LUIS (S - N)                                                                                    |SAN LUIS            
+04800B|SIRIA, REPUBLICA DE (S - N) SEGUN PLANO 157711-                                                     |REP. DE SIRIA       
+10285 |CACIQUE YANQUETRUZ (DGNAL. SE - NO)                                                                 |C. YANQUETRUZ       
+04850A|BAZAN, TENIENTE GENERAL CECILIO (S - N) (PJE.)                                                      |PJE. C. BAZAN       
+04850C|LEIVA, DIEGO DE (S - N) (PJE.)                                                                      |PJ.D.DE LEIVA       
+10475 |SIN NOMBRE (DGNAL. SE - NO)                                                                         |DG.S/N 104.75       
+04870 |FAISAL, SARA (S - N) (PJE.)                                                                         |SARA FAISAL         
+04875 |27 DE FEBRERO (DGNAL. SE - NO)                                                                      |27 DE FEBRERO       
+04900A|PRIMERA JUNTA (E - O)                                                                               |PRIMERA JUNTA       
+04900B|DURAN, ALFONSO (E - O)                                                                              |ALFONSO DURAN       
+05000A|CANDIOTI, PEDRO A. (S - N) (ACCESO AL CLUB EL QUILLA)                                               |P. CANDIOTI         
+05000B|RIVADAVIA, BERNARDINO (S - N) SEGÚN RP-11-D-2004                                                    |RIVADAVIA           
+10485 |CACIQUE ANDRESITO (DGNAL. SE - NO) (PJE.)                                                           |C. ANDRESITO        
+05000C|VITTORI, PEDRO (S - N) ORD.9575/1992-                                                               |PEDRO VITTORI       
+05000D|LOS OLMOS (S - N)                                                                                   |LOS OLMOS           
+05000E|CRUZ ROJA ARGENTINA, CALLE DE LA (S - N)                                                            |C. ROJA ARG.        
+05050C|LEON, SEBASTIAN DE (S - N) (PJE.)                                                                   |PJE.S.DE LEON       
+05050E|VENIALVO, LAZARO DE (S - N) (PJE.) (1ER. PASAJE)                                                    |PJE. VENIALVO       
+60800 |                                                                                                    |DON BOSCO II        
+05050G|LOS NARDOS (S - N) (PJE.)                                                                           |PJ.LOS NARDOS       
+05070 |ANSELMI, REYNALDO (S - N) (PJE.) (2DO. PASAJE)SEGÚN EXP. RP-11-D-2004-                              |PJE.R.ANSELMI       
+05080 |SIN NOMBRE (S - N) (PJE.) (3ER. PASAJE)                                                             |PJE.S/N 50.80       
+05100 |TUCUMAN (E - O)                                                                                     |TUCUMAN             
+05125 |ALEM, AVENIDA LEANDRO N. (DGNAL. SO - NE)                                                           |AVDA.L.N.ALEM       
+10685 |SIN NOMBRE (DGNAL. SE - NO)                                                                         |PJE. CARRASCO       
+05200A|25 DE MAYO (S - N) SEGÚN EXPEDIENTERP-11-D-04-                                                      |25 DE MAYO          
+10875 |VERA MUXICA, ANTONIO DE (DGNAL. SE - NO)                                                            |A.D.V.MUXICA        
+05200B|LAS AZUCENAS (S - N)                                                                                |LAS AZUCENAS        
+05250A|RAWSON, GUILLERMO (S - N) (PJE.)                                                                    |PJE. G.RAWSON       
+10130 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 101.30       
+05250B|LAS ROSAS (S - N) (PJE.)                                                                            |PJE.LAS ROSAS       
+05275A|VALLE, ARISTOBULO DEL (DGNAL. SE - NO) S/ORD. 11593/2009                                            |A. DEL VALLE        
+05275B|AGUIRRE, CORONEL JOSE MARIA (DGNAL. SE - NO)                                                        |DGNAL.AGUIRRE       
+05275C|DOMINICANA, REPUBLICA (DGNAL. SE - NO)                                                              |R. DOMINICANA       
+05300 |LA RIOJA (E - O)                                                                                    |LA RIOJA            
+05400A|SAN MARTIN, GENERAL JOSE FRANCISCO DE (S - N)(ANTES COMERCIO)ORD.367/1901-                          |SAN MARTIN          
+00725 |PADRE ATLIO ESPINOSA (DGNAL. SO - NE)ORD. 11344-/2006-CENTENARIO.                                   |A. ESPINOSA         
+05400B|LAS ACACIAS (S - N)                                                                                 |LAS ACACIAS         
+05430 |LEGARRA, PATRICIO (S - N) (PJE.)                                                                    |PJE.P.LEGARRA       
+05450A|PASTEUR, LUIS (S - N) (PJE.)                                                                        |PJE.L.PASTEUR       
+20130 |SIN NOMBRE (E - O) (PJE.) SEGÚN RES. Nº 19/2009-                                                    |PJ.S/N 201.30       
+11350 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 113.50       
+05450B|LAS MARGARITAS (S - N) (PJE.)                                                                       |PJ.MARGARITAS       
+05500A|PERON, EVA DUARTE DE (E - O)                                                                        |EVA PERON           
+05500B|CATAMARCA (E - O)                                                                                   |CATAMARCA           
+05525 |BORGES, JORGE LUIS (SO - NE) (PJE.)ORD. 9658/1993-                                                  |J. L. BORGES        
+05530 |SAN MARTIN, CLEMENTE DE (E - O) (PJE.)                                                              |PJ.C.S.MARTIN       
+05550 |MAGALLANES, HERNANDO DE (E - O) (PJE.)                                                              |PJ.MAGALLANES       
+05570 |GRILLI, ALFONSO (E - O) ( PJE.)                                                                     |PJE. A.GRILLI       
+05600A|SAN JERONIMO (S - N)                                                                                |SAN JERONIMO        
+16750 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 167.50       
+05600B|LOS CEIBOS (S - N)                                                                                  |LOS CEIBOS          
+05650A|BUSTAMANTE, JOSE LUIS (S - N) (PJE.)                                                                |PJ.BUSTAMANTE       
+13475 |VICEPRESIDENTE VICENTE SOLANO LIMA (DGNAL. SE - NO)                                                 |V.SOLANO LIMA       
+05650B|LOS AZAHARES (S - N) (PJE.)                                                                         |PJE. AZAHARES       
+05675 |ZUVIRIA, AVENIDA FACUNDO (DGNAL. SE - NO)                                                           |AV. F.ZUVIRIA       
+05700A|ORO, FRAY JUSTO SANTA MARIA DE (E - O) (PJE.)                                                       |F. S.M.DE ORO       
+05700B|IRIGOYEN FREYRE, DOCTOR ABELARDO (E - O)                                                            |DR.A.I.FREYRE       
+05700C|VERA, GOBERNADOR MARIANO (E - O)                                                                    |GDOR. M. VERA       
+05750 |VIGNA, PEDRO (E - O) (PJE.)                                                                         |PJE. P. VIGNA       
+05800A|9 DE JULIO (S - N)                                                                                  |9 DE JULIO          
+13675 |PRESIDENTE HECTOR J. CAMPORA (DGNAL. SE - NO)                                                       |PTE.H.CAMPORA       
+05800B|LOS AROMOS (S - N)                                                                                  |LOS AROMOS          
+05825 |TACCA, RAUL ALBERTO (DGNAL. SO - NE)                                                                |RAUL A. TACCA       
+05830 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 58.30       
+05850A|ALMAFUERTE PEDRO B. PALACIOS (S-N)(PJE.)(TRAMO 3100-3199 ING. L. ZAMARO)                            |PJ.ALMAFUERTE       
+05850C|LOS ALELIES (S - N)                                                                                 |PJE. ALELIES        
+05875 |BELTRAN, FRAY LUIS (DGNAL. SE - NO)ORD. 9885/94/ DCT.44-                                            |LUIS BELTRAN        
+05875B|HUDSON, GUILLERMO (DGNAL. SE - NO)                                                                  |DGNAL. HUDSON       
+05900A|PEREZ, JOSE RUPERTO (E - O)                                                                         |JOSE R. PEREZ       
+05900B|IRIGOYEN, HIPOLITO (E - O)                                                                          |H. IRIGOYEN         
+05900C|SEGUI, JUAN FRANCISCO (E - O)                                                                       |JUAN F. SEGUI       
+05950 |13 DE DICIEMBRE (E - O) (PJE.)                                                                      |13 DICIEMBRE        
+05975 |CASTRO, ROSALIA DE (DGNAL. SE - NO)                                                                 |R. DE CASTRO        
+05985 |CASEROS (BATALLA DE) (DGNAL. SE - NO)                                                               |CASEROS             
+06000 |1 DE MAYO (S - N)                                                                                   |1 DE MAYO           
+06025 |MARTINEZ, GENERAL JUAN APOSTOL (DGNAL. SO - NE)                                                     |DIAG.MARTINEZ       
+06025A|CATENA, PADRE OSVALDO (DGNAL. SO - NE) (EX ECHEVERRIA)ORD.9436/1991                                 |PADRE CATENA        
+06025B|VECINAL V.DEL PARQUE (DGNAL. SO - NE) (PJE.) (V.DEL P.)                                             |PJE.VECINAL         
+06050 |INGENIEROS, JOSE (S - N) (PJE.)                                                                     |PJ.INGENIEROS       
+06100A|CRESPO, GOBERNADOR DOMINGO (E - O)                                                                  |GDOR. CRESPO        
+06100B|CALCHINES (E - O)                                                                                   |CALCHINES           
+06150 |GUIRALDES, RICARDO (E - O) (PJE.)                                                                   |PJE.GUIRALDES       
+55100 |SEGÚN ORD. 10024/1996/- S/INF.F.13VTO. ASESORA LEGAL-DE-448-653292-3                                |PJE PARAVAN R       
+06200 |4 DE ENERO (S - N)                                                                                  |4 DE ENERO          
+06225A|SIN NOMBRE (DGNAL. SO - NE) (CENTENARIO)                                                            |PJE. 62.25-A        
+06225B|DE CENTENERA, M. BARCO DE (DGNAL. SO - NE)(V.DEL PARQUE)                                            |DE CENTENERA        
+06230 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 62.30       
+06250 |RODRIGUEZ, JORGE RAUL (S - N) (PJE.)                                                                |PJE.RODRIGUEZ       
+06270 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 62.70       
+06300A|SUIPACHA (BATALLA DE) (E - O)                                                                       |SUIPACHA            
+06300B|CAPUTTO,  SALVADOR (E - O)                                                                          |SAL. CAPUTTO        
+06300C|CABRAL, SARGENTO JUAN BAUTISTA (E - O)                                                              |SGTO.J.CABRAL       
+06350 |RODRIGUEZ GALISTEO, MARTIN (E - O) (PJE.)                                                           |PJ.R.GALISTEO       
+06400 |URQUIZA, GENERAL JUSTO JOSE DE (S - N)                                                              |GRAL. URQUIZA       
+06425 |OROÑO, GOBERNADOR NICASIO (DGNAL. SO - NE)                                                          |GDOR. N.OROÑO       
+06425A|VERA Y PINTADO, B. DE (DGNAL. SO - NE)(VILLA DEL PARQUE)                                            |V.Y PINTADO         
+06450 |LASSAGA, RAMON J. (S - N) (PJE.)                                                                    |PJE.R.LASSAGA       
+06485 |SIN NOMBRE (DGNAL. SE - NO) (PJE.)                                                                  |PJE.S/N 64.85       
+06500A|CANDIOTI, GOBERNADOR FRANCISCO ANTONIO (E - O)                                                      |GDOR.CANDIOTI       
+06500B|JUNIN (BATALLA DE) (E - O)                                                                          |JUNIN               
+06600A|FRANCIA (S - N)                                                                                     |FRANCIA             
+06225C|SIN NOMBRE (DGNAL. SO - NE) (VILLA DEL PARQUE)                                                      |PJE. 62.25-C        
+06625 |TARRAGONA, GOBERNADOR JUAN FRANCISCO (DGNAL. SO - NE)                                               |J.F.TARRAGONA       
+06650 |MARMOL, JOSE (S - N) (PJE.) S/PLANO 158.075                                                         |PJE. J.MARMOL       
+06675 |GIMNASIA Y ESGRIMA (DGNAL.SE- NO)Bº ESCALANTE-ORD.9781/1994-                                        |PJE.G.Y ESGR.       
+06700A|ITUZAINGO (BATALLA DE) (E - O)                                                                      |ITUZAINGO           
+06700B|SANTIAGO DEL ESTERO (E - O)                                                                         |S. DEL ESTERO       
+06800 |SAAVEDRA, CORNELIO DE (S - N)                                                                       |C.DE SAAVEDRA       
+06825 |ZAVALIA, SALUSTIANO (DGNAL. SO - NE)                                                                |S. ZAVALIA          
+06850 |MARSENGO, BENITO (S - N) (PJE.) S/PLANO 158.075-                                                    |PJE. MARSENGO       
+06900A|BALCARCE, GENERAL ANTONIO GONZALEZ (E - O)                                                          |GRAL.BALCARCE       
+06900B|GELABERT Y CRESPO, OBISPO JOSE MARIA (E - O)                                                        |OB.J.GELABERT       
+07000 |SAN LORENZO (BATALLA DE) (S - N) SIN PLANO 158075                                                   |SAN LORENZO         
+07025 |PEREZ, FRAY JOSE MANUEL (DGNAL. SO - NE)                                                            |FRAY J. PEREZ       
+07025A|CULLEN, GOBERNADOR JOSE MARIA (DGNAL. SO - NE)                                                      |PJ.J.M.CULLEN       
+07050 |QUIROGA, MARIANO (S - N) (PJE.) S/PLANO 140155-2006-                                                |PJE.M.QUIROGA       
+07075 |LOPEZ Y PLANES, AVENIDA VICENTE (DGNAL. SE - NO)                                                    |L. Y PLANES         
+07100A|GALVEZ, BVARD. DOCTOR JOSE (E - O)                                                                  |BVARD. GALVEZ       
+07100B|PELLEGRINI, BVARD. DOCTOR CARLOS (E - O)                                                            |BV.PELLEGRINI       
+07150A|CASTELLANOS, AARON (E - O) (PJE.)                                                                   |A.CASTELLANOS       
+07150B|MARTINEZ, RUDECINDO (E - O) (PJE.)                                                                  |PJ.R.MARTINEZ       
+07200 |FREYRE, AVENIDA DOCTOR RODOLFO (S - N)                                                              |GDOR.R.FREYRE       
+07225 |VERA MUJICA, FRANCISCO ANTONIO DE (DGNAL. SO - NE)                                                  |F.VERA MUJICA       
+07250A|ECHEVERRIA, ESTEBAN (S - N) (PJE.)                                                                  |PJ.ECHEVERRIA       
+07250B|DRAGO, LUIS MARIA (S - N) (PJE. DGNAL.)                                                             |PJE.L.M.DRAGO       
+07275 |LA PAZ (DGNAL. SE - NO)                                                                             |LA PAZ              
+07300A|MAIPU (BATALLA DE) (E - O)                                                                          |MAIPU               
+07300B|PUJATO, CANDIDO (E - O)                                                                             |C. PUJATO           
+07350A|ZORRILLA DE SAN MARTIN, JUAN (E - O) (PJE.)                                                         |PJE. ZORRILLA       
+07350B|MAIPU (BATALLA DE) (E - O) (PJE.)                                                                   |PJE. MAIPU          
+07400 |ZAVALLA, DOCTOR MANUEL MARIA (S - N)                                                                |DR. M.ZAVALLA       
+07425 |RODRIGUEZ PEÑA, NICOLAS (DGNAL. SO - NE)                                                            |N. R. PEÑA          
+07450A|PERON, PRESIDENTE JUAN DOMINGO (S - N)                                                              |PTE.J.D.PERON       
+07450B|PARAGUAY (S - N) (PJE.)SEGÚN RESOLUCIÓN INTERNA Nº 19/2009-                                         |PJE. PARAGUAY       
+07475 |COCHABAMBA (DGNAL. SE - NO)                                                                         |COCHABAMBA          
+07500A|CHACABUCO (BATALLA DE) (E - O)                                                                      |CHACABUCO           
+07500B|COMAS, MARIANO (E - O)                                                                              |MARIANO COMAS       
+07550 |CINGOLANI, JUAN (E - O) (PJE.) (EX-PJE. AMBROSIO)                                                   |PJE.CINGOLANI       
+07600 |SAN JUAN (S - N)SEGÚN RESOLUCIÓN INTERNA  Nº 19/2009-                                               |SAN JUAN            
+07625 |DE LA PEÑA, CARLOTA (DGNAL. SO - NE)                                                                |C.DE LA PEÑA        
+07650 |PEREZ DE DENIS, GREGORIA IGNACIA (S - N) (PJE.) SEGÚN PLANO 4840.                                   |PJ.P.DE DENIS       
+07675A|DIAZ, JOSE (DGNAL. SE - NO)                                                                         |JOSE DIAZ           
+07675B|PEÑALOZA, GENERAL ANGEL VICENTE (DGNAL. SE - NO)                                                    |GRAL.PEÑALOZA       
+07675C|BRASIL (DGNAL. SE - NO)                                                                             |BRASIL              
+07700A|MOLINAS, GOBERNADOR LUCIANO (E - O) (EX RIO DE JANEIRO)                                             |GDOR. MOLINAS       
+07725 |LARRAMENDI, JOSE TEODORO (DGNAL. SO - NE)                                                           |PJ.LARRAMENDI       
+07750 |CASTRO BARROS, PEDRO IGNACIO DE (E - O) (PJE.)                                                      |PJE. C.BARROS       
+07775 |IRALA, DOMINGO MARTINEZ DE (DGNAL. NE - SO)                                                         |PJ.M.DE IRALA       
+07800 |SAN JOSE (S - N) SEGUN RESOLUCIÓN INT. Nº 19/2009(PLAN 6134)                                        |SAN JOSE            
+07825 |10 DE JUNIO (DGNAL. SO - NE)                                                                        |10 DE JUNIO         
+07850 |SIMONIELLO, PAULINA (S - N) (PJE.)ORD.9787/94-DCT-209--PLANO 6134-                                  |PJ.SIMONIELLO       
+07875 |CRISTO OBRERO (DGNAL. SE - NO) (VILLA DEL PARQUE)                                                   |CRISTO OBRERO       
+07875A|UNIDAD (DGNAL. SE - NO) (PJE.) (VILLA DEL PARQUE)                                                   |PJE. UNIDAD         
+07900 |SILVA, DOMINGO GUZMAN (E - O)                                                                       |DOMINGO SILVA       
+07950 |LEIVA, MANUEL (E - O) (PJE.)                                                                        |MANUEL LEIVA        
+08000 |SANTIAGO DE CHILE (S - N)                                                                           |SGO. DE CHILE       
+08025 |DESDE GOLONDRINA HASTA AV CIRC. MAR ARGENTINO (DGNAL. SO - NE)                                      |DGNAL JILGUERO      
+08050 |CAMPO, ESTANISLAO DEL (S - N) (PJE.)                                                                |PJE.DEL CAMPO       
+08075 |27 DE ENERO (DGNAL. SE - NO) (PJE.) (VILLA DEL PARQUE)                                              |27 DE ENERO         
+08075A|TRABAJO (DGNAL. SE - NO) (PJE.) (VILLA DEL PARQUE)                                                  |PJE.TRABAJO         
+08100 |CAMPILLO, JUAN DEL (E - O)                                                                          |DEL CAMPILLO        
+08200 |SAENZ PEÑA, ROQUE (S - N)SEGUN RESOLUCION INT. Nº 19/2009-(PLAN 6134)                               |R. SAENZ PEÑA       
+08250A|SIN NOMBRE (S - N) (PJE.) (2DO. PASAJE)                                                             |PJE. 82.50-A        
+08250B|ALFONSO (S - N) (PJE.)SEGUN PLANO Nº 147585-                                                        |PJE. ALFONSO        
+08250C|DESIERTO, LAGUNA DEL (S - N) (PJE.)ORD. 9859/94-DCT.296-                                            |LAG.DESIERTO        
+08275 |PARERA, BLAS (DGNAL. SE - NO)                                                                       |BLAS PARERA         
+08275A|JUSTICIA (DGNAL. SE - NO) (VILLA DEL PARQUE)                                                        |JUSTICIA            
+08275B|GIACCHINO, CAP.PEDRO E. (DGNAL SE  NO) (V.DEL PARQUE)ORD.9703/93-DCT.308-                           |CAP.GIACCHINO       
+08275C|MOSCONI, AVENIDA GENERAL ENRIQUE (DGNAL. SE - NO)                                                   |GRAL. MOSCONI       
+08300 |ITURRASPE, JOSE BERNARDO (E - O)                                                                    |J. ITURRASPE        
+08330 |BARILOCHE, SAN CARLOS DE (E - O) (PJE.)Bº BARRANQUITA. ORD.9810/94-                                 |PJE.BARILOCHE       
+08400 |DIAZ DE SOLIS, JUAN (S - N) SEGÚN PLANO 147585-                                                     |J.D.DE SOLIS        
+08450 |GALISTEO, JOSE ELIAS (S - N) (PJE.)SEGÚN PLANO Nº 147585-                                           |JOSE GALISTEO       
+08475 |SANTA FE (DGNAL. SE - NO ) (PJE.)                                                                   |PJE.SANTA FE        
+08475A|LIBERACION (DGNAL. SE - NO) (VILLA DEL PARQUE)                                                      |LIBERACION          
+08475B|SOBERANIA (DGNAL. SE - NO) (PJE.) (VILLA DEL PARQUE)                                                |PJE.SOBERANIA       
+08500 |CORDOBA (E - O)                                                                                     |CORDOBA             
+08550 |EL SALVADOR, REPUBLICA DE (E - O) (PJE.)                                                            |PJE.SALVADOR        
+08600 |LAMADRID, GREGORIA ARAOZ DE (S - N)SEGUN PLANO Nº 147585-                                           |G.DE LAMADRID       
+08630 |BOSSO, CARLOS ALBERTO (S - N) (PJE.)                                                                |CARLOS BOSSO        
+08650A|BOSSO, MARIA ISABEL SALINAS DE (S - N) (PJE.)                                                       |M.I. DE BOSSO       
+08650B|PARANA (S - N) (PJE.) (3ER. PASAJE)SEGUN PLANO Nº 147585-                                           |PJE. PARANA         
+08670 |OJEDA, BERNARDO (S - N) (PJE.)                                                                      |PJE. B. OJEDA       
+08675 |SIN NOMBRE (DGNAL. SE - NO) (PJE.) (VILLA DEL PARQUE)                                               |PJE.S/N 86.75       
+08700 |ZENTENO, PRESBITERO DOCTOR PEDRO ALEJANDRINO (E - O)                                                |DR. P.ZENTENO       
+08750 |ALDAO, FRANCISCO (E - O) (PJE.)                                                                     |PJE.F.ALDAO         
+08800 |GABOTO, SEBASTIAN (S - N)SEGUN PLANO Nº 147585-                                                     |S. GABOTO           
+08825 |NACIONES UNIDAS (DGNAL. SO - NE)                                                                    |NAC. UNIDAS         
+08850 |GARCIA BAÑON, JOSE (S - N) (PJE.) (2DO. PSJ) SEGÚN Nº 99580-ORD.9782/94-                            |GARCIA BAÑON        
+08875 |SOLIDARIDAD (DGNAL. SE - NO) (PJE.) (VILLA DEL PARQUE)                                              |SOLIDARIDAD         
+08900 |FERRE, PEDRO (E - O)                                                                                |PEDRO FERRE         
+08925A|BOLIVIA (DGNAL. SO - NE)                                                                            |BOLIVIA             
+08925B|PASO DE LOS ANDES (DGNAL. SO - NE)                                                                  |DE LOS ANDES        
+08950 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJE.S/N 89.50       
+09000 |ESTRADA, JOSE MANUEL (S - N)                                                                        |J. M. ESTRADA       
+09050 |MADEO, HERMANOS (S - N) (PJE.)(1ER. PASAJE)                                                         |PJE. MADEO          
+09100 |DIAZ COLODRERO, PEDRO (E - O)                                                                       |D. COLODRERO        
+09125 |PERU (DGNAL. SO - NE)                                                                               |PERU                
+09150 |RODRIGUEZ CARDONA, DOCTOR JUAN CARLOS (E - O) (PJE.)                                                |RODRIGUEZ C.        
+09175 |MATTURO, INGENIERO DIEGO (DGNAL. SE - NO)                                                           |DIAG.MATTURO        
+09200 |AGUADO, ALEJANDRO (S - N) S/PLANO APROBADAO Nº 155563                                               |A. AGUADO           
+09230 |SIN NOMBRE (S - N) (PJE.) (1ER. PASAJE)                                                             |PJE.S/N 92.30       
+09250A|FRENGUELLI, JOAQUIN (S - N) (PJE.) (2DO. PASAJE) SEGÚN PLANO DE MENSURA.                            |PJ.FRENGUELLI       
+09250B|BRAILLE, LUIS (S - N) (PJE.)                                                                        |PJE.L.BRAILLE       
+09270 |SIN NOMBRE (S - N) (PJE.) (2DO. PASAJE)                                                             |PJE.S/N 92.70       
+09275 |AGUADO, ALEJANDRO (DGNAL. SE - NO)                                                                  |DGNAL. AGUADO       
+09300 |TORRENT, LUCIANO (E - O)                                                                            |L. TORRENT          
+09325 |ARTIGAS, JOSE GERVASIO (DGNAL. SO - NE)                                                             |J. G. ARTIGAS       
+09350 |FRAGA, GOBERNADOR ROSENDO MARIA (E - O) (PJE.)                                                      |PJE. FRAGA          
+09375 |MUTTIS, ENRIQUE INTENDENTE. (DGNAL. SE - NO)ORD. 9672/1993-                                         |E. MUTTIS           
+09400A|QUIROGA, PADRE (S - N) (EX EUROPA)                                                                  |PADRE QUIROGA       
+09400B|EUROPA (S - N) SEGÚN RESOLUCIÓN INT. Nº 19/009-                                                     |EUROPA              
+09450 |BARRETO, FELIX (S - N) (PJE.)(3ER. PASAJE)                                                          |PJE.F.BARRETO       
+09500 |GUTIERREZ, JUAN MARIA (E - O)                                                                       |J.M.GUTIERREZ       
+09525 |ECUADOR (DGNAL. SO - NE)                                                                            |ECUADOR             
+09550 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJE.S/N 95.50       
+09600 |"AZOPARDO, JUAN BAUTISTA (S - N)""CALLE PROYECTADA SEGÚN RESOLUCIÓN. INT.Nº 19/2009-                  "|J.B.AZOPARDO        
+09630 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 96.30       
+09650A|SIN NOMBRE (S - N) (PJE.) (IV PASAJE)                                                               |PJE. 96.50-A        
+09650B|PIVIDORI, SANTIAGO (S - N) (PJE.)                                                                   |PJE. PIVIDORI       
+09670 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 96.70       
+09675 |PJE. JESÚS MISERICORDIOSO (96,75) (S-N)Bº LAS FLORES. I -ORD.9879/94DCT.45-                         |PJE. 96.75          
+09685 |PJE.-NTRA SEÑORA DEL TRANSITO (COD. 9685)-ORD.9880/94-(N-O-Bº FLORES I-                             |N.S.TRANSITO        
+09700 |QUINTANA, JOSE (E - O)                                                                              |JOSE QUINTANA       
+09750 |CALCENA, DOCTOR JOSE ALBERTO (E - O) (PJE.)                                                         |PJE.J.CALCENA       
+09800 |ARENALES, JUAN ANTONIO ALVAREZ DE (S - N)                                                           |J.DE ARENALES       
+09830 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJE.S/N 98.30       
+09850 |SIN NOMBRE (S - N) (PJE.) (1ER. PASAJE)                                                             |PJE.S/N 98.50       
+09870 |                                                                                                    |PJE.S/N 98.70       
+09875A|CERVERA, DOCTOR MANUEL MARIA (DGNAL. SE - NO)                                                       |DIAG.CERVERA        
+09900A|PADILLA, MANUEL (E - O)                                                                             |M. PADILLA          
+09900B|RODRIGUEZ, FRAY CAYETANO JOSE (E - O)                                                               |F.C.RODRIGUEZ       
+09950 |FUNES, DOCTOR GREGORIO (DEAN FUNES) (E - O) (PJE.)                                                  |PJ.DEAN FUNES       
+10000 |IRIGOYEN, BERNARDO DE (S - N)                                                                       |B.DE IRIGOYEN       
+10030 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJ.S/N 100.30       
+10050 |S/ ORD. 12029/13                                                                                    |PJ.F. BOBBIO        
+10070 |S/ ORD. 12029/13                                                                                    |PJE. I. J. COSTA    
+10100 |DELGADO, AGUSTIN (E - O)                                                                            |A. DELGADO          
+10200 |ALSINA, VALENTIN (S - N)                                                                            |V. ALSINA           
+10230 |S/ ORD. 12029/13                                                                                    |PJE.T. C. BERDAT    
+10250 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJ.S/N 102.50       
+10270 |CAILLET BOIS, HORACIO (S - N) (PJE)                                                                 |CAILLET BOIS        
+10275 |CASTAÑADUY, PRUDENCIO MARIA DE (DGNAL. SE - NO)                                                     |P. CASTAÑADUY       
+10300 |ZAPATA, MARTIN (E - O)S/PLANO 156294/2010-                                                          |MARTIN ZAPATA       
+10400 |LEIVA, GOBERNADOR LUCIANO (S - N) S/ PLANO DE MENSURA 159876-                                       |LUCIANO LEIVA       
+10420 |ZAPATA GOLLAN, AGUSTIN (S - N) (PJE.)                                                               |ZAPATA GOLLAN       
+10430 |LOFEUDO, RAMON (S - N) (PJE.)                                                                       |RAMON LOFEUDO       
+10450 |RODRIGUEZ, JOAQUIN (S - N) (PJE.)                                                                   |J. RODRIGUEZ        
+10460 |BUSANICHE, JOSE CARMELO (S - N) (PJE)                                                               |J.C.BUSANICHE       
+10470 |AGUIRRE, JOSE URBANO (S - N) (PJE)                                                                  |J. U. AGUIRRE       
+10500 |MARTINEZ, REGIS (E - O)                                                                             |R. MARTINEZ         
+10550 |GUIDO, GENERAL TOMAS (E - O) (PJE.)                                                                 |PJ.GRAL.GUIDO       
+10600 |LARGUIA, CONSTANCIO (S - N)S/ PLANO  DE MENSURA Nº 159876-175750                                    |C. LARGUIA          
+10650 |SIN NOMBRE (S - N) (PJE.) (2DO. PASAJE) S/ PLANO DE MENSURA Nº 159876-                              |PJ.S/N 106.50       
+10700A|CARRIL, SALVADOR MARIA DEL (E - O)                                                                  |S. DEL CARRIL       
+10700B|MILENIO DE POLONIA (E - O)                                                                          |M. DE POLONIA       
+10750 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 107.50       
+10800 |BAYO, GOBERNADOR SERVANDO (S - N)                                                                   |SERVANDO BAYO       
+10900 |ZUVIRIA, JOSE MARIA (E - O)                                                                         |J. M. ZUVIRIA       
+10925 |GOYENA, DOCTOR PEDRO (DGNAL. SO - NE)                                                               |DGNAL. GOYENA       
+11000 |CHICLANA, FELICIANO ANTONIO (S - N)                                                                 |F.A.CHICLANA        
+11050 |ROMERO, OBISPO GREGORIO IGNACIO (S - N) (PJE.)                                                      |PJE. ROMERO         
+11100 |DERQUI, SANTIAGO (E - O)                                                                            |STGO. DERQUI        
+11200 |CRESPO, GOBERNADOR IGNACIO (S - N)                                                                  |I. CRESPO           
+11250A|ANUNCIACION, FRAY GABRIEL DE LA (S - N) (PJE.)                                                      |ANUNCIACION         
+11250B|CARRASCO, GABRIEL (S - N) (PJE.)                                                                    |PJE.CARRASCO        
+11275A|ESPERANZA, CAMINO VIEJO A (DGNAL. SE - NO)                                                          |CNO.ESPERANZA       
+38400A|ENTRE CALLE COD.353-378.75                                                                          |BOHANES             
+11275B|PANDOLFO, PIO (DGNAL. SE - NO)ORD.9667/1993-                                                        |PIO PANDOLFO        
+11300A|GODOY, RUPERTO (E - O)                                                                              |RUPERTO GODOY       
+11300B|ROCA, PRESIDENTE JULIO ARGENTINO (E - O)                                                            |PTE. J.A.ROCA       
+11325 |AREVALO, CRISTOBAL DE (DGNAL. SO - NE) (PJE.)                                                       |PJE.C.AREVALO       
+11400 |LEHMANN, GOBERNADOR RODOLFO B. (S - N)                                                              |GDOR. LEHMANN       
+11450A|LASTRA, JUAN JULIAN (S - N) (PJE.)                                                                  |PJ.J.J.LASTRA       
+11450B|LARGUIA, ARQUITECTO JONAS (S - N) (PJE.)                                                            |PJE.J.LARGUIA       
+11500A|HUERGO, DELFIN B. (E - O)                                                                           |DELFIN HUERGO       
+11500B|ESQUIU, FRAY MAMERTO (E - O)                                                                        |F. M. ESQUIU        
+11525 |MOSQUERA, RODRIGO DE (DGNAL. SO - NE) (PJE.)                                                        |PJE.MOSQUERA        
+11550A|SIN NOMBRE (E - O) (PJE.)                                                                           |PJE. 115.50-A       
+11550B|SIN NOMBRE (E - O) (PJE.)                                                                           |PJE. 115.50-B       
+11600 |ARZENO, JUAN (S - N)                                                                                |JUAN ARZENO         
+11650A|SILVA BRAGA, PRESBITERO PASCUAL (S - N) (PJE.)                                                      |SILVA BRAGA         
+11650B|JURAMENTO, RIO (S - N) (PJE.)                                                                       |PJE.JURAMENTO       
+11675A|MENCHACA, GDOR.MANUEL (DGNAL.SE- NO)ANTES CNO. .V ESPERANZA)ORD.6791/73                             |GDOR.MENCHACA       
+11700 |LLERENA, JUAN (E - O)                                                                               |JUAN LLERENA        
+11750 |SASTRE, MARCOS (E - O) (PJE.)                                                                       |PJE. M.SASTRE       
+11800 |ROSAS, EDMUNDO J. (S - N)                                                                           |EDMUNDO ROSAS       
+11850A|SIN NOMBRE (S - N) (PJE.)                                                                           |PJE. 118.50-A       
+11850B|TAPPA, PEDRO (S - N) (PJE.)                                                                         |PEDRO TAPPA         
+11875 |GARCIA VIEYRA, FRAY (DGNAL. SE - NO)                                                                |GARCIA VIEYRA       
+11900 |LAVAISSE, PRESBITERO DOCTOR JOSE BENJAMIN (E - O)                                                   |DR.B.LAVAISSE       
+11950 |IRIARTE, GENERAL TOMAS DE (E - O) (PJE.)                                                            |PJ.DE IRIARTE       
+12000 |GRANDOLI, MARTIN (S - N)                                                                            |GRANDOLI            
+12050 |SIN NOMBRE (S - N) (PJE.) (GARMENDIA)                                                               |PJ.S/N 120.50       
+12075 |SIN NOMBRE (DGNAL. SE - NO)                                                                         |DG.S/N 120.75       
+12100 |GOROSTIAGA, JOSE BENJAMIN (E - O)                                                                   |J. GOROSTIAGA       
+12150 |ITURRI, FRANCISCO JAVIER (E - O) (PJE.)                                                             |PJ.F.J.ITURRI       
+12200 |CAFFERATA, GOBERNADOR DOCTOR JUAN MANUEL (S - N)                                                    |J.M.CAFFERATA       
+12250 |MENDEZ, MALAQUIAS (S - N) (PJE.)                                                                    |PJE. M.MENDEZ       
+12300 |VEGA, PEDRO DE (E - O)                                                                              |PEDRO DE VEGA       
+12350 |SUAREZ, BUENAVENTURA (E - O) (PJE.)                                                                 |PJE. B.SUAREZ       
+12400 |VIÑAS, CANONIGO DOCTOR JACINTO R. (S - N) (E 61) SEGÚN RESOLUCIÓN INTERNA Nº 19-2009-               |CNGO.J.VIÑAS        
+12475 |CONTRERAS, GERONIMA DE (DGNAL. SE - NO)                                                             |CONTRERAS           
+12500 |ALDAO, GOBERNADOR RICARDO (E - O)                                                                   |RICARDO ALDAO       
+12550 |PARPAL, JOSE VICENTE (E - O) (PJE.)                                                                 |PJE. J.PARPAL       
+12600 |BECK-BERNARD, LINA (S - N) (E 62) SEGÚN RESOLUCIÓN INTERNA Nº 19/2009-                              |BECK-BERNARD        
+12630 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJ.S/N 126.30       
+12650 |GOLLAN, DOCTOR JOSUE (S - N) (PJE.) SEGÚN RESOLUCIÓN INTERNA Nº 19/2009-                            |PJE.J.GOLLAN        
+12675 |SIN NOMBRE (DGNAL. SO - NE)(CONOCIDA COMO LA FE)                                                    |DG.S/N 126.75       
+12700 |CASSANELLO, ANGEL (E - O)                                                                           |A. CASSANELLO       
+12800 |CARRANZA, CARLOS EDUARDO (S - N) (E 63) SEGÚN RESOLUCIÓN INTERNA Nº 19/2009-                        |C.E.CARRANZA        
+12900A|LOPEZ, JUAN PABLO (E - O)                                                                           |JUAN P. LOPEZ       
+12900B|ISRAEL, ESTADO DE (E - O)                                                                           |EST.DE ISRAEL       
+12950 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 129.50       
+13000 |FIGUEROA, HERMANO JOSE MARCOS (S - N) (E 64) (LA FE)SEGÚN REESOLUCIÓN INTERNA Nº 19/2009.           |HNO.FIGUEROA        
+13050A|SIN NOMBRE (S - N) (PJE.)                                                                           |PJE. 130.50-A       
+13050B|SIN NOMBRE (S - N) (PJE.) (E 65) SEGÚN RESOLUCIÓN INTERNA Nº 19/2009-                               |PJE. 130.50-B       
+13070 |BONAZZOLA, ALCIRA (S - N) (PJE.)                                                                    |PJE.BONAZZOLA       
+13100 |HERNANDARIAS (HERNANDO ARIAS DE SAAVEDRA) (E - O)                                                   |HERNANDARIAS        
+13150A|FERREYRA (E - O) (PJE.)                                                                             |PJE. FERREYRA       
+13150B|SIN NOMBRE (E - O) (PJE.)                                                                           |PJE. 131.50-B       
+13200 |REINARES, JOSE MARIA (S - N) (E 66)SEGÚN RESOLUCIÓN INTERNA Nº 19/2009.                             |JOSE REINARES       
+13230 |GENEYRO, ANGELA (S - N) (PJE.) SEGÚN RESOLUCIÓN INTERNA Nº 19/2009-                                 |PJE.A.GENEYRO       
+13250A|PALLARES, ANA MULLOR DE (S - N) (PJE.)                                                              |A.DE PALLARES       
+13250B|JAURETCHE, ARTURO (S N)  (6TO. PASAJE) ORD. 9595/1992-Bº EL ABASTO.                                 |PJE.JAURETCHE       
+13270A|PEREZ, PRESBITERO JUAN CRISOSTOMO (S - N) (PJE.)                                                    |PJ.PBRO.PEREZ       
+13270B|FESTER, DOCTOR GUSTAVO ANSELMO (S - N) (PJE.)                                                       |DR.G.A.FESTER       
+13275 |PATRICIAS ARGENTINAS (DGNAL. SE - NO)ORD. 9706/1993-                                                |PATRICIAS           
+13300 |CASTELLI, JUAN JOSE (E - O)                                                                         |J.J.CASTELLI        
+13350 |BOEDO, MARIANO (E - O) (PJE.)                                                                       |PJE. M. BOEDO       
+13400A|GRIERSON, DOCTORA CECILIA (S - N)                                                                   |DRA. GRIERSON       
+13400B|12 DE OCTUBRE, AVENIDA (S - N)                                                                      |12 DE OCTUBRE       
+13400C|VENEZUELA (S - N)Bº. EL ABASTO. ORD. 9612-92-                                                       |VENEZUELA           
+13430 |CALDERON DE SANABRIA, MENCIA (S - N) (PJE.) (5TO. PJE.)                                             |PJE. CALDERON       
+13450A|TRONCOSO, CANONIGO DOCTOR JUAN BLAS (S - N) (PJE.)                                                  |PJE. TRONCOSO       
+13450B|MARECHAL, LEOPOLDO  (S - N) (PJE.)ORD.9602-1992-                                                    |PJE.MARECHAL        
+13470 |SANABRIA, MARIA DE (S - N) (PJE.) (4TO. PASAJE)                                                     |PJE. SANABRIA       
+13500A|ZEBALLOS, DOCTOR ESTANISLAO SEVERO (E - O)                                                          |DR.E.ZEBALLOS       
+13500B|GALICIA, AVENIDA (E - O)                                                                            |AVDA. GALICIA       
+13550 |PEÑA, DAVID (E - O) (PJE.)                                                                          |PJE. D. PEÑA        
+13550A|SIN NOMBRE (E - O) (PJE.)                                                                           |PJE. 135.50-A       
+13600A|FURLONG CARDIFF, R.P. GUILLERMO (S - N)                                                             |R.P.G.FURLONG       
+13600B|SANTA FE, AVENIDA (S - N)                                                                           |AVDA.SANTA FE       
+13600C|COLOMBIA (S - N) ORD 9587-Bº EL ABASTO.                                                             |COLOMBIA            
+13630 |RUIZ, MANUEL (S - N) (PJE.) (2DO. PASAJE)                                                           |PJE. M. RUIZ        
+13650 |DEL FRESNO DE LOPEZ, JOSEFA RODRIGUEZ (S - N) (PJE.)                                                |PJ.DEL FRESNO       
+13670 |CEVALLOS, PEDRO DE (S - N) (PJE.) (1ER. PASAJE)                                                     |PJE. CEVALLOS       
+13700 |BONEO, OBISPO DOCTOR JUAN AGUSTIN (E - O)                                                           |AGUSTIN BONEO       
+13750 |CAYASTA (E - O) (PJE.)                                                                              |PJE. CAYASTA        
+13800A|LARRECHEA, PEDRO TOMAS DE (S - N)                                                                   |DE LARRECHEA        
+13800B|TOBAS (S - N)ORD. 9609/1992- Bº EL ABASTO.                                                          |TOBAS               
+13830 |VERA, DOLORES ALFARO DE (S - N) (PJE.)                                                              |PJE.A.DE VERA       
+13850 |SANCHEZ, FLORENCIO (S - N) (PJE.)                                                                   |PJE.F.SANCHEZ       
+13870 |GARAY, ISABEL DE BECERRA DE (S - N) (PJE.)                                                          |PJE. DE GARAY       
+13900 |ESPORA, CORONEL DE MARINA TOMAS (E - O)                                                             |CNEL.T.ESPORA       
+13925 |CIRCUNVALACION OESTE (TRAMO NORTE) (DGNAL. SO - NE)                                                 |AV.CIRCUNVAL.       
+13950 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 139.50       
+14000A|SCHMIDL, ULRICO (S - N)                                                                             |U. SCHMIDL          
+14000B|MOCOVIES (S - N)ORD. 9605/1992-(Bº. EL ABASTO)                                                      |MOCOVIES            
+14030 |LEON, BLANCA GODOY Y PONCE DE (S - N) (PJE.)                                                        |PJE.P.DE LEON       
+14050 |ORO, FRAY DOMINGO DE (S - N) (PJE.)                                                                 |PJE. D.DE ORO       
+14070 |PAREDES, DOCTOR CLEMENTINO S. (S - N) (PJE.)                                                        |PJE. PAREDES        
+14075 |ABIPONES (DGNAL. SE - NO)ORD.9608/1992-Bº EL ABASTO.                                                |DIAG.ABIPONES       
+14100A|PRINCIPE, OBISPO MONSEÑOR DOCTOR ENRIQUE (E - O)                                                    |OB.E.PRINCIPE       
+14100B|VIEYTES, JUAN HIPOLITO (E - O)                                                                      |J. H. VIEYTES       
+14130 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 141.30       
+14150 |KOCH, JUAN (E - O) (PJE.)                                                                           |PJE.JUAN KOCH       
+14200 |MANSILLA, LUCIO VICTOR (S - N)                                                                      |L. MANSILLA         
+14230 |GUZMAN, RUY DIAZ DE (S - N) (PJE.)                                                                  |PJE.DE GUZMAN       
+14250 |AROCA, FRAY FRANCISCO DE (S - N) (PJE.)                                                             |PJE. DE AROCA       
+14270 |DE LAS CASAS, FRAY BARTOLOME (S - N) (PJE.)                                                         |DE LAS CASAS        
+14300 |ALBERTI, PRESBITERO MANUEL MAXIMINO (E - O)                                                         |M. ALBERTI          
+14400 |LOS NEGRUCHOS (S - N) ORD. 10650/2001-Bº. S. AGUSTIN  II.                                           |LOS NEGRUCHOS       
+14500A|FASOLINO, MONSEÑOR CARDENAL DOCTOR NICOLAS (E - O)                                                  |DR.N.FASOLINO       
+14500B|RISSO, IGNACIO C. (E - O)                                                                           |IGNACIO RISSO       
+14500C|GUANELLA, LUIS (E - O)                                                                              |LUIS GUANELLA       
+14550A|DE ANDREA, MONSEÑOR MIGUEL (E - O) (PJE.)                                                           |PJE.DE ANDREA       
+14550B|SIN NOMBRE (E - O) (PJE.)                                                                           |PJE. 145.50-B       
+14600 |LOS TEROS (S - N)  ORD.10650-2001- Bº S. AGUSTIN  II                                                |LOS TEROS           
+14700 |GENESIO, PADRE MIGUEL (E - O)(ANTES LOS ANDES)                                                      |PADRE GENESIO       
+14725 |SIN NOMBRE (DGNAL. SO - NE) (PJE.)                                                                  |PJ.S/N 147.25       
+14750 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 147.50       
+14800 |LAS TOCORITAS (S - N) ORD. 10650-2001-                                                              |LAS TOCORITAS       
+14900 |JAVIER DE LA ROSA, FRANCISCO (E - O)                                                                |J. DE LA ROSA       
+14925 |MILLAN MEDINA, MARIO (DGNAL. SO - NE)                                                               |MILLAN MEDINA       
+14950 |JUAN PABLO I (E - O) (PJE.)ORD.9884/94-DTC.0046                                                     |JUAN PABLO I        
+15100 |12 DE INFANTERIA, REGIMIENTO (E - O)                                                                |12 DE INFANT.       
+15125 |CARLOS GARDEL( COD.151.25) (DGNAL. SO - NE)DCTO. 00230/94-                                          |DG .C. GARDEL       
+15300 |AYACUCHO (BATALLA DE) (E - O)                                                                       |AYACUCHO            
+15350 |VILLEGAS, ROMILDA LETICIA ORSI DE (E - O) (PJE.)                                                    |PJE.VILLEGAS        
+15500 |PAVON (BATALLA DE) (E - O)                                                                          |PAVON               
+15550 |PAEZ, JORGE (CONCEJAL) (E - O) (PJE.)                                                               |PJ.JORGE PAEZ       
+15700 |LARREA, JUAN (E - O)                                                                                |JUAN LARREA         
+15750 |MANTOVANI, PROFESOR JUAN (E - O) (PJE.)                                                             |PJE.MANTOVANI       
+15750A|CABEZAS, JOSE LUIS (E - O) (PJE.)                                                                   |PJE.J.CABEZAS       
+15900 |AZCUENAGA, MIGUEL DE (E - O)                                                                        |DE AZCUENAGA        
+15950 |ROCA, ALFREDO F. (E - O) (PJE.)                                                                     |PJE.A.F.ROCA        
+16100 |MATHEU, DOMINGO BARTOLOME (E - O)                                                                   |D. MATHEU           
+16150 |GIANELLO, LEONCIO(H) (E - O) (PJE.)                                                                 |L.GIANELLO(H)       
+16300 |FRENCH, DOMINGO (E - O)                                                                             |D. FRENCH           
+16330 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 163.30       
+16500 |BERUTI, ANTONIO LUIS (E - O)                                                                        |A. BERUTI           
+16530A|SIN NOMBRE (E - O) (PJE.) (1ER. PASAJE)                                                             |PJE. 165.30-A       
+16530B|ECHAGUE Y ANDIA, DEAN FRANCISCO JAVIER DE (E - O) (PJE.)                                            |PJE.E.Y ANDIA       
+16550A|AGUSTIN, SAN (E - O) (PJE.)                                                                         |PJE.S.AGUSTIN       
+16550B|GUEVARA, ISABEL DE (E - O)                                                                          |PJE.GUEVARA         
+16570A|SIN NOMBRE (E - O) (PJE.) (2DO. PASAJE)                                                             |PJE. 165.70-A       
+16570B|PAUCKE, PADRE FLORIAN (E - O) (PJE.)                                                                |PJE.F.PAUCKE        
+16700 |GORRITI, JOSE IGNACIO (E - O)                                                                       |J. I. GORRITI       
+16730 |SIN NOMBRE (E - O) (PJE.) (3ER. PASAJE)                                                             |PJ.S/N 167.30       
+16770 |SIN NOMBRE (E - O) (PJE.) (4TO. PASAJE)                                                             |PJ.S/N 167.70       
+16900A|ALMONACID, ALMANDOS (E - O)                                                                         |A. ALMONACID        
+16900D|PEDRONI, JOSE (E - O)                                                                               |JOSE PEDRONI        
+16925 |VARELA, FLORENCIO (DGNAL. SO - NE)                                                                  |DGNAL.VARELA        
+16930 |SIN NOMBRE (E - O) (PJE.) (5TO. PASAJE) SEGUN RESOLUCION INTERNA Nº 19/2009                         |PJ.S/N 169.30       
+16970 |SIN NOMBRE (E - O) (PJE.) SEGUN RESOLUCION INTERNA Nº 19/2009                                       |PJ.S/N 169.70       
+17100 |CIBILS, JOSE (E - O) (47 S/N)  -CARGADO S/RES. 19/2009-                                             |JOSE CIBILS         
+17125 |MENDOZA, PEDRO DE (DGNAL. SO - NE)                                                                  |P. DE MENDOZA       
+17175 |SIN NOMBRE (DGNAL. SE - NO)                                                                         |DG.S/N 171.75       
+17300A|AGUIRRE, (E - O) (CALLEJON)                                                                         |CJON. AGUIRRE       
+17300B|MANTOVANI, JUAN (E - O)                                                                             |MANTOVANI           
+17350 |CAMELLI, ADRIANA (E - O) (PJE.) SEGÚN PLANO 157668-                                                 |A.CAMELLI           
+17370 |SIN NOMBRE (E - O) (PJE.)SEGÚN PLANO 157668-                                                        |PJ.S/N 173.70       
+17500 |PIEDRABUENA, GUADALUPE (E - O) (49 S/N)                                                             |G.PIEDRABUENA       
+17530 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 175.30       
+17550 |RAMOS, TTE.1§ ALBERTO ROLANDO (POST-MORTEM)(E - O)(PJE.)                                            |ALBERTO RAMOS       
+17700 |LEUMANN, CARLOS ALBERTO (E - O) (50 S/N)                                                            |C.A.LEUMANN         
+17750A|FUNES, DOCTOR RAFAEL MARIA (E - O) (CALLEJON) (50 S/N)                                              |CJON. R.FUNES       
+17750B|MENDEZ, CORONEL MAYOR JOSE RAMON (E - O) (50 S/N)                                                   |CNEL.J.MENDEZ       
+17770 |GALLEGO, PEDRO (E - O) (PJE.)                                                                       |PEDRO GALLEGO       
+17900A|VALLE, GENERAL JUAN JOSE (E - O)                                                                    |JUAN J.VALLE        
+17900B|WAST, HUGO (GUSTAVO MARTINEZ ZUVIRIA) (E - O)                                                       |HUGO WAST           
+18100A|STORNI, ALFONSINA (E - O) (52 S/N)                                                                  |A. STORNI           
+18100B|FERNANDEZ, FLORENCIO (E - O) (52 S/N)                                                               |F. FERNANDEZ        
+18150A|SIN NOMBRE (E - O) (PJE.)                                                                           |PJE. 181.50-A       
+18150B|11 DE MARZO DE 1973 (E - O) (PJE.)                                                                  |11 DE MARZO         
+18175 |OBLIGADO, VUELTA DE (DGNAL. SE - NO)                                                                |VTA.OBLIGADO        
+18300 |LA ESMERALDA (E - O)                                                                                |LA ESMERALDA        
+18300A|LA PAMPA (E - O) (53 S/N)                                                                           |LA PAMPA            
+18300B|COGORNO, TENIENTE GENERAL OSCAR LORENZO (E - O) (54 S/N)                                            |TTE.COGORNO         
+18500A|SANTA CRUZ (E - O) (54 S/N)                                                                         |SANTA CRUZ          
+18500B|LAMOTHE, ALEJANDRO (E - O)                                                                          |LAMOTHE             
+18550 |RIO NEGRO (E - O) SEGÚN PLANO 156916- PLANO 144660                                                  |PJE.RIO NEGRO       
+18700 |NEUQUEN (E - O) (55 S/N) SEGÚN PLANO 156916-                                                        |NEUQUEN             
+18750 |NAMUNCURA, CEFERINO (E - O)                                                                         |C. NAMUNCURA        
+18770 |FORMOSA (E - O) (PJE.)                                                                              |PJE. FORMOSA        
+18900 |MISIONES (E - O) (57 S/N)                                                                           |MISIONES            
+18950 |CHUBUT (E - O)                                                                                      |PJE.CHUBUT          
+19100A|EL SABLE (E - O) (CALLEJON)(ACTUAL CALLE CHACO)                                                     |CJON.EL SABLE       
+19100B|CHACO (E - O) (S 96) (60 S/N)(EX-CALLEJON EL SABLE)                                                 |CHACO               
+19150 |SEDLACEK, JOSE (E - O) (PJE.) ORD. 9594/1992-                                                       |PJE.SEDLACEK        
+19300 |COMBATIENTES DE MALVINAS (E - O) (S 97)                                                             |COMB.MALVINAS       
+19350 |MIGUEZ, PADRE FAUSTINO (E - O)(PJE.)(6TO. PASAJE)ORD.10411-                                         |PJE. F.MIGUEZ       
+19500A|ROCA (E - O) (CALLEJON)                                                                             |CALLEJON ROCA       
+19500B|SILVA, PRESBITERO GENARO (E - O)                                                                    |GENARO SILVA        
+19500C|LOZA, CORONEL FLORENTINO (E - O)                                                                    |CNEL. F. LOZA       
+19700 |VALDIVIESO, SANTO HECTOR (E - O)S/PLANO DE MENSURA Nº 159876-                                       |S. VALDIVIESO       
+19750 |SCALABRINI ORTIZ, RAUL (E - O) (PJE)                                                                |SCALABRINI O.       
+19900 |ANDINO, MANUEL IGNACIO DIEZ DE (E - O) (SPEDALIERI)                                                 |M.D.DE ANDINO       
+19950 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 199.50       
+20100 |DOLDAN, PRESBITERO JOSE LUIS (E - O)S/PLANO 159876-                                                 |JOSE DOLDAN         
+20150 |DAMIANOVICH, HORACIO JAIME(E - O)(PJE.)                                                             |H.DAMIANOVICH       
+20300A|LOS PINOS (E - O)                                                                                   |LOS PINOS           
+20300B|ESPINOSA, PEDRO DE (E - O)S/PLANO 157958-                                                           |P.DE ESPINOSA       
+20350 |SIN NOMBRE (E - O) (PJE.)PLANO Nº 160524-                                                           |PJ.S/N 203.50       
+20500A|LOS NOGALES (E - O)                                                                                 |LOS NOGALES         
+20500B|AGUAYO, FRANCISCO (E - O)S/RESOLUCIÓN INT. Nº 19/2009-(NOTA 2793-C-05/3230-                         |AGUAYO              
+20500C|SARSOTTI, CARLOS (E - O)SEGUN PLANO Nº 160524-                                                      |SARSOTTI            
+20700A|LOS CEDROS (E - O)                                                                                  |LOS CEDROS          
+20700B|LA SALLE, J. BAUTISTA (E - O)CALLE PROYECTADA S/ RESOLUCIÓN INT. Nº 19/2009-                        |DE LA SALLE         
+20700C|RODRIGUEZ, MONSEÑOR ANTONIO (E - O)                                                                 |RODRIGUEZ           
+20900A|LOS PARAISOS (E - O) SEGÚN PLANO Nº 147585/08                                                       |LOS PARAISOS        
+20900B|"MALAVER, PADRE G. (E - O)""CALLE PROYECTADA""SEGÚN RES. INT. Nº 19/2009-                              "|PADRE MALAVER       
+21100 |QUIROGA, GENERAL JUAN FACUNDO (E - O)                                                               |GRAL.QUIROGA        
+05275D|SIN NOMBRE (DGNAL. SE - NO) (PJE.)                                                                  |PJE. 52.75-D        
+05050H|VERA, CABO 2§ OMAR ELVIO (POST-MORTEM) (S - N) (PJE.)                                               |OMAR E. VERA        
+08870 |GOLLAN, JOSE ELIAS (S - N)ORD.9868-/94-                                                             |J. E. GOLLAN        
+62400 |                                                                                                    |C.AGUIRRE/358       
+20950 |SIN NOMBRE (E - O) (PJE.) SEGÚN PLANO Nº 147585/08                                                  |PJ.S/N 209.50       
+20750 |"SIN NOMBRE (E - O) (PJE.)""PASAJE PROYECTADO""SEGÚN RESOLUCIÓN INT. Nº 19/2009-                       "|PJ.S/N 207.50       
+63000 |TOPOGRAFIA VA A INCORPORAR CODIGOS DE CALLE                                                         |ALTO VERDE          
+06275 |SIN NOMBRE (DGNAL. SO - NE) (CENTENARIO)                                                            |PJE.S/N 62.75       
+00000A|S/ ORD.12115/14  ( ANTES MAR ARGENTINO - AVENIDA CIRCUNVALACION SUR)                                |AV. DE LA CONSTITUC.
+13875 |SIN NOMBRE (DGNAL. SE - NO)                                                                         |PJ.S/N 138.75       
+05440C|MECCA, ADOLFO EDUARDO (POST MORTEM) (S - N) (PJE.)                                                  |ADOLFO MECCA        
+05250C|REARTES, CABO 2§ RICARDO ALFREDO (POST-MORTEM)(S - N)(PJE)                                          |R. A. REARTES       
+18930 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 189.30       
+06825A|SIN NOMBRE (DGNAL. SE - NO)                                                                         |PJE. 68.25-A        
+01125 |DESDE GOLONDRINA HASTA CARDENILLA (DGNAL. SO - NE)                                                  |DIAG. BENTEVEO      
+00925 |SIN NOMBRE (DGNAL. SO - NE)                                                                         |DG. S/N 9.25        
+08875A|DESDE MZ 342S HASTA MZ645  (DGNAL. SE - NO)                                                         |DGNAL HORNERO       
+08675A|DESDE CARDENILLA HASTA GORRION (DGNAL. SE - NO)                                                     |DGNAL GOLONDRINA    
+08650C|SIN NOMBRE (S - N) (PJE.)                                                                           |PJE. 86.50-C        
+15000 |LA CALANDRIA (S - N) ORD.10650/2001-Bº S. AGUSTIN II-                                               |LA CALANDRIA        
+13060 |SIN NOMBRE (S - N) (PJE.)                                                                           |PJ.S/N 130.60       
+04600A|PREFECTURA NAVAL ARGENTINA (COLECTORA)                                                              |PREFECT.NAVAL       
+01450 |MACIEL, DOCTOR JUAN BALTASAR PRESBITERO (S - N) (PJE.)ORD. 7382/77                                  |JUAN B.MACIEL       
+00700 |SIN NOMBRE (DGNAL. SO - NE) (PJE.)                                                                  |PJE.S/N 7.00        
+00750 |SIN NOMBRE (DGNAL. SO - NE) (PJE.)                                                                  |PJE.S/N 7.50        
+00900 |SIN NOMBRE (DGNAL. SO - NE) (PJE.)                                                                  |PJE.S/N 9.00        
+01300 |DESDE GOLONDRINA HASTA CARDENILLA (DGNAL. SO - NE) (PJE.)                                           |PJE.GORRION         
+01325 |SIN NOMBRE (DGNAL. SO - NE) (PJE.)                                                                  |PJE.S/N 13.25       
+09075A|DESDE BENTEVEO A MZ 646 O (DGNAL. SE - NO) (PJE.) SEGÚN PLANO 157668-                               |PJE. TIJERETA       
+04550A|SILVA, LUIS Y NIDIA (E - O) (PJE.)                                                                  |PJE. SILVA          
+08890A|DESDE BENTEVEO A MZ 646 E (DGNAL. SE - NO)                                                          |DGNAL AZULINOS      
+09475 |SIN NOMBRE (DGNAL. SE - NO) (PJE.)                                                                  |PJE.S/N 94.75       
+12095 |SIN NOMBRE (DGNAL. SE - NO)                                                                         |DG.S/N 120.95       
+18350 |SIN NOMBRE (E - O) (PJE.)                                                                           |PJ.S/N 183.50       
+07825A|SIN NOMBRE (DGNAL. NE - SO)                                                                         |DG.S/N 78.25A       
+50000 |                                                                                                    |ESTAFETA            
+50100 |                                                                                                    |UNIDAD POSTAL       
+32625 |ENTRE PROL. CALLE COD. 363-377 Y MOCOVÍ HASTA ZORZALES                                              |PUBLICA             
+32800 |E/ CALLE COD. 363-371 Y E/COD403-405 Y E/COD 409-415                                                |LOS UBAJAY          
+33000 |E/ CALLE COD. 363-373 Y E/ COD 379-383 Y COD 409-MANZ. 14554                                        |LOS ALISOS          
+33200 |E/PROL CALLE COD. 357A-359A Y E/ COD 383-387 Y E/399-405                                            |LOS TIMBOES         
+33400 |E/ CALLE COD. 357 A-379 Y E/ COD. 407-415-LAS MADRESELVAS                                           |L MADRESELVAS       
+38600A|E/RUTA PROV. Nº1-PROL.  COD. 363                                                                    |PUBLICA             
+33600 |ENTRE CALLE COD 379-383 Y ENTRE CALLE COD 391-407                                                   |LAS HIGUERAS        
+33450 |E/ PROLGS DE CJON MOCOVÍ COD.-373 Y PROL. MEPENES 371,00-S/ORD.11709/2010-                          |ZUINANDI            
+38800A|E/ RUTA PROV. 1-PROLONG. CALLE COD. 363                                                             |PUBLICA             
+33429 |ENTRE CALLE COD. 379-MANZANA 11754 B- DE BAJA POR CODIGO ERRONEO                                    |PJE. PUBLICO        
+33650 |ENTRE CALLE COD. 379- MANZANA 11754 A                                                               |PJE. PUBLICO        
+34050 |ENTRE CALLE COD. 379-MANZANA 11754A                                                                 |PJE. PUBLICO        
+33800 |ENTRE CALLE COD. 409-415                                                                            |LOS OMBUES          
+34000 |E/COD 357A-361A Y E/ COD 371-379 Y E/ COD.391-PROLONG. CALLE 405                                    |LAS GUINDAS         
+34200 |E/359A-M:11754 Y E/371-373 Y E/379-M:11754 Y 399-PROLONG.405-LOS MANDARINOS                         |L MANDARINOS        
+34400 |ENTRE CALLE COD. 409-415                                                                            |LOS NARANJOS        
+34600A|ENTRE CALLE COD. 355-373                                                                            |QUERANDIES          
+34725B|RUTA PROV. Nº 168-CALLE COD.362-C.A. VELOCIDAD Y RESISTENCIA                                        |CA VEL/RESIST       
+38600G|ENTRE CALLE COD. 345-351.25-NEMESIA CACERES                                                         |N. CACERES          
+38800G|ENTRE PROLONG. CALLE 343-353                                                                        |ROBERTO MOYANO      
+39000G|ENTRE CALLE COD. 347.25-349.25                                                                      |FAMILIA LUCCA       
+39200G|ENTRE CALLE COD.347- PROLONG. CALLE COD.351                                                         |ANTONINO FREYRE     
+17300C|CRUCERO A.R.A. GENERAL BELGRANO (E -O)                                                              |CA G BELGRANO       
+39050 |RUTA NACIONAL Nº168-CALLE Nº 355.50                                                                 |PUBLICA             
+30800 | ENTRE CALLEJÓN LABORIE(415,00) Y LAS CASUARINAS (407,00)                                           |CHURQUIS            
+05850B|ZAMARO LUIS TEODORO, INGENIERO (S - N) (PJE.)(TAMO DE ALMAFUERTE)ORD.11325                          |ING.L.ZAMARO        
+35550 |E/CALLE COD.390A-CALLE COD.392A                                                                     |PUBLICA             
+03450A|HERMANOS DE LA SALLE (S-N) EX ALBERDI.                                                              |H LA SALLE          
+32225 |ENTRE CALLE 315.75 HASTA RUTA NAC. 168                                                              |PUBLICA             
+31575 |ENTRE RIO COLASTINE Y CALLE COD. 322.25                                                             |PUBLICA             
+31775 |ENTRE  RIO COLASTINE Y CALLE COD. 322.25                                                            |PUBLICA             
+32025 |ENTRE CALLE COD. 315.75-323.75                                                                      |PUBLICA             
+32050 |ENTRE CALLE COD. 315.75 Y TERRENO PRIVADO                                                           |PJE. PUBLICO        
+31975 |ENTRE RIO COLASTINE Y CALLE COD. 322.25                                                             |PUBLICA             
+32175 |ENTRE RIO COLASTINE Y CALLE COD. 322.25                                                             |PUBLICA             
+32195 |ENTRE CALLE COD. 320.25 Y CON QUIEBRE A RUTA NAC. 168(ERROR-ES PASILLO)                             |PJE. PUBLICO        
+32185 |ENTRE CALLE COD. 322.25 A TERRENOS PRIVADOS                                                         |PJE. PUBLICO        
+09400C|SIN NOMBRE (DGNAL. SE - NO) PUBLICA SEGÚN PLANO 159775/861 -   144660                               |PCA S/N 94C         
+08000B|DUSSO LUIS VICTORIANO, PRESBITERO  (S - N) ORD. 11166                                               |PRESB L DUSSO       
+09600B|SIN NOMBRE (DGNAL. SE - NO) PUBLICA S/PLANO 159775AL 861- 144660-                                   |PCA.S/N 96 B        
+09675B|SIN NOMBRE (S - N) (PJE)                                                                            |PJE.S/N 9675B       
+17300D|CALLE PUBLICA (E-O)                                                                                 |PUBLICA             
+09875B|SIN NOMBRE (DGNAL. SE - NO) PUBLICA                                                                 |PCA S/N 9875B       
+04830 |PJE PUBLICO   48,30   (S-N)                                                                         |PJE  PUBLICO        
+25100P|LUIS GIMENEZ DE ASUA (S-N) ORD.11539  -2008-                                                        |LUIS  DE ASUA       
+04870A|PASAJE PUBLICO 48,70   A   (S-N)                                                                    |PJE, PUBLICO        
+04880 |PASAJE PUBLICO  48,80  (S-N)                                                                        |PJE, PUBLICO        
+25300P|BUSANICHE JULIO ANTONIO (PEATONAL DE  S-N) ORD.11539 -2008-                                         |BUSANICHE J A       
+25320P|ROSARIO VERA PEÑALOZA PEATONAL ( PEATONAL S/N) ORD. 11539-2008                                      |PEÑALOZA R.V        
+25500P|GUILLERMO ESTEVEZ BOERO (S/N- ORD 11.117/04)( Bº EL POZO)                                           |BOERO G E           
+25000P|DR. ESTEBAN L MARADONA (E-O- ORD.9936/95 Y DEC.299/95)                                              |DR. MARADONA        
+25020P|VRILLAUD PABLO (PEATONAL DE E-O) ORD.11539-2008                                                     |VRILLAUD  P.        
+25050P|BABINI JOSE ( E-O ) ORD.11539-2008                                                                  |BABINI  JOSE        
+25070P|CASARES ADOLFO BIOY (PEATONAL DE  E-O) ORD.11539-2008                                               |CASARES. A B        
+25200P|LELOIR LUIS FEDERICO (E-O) ORD.11539-2008                                                           |LELOIR LUIS F       
+25220P|TISSEMBAUM MARIANO( PEATONAL E-O) ORD.11539-2008                                                    |TISSEMBAUM  M       
+25250P|MARTINEZ PEDRO -RECTOR ( E-O) ORD. 11539 -2008-                                                     |MARTINEZ  P         
+25270P|MIELI ALDO (PEATONAL E-O) ORD. 11539-2008-                                                          |MIELI  ALDO         
+25400P|GRECA ALEJANDRO (E- O) ORD. 11539-2008                                                              |GRECA .A.           
+25420P|CECILIA ORTIZ DE MONTOYA (PEATONAL E-O ) ORD. 11539-2008                                            |MONTOYA . C         
+25450P|SAMATHAN MARTA ( E- O) ORD.11539-2008                                                               |SAMATHAN  M         
+25600P|PLA  CORTES -RECTOR (E-O) ORD.11539 -2008                                                           |PLA CORTES          
+02475 | CORONEL DORREGO (DIAGONAL SE-NO)                                                                   |CNEL. DORREGO       
+12450 |PJE. PÚBLICO S/N 124.50 SEGÚN RESOLUCIÓN INTERNA Nº 19/2009-                                        |PJE. PUBLICO        
+20550 |PJE. PCO S/N 205,50- SEGUN PLANO Nº 160524-                                                         |PJE.PCO.S/N         
+20570 |PASAJE SIN NOMBRE 205,70 ( E-O) SEGÚN RESOLUCION INTERNA Nº 19/2009-                                |PJE.S/N             
+32850 |L.FRENOS A L.GUAYACANES/L.NANDUBAY A L. CASUARINAS Y L. ZORZALES A L.CARDENALES                     |PJE. 328,50         
+14025 |PJE. S/N(140.25) S-N-                                                                               |PJE. S/N.           
+20770 |PASAJE SIN NOMBRE 207,70 (E -O) SEGUN RESOLUCION INTERNA Nº 19/2009-                                |PJE.207,70          
+05030 |PASAJE S/N 50,30(N-S) S/ RESOLUCIÓN Nº 19/2009-                                                     |PJE S/N 5030        
+20530 |PASAJE SIN NOMBRE 205,30 ( E-O)SEGUN RESOLUCION INTERNA Nº 19/2009-                                 |PJE.20530           
+08030 |PASAJE SIN NOMBRE 80,30-SEGU RESOLUCION Nº 19/2009-PLAN 6134-                                       |PJE S/N             
+08070 |PJE. SIN NOMBRE 80,70-SEGÚN RESOLUCION INTERNA Nº 19/2009-PLAN 6134-                                |PASAJE S/N          
+16350 | TRAMOS SEGUN PLANOS 117887 Y 143600 Y 175743.- NOMBRE ORD.10436/99                                 |PJE JUDICIAL        
+06170 |PJE.PCO PARAVAN RODOLFO(ANTES PJE.PRIVADO CON COD.551,00)ORD.10024/96-                              |PJE.R.PARAVAN       
+51100 |PUENTE COLGANTE                                                                                     |P. COLGANTE         
+39700 |RUTA PROV Nº 1 HACIA EL ESTE APROXIMADAMENTE 150 METROS                                             |LOS MOLLES          
+32870 |DESDE LOS GUAYACANES A LOS ÑANDUBAY                                                                 |PASAJE PCO          
+32650 |DESDE MEPENES HASTA MOCOVÍ Y LOS CARDENALES A LAS MACLURAS                                          |PASAJE PCO.         
+16950 |PJE. PCO. S/N (E-O)SEGÚN ANTP. APROBADO-  CARGADO SEGÚN RES. INT 19/2009-                           |PJE PÚBLICO         
+02650C| PASAJE PCO. S/N. (26,50 C.)  (N-S) SEGÚN ORD. 9969 Y DCT.00360-                                    |PASAJE S/N          
+17150 |PJE. PCO. S/N. (E-O) SEG.ANTP. APROBADO-MODIFICACO S/ RES. INT. 19/2009-                            |PJE. PUBLICO        
+50500 |                                                                                                    |P.OROÑO X BV.       
+50400 |                                                                                                    |CIRC.CILSA          
+50600 |                                                                                                    |P.OROÑO XALEM       
+50700 |                                                                                                    |P.OROÑO X7JEF       
+50800 |                                                                                                    |V.PARAGUAYO         
+50900 |                                                                                                    |L.MARADONA          
+51000 |                                                                                                    |P.P.GÜNTER          
+19350A|PJE.RICARDO A. SUPISICHE(E-O)ORD.9956                                                               |R.A.SUPISICHE       
+35550A|PASAJE S/N ENTRE SAN FRANCISCO DE ASIS 362 Y CANILLITAS 376.25                                      |PASAJE S/N 355.50A  
+16590 | PJE. S/N. S/PL Nº158308- D.P.V.U. PLANES 6042 Y 6118.RES.INT. Nº19/2009                            |PJE S/N 165,90      
+02250 |CICLOVIA ENTRE BVARD GALVEZ(3500) Y CALLE HERNANDARIAS(6500) ORD.11901/12                           |CICLOVIA HAMMERLY   
+20730 |PASAJE S/N 207,30-(E -O) SEGÚN RESOLUCIÓN INTERNA Nº 19/2009.                                       |PJE.207,30          
+19900A|CALLE PUBLICA S/N CODIGO 199A) E-O- PLANO 159876-                                                   |PUBLICA S/N         
+19750A|PASAJE PUBLICO S/N (197.50A) (E-O) SEGUN PLANO 159876                                               |PASAJE PUBLICO S/N  
+16900B|PJE  S/N (E-O) PL Nº158308 D.P.V.U. PLANES Nº6042 Y 6118                                            |PJE S/ N 169.00B    
+36525 |DESDE PJE 372,25 HASTA PROL MEPENES                                                                 |COLECTORA R1        
+37125A|DESDE CALLE 369,75 HASTA MOCOVI                                                                     |PJE S/N 371,25      
+00275 |DEMETRIO GOMEZ (CALLE 11 S/ORDENANZA 9960)                                                          |DEMETRIO GOMEZ      
+00525 |BORDE O., S. Y SE. DE VARADERO SARSOTI                                                              |PJE DAG. CARDENILLA 
+35600A|ENTRE LOS URUNDAY (409) Y CALLEJON LABORIE(415)                                                     |CALLE PUBLICA       
+37650 |DESDE PJE 369,50 HASTA MOCOVI                                                                       |PJE S/N 376,50      
+36800C|ENTRE CORONDAS Y PASAJE 355.50                                                                      |PASAJE PÚBLICO      
+38600C|EN MZN 9384, HASTA MATACOS.S/PL Nº167920                                                            |CALLE PUBLICA       
+08875B|                                                                                                    |DGNAL S/N 88,75 B   
+36850A|ENTRE CALLE CORONDAS Y PASAJE PÚBLICO 355,50                                                        |PASAJE PÚBLICO      
+05725 |PJE DGNAL S/N. DE-963-959478-9 (NI) - VILLA OCULTA                                                  |DGNAL S/N 57,25     
+09430 |S/ PLANO 156915-DPVU                                                                                |PJE S/N 94,30       
+05925 |PJE DGNAL S/N 59,25 - DE-963-959478-9 (NI) - VILLA OCULTA                                           |DGNAL S/N 59,25     
+09095 |PLANES 6069 Y 6128-DPVU-PL. 156915                                                                  |DGNAL S/N 90,95     
+09085 |PLANES 6069 Y 6128-DPVU-PL. 156915                                                                  |DGNAL S/N 90,85     
+08885 |PLANES 6069 Y 6128-DPVU-PL. 156915                                                                  |DGNAL S/N 88,85     
+08895 |PLANES 6069 Y 6128-DPVU-PL 156915                                                                   |DGNAL S/N 88,95     
+09075B|PLANES 6069 Y 6128-DPVU-PL. 156915                                                                  |DGNAL S/N 90,75     
+08685 |DPVU PL Nº155563                                                                                    |DGNAL S/N 86,85     
+35300A|CIUDADES HERMANAS HASTA 346 A                                                                       |CALLE PUBLICA       
+09870A|S/ ORD. 12029/13 TRAMO E/ FRENCH Y MATHEU                                                           |PJE HUGO FREYRE     
+16350A|PL 117887 Y 143600.- ORD. 12018/13                                                                  |PJE SGTO SIMON      
+10030A|S/ ORD. 12029/13                                                                                    |PJE B. CAVIGIURI    
+56225 |VARADERO SARSOTI. SO A NE. E/ GOLONDRINA Y MAR ARGENTINO ORD.11872/12                               |TACUARITAS          
+00825 |AV. ALICIA MOREAU DE JUSTO (AV. COSTANERA ESTE) - S/ORDENANZA 11315                                 |MOREAU DE JUSTO     
+07230 |PL DE URB. Y LOTEO 173620                                                                           |PJE S/N 72,30       
+08525 |AV. PRESIDENTE NESTOR KIRCHNER (CONT. AV. COSTANERA ESTE) - ORD. 11773                              |NESTOR KIRCHNER     
+10250A|S/ ORD. 12029/13                                                                                    |PJE N.A.CAMPAGNOLO  
+56175 |VARAD. SARSOTI. ORD.11872/12. E/ JILGUERO Y TACUARITAS                                              |GALLARETA           
+56025 |VARAD. SARSOTI. ORD. 11872/12                                                                       |CARACOLERO          
+07250C|TIENE COD. DE PJE, PERO ES CALLE. PL DE URB. Nº173620                                               |CALLE PLCA 72,50    
+07270 |S/ PL DE URBANIZACIÓN Y LOTEO Nº173620                                                              |PJE S/N 72,70       
+16350B|TRAMO S/PLS 117887,143600 Y 175743                                                                  |PJE S/N 163.50      

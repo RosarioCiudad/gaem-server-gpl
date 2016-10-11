@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><xwss:JAXRPCSecurity xmlns:xwss="http://java.sun.com/xml/ns/xwss/config">
+<xwss:Service conformance= "bsp">
+    <xwss:SecurityConfiguration dumpMessages="true" >
+        <xwss:Sign id="signature" includeTimestamp="true">
+            <xwss:X509Token encodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" 
+                            valueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" 
+                            certificateAlias="" 
+                            keyReferenceType="Direct"/>
+        </xwss:Sign>
+    </xwss:SecurityConfiguration>
+</xwss:Service>
+<xwss:SecurityEnvironmentHandler>
+    ar.gov.rosario.gait.base.buss.SecurityHandler
+</xwss:SecurityEnvironmentHandler>
+</xwss:JAXRPCSecurity>

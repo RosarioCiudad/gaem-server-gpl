@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <title>Reporte - Grs Online</title>
+        <style type="text/css">
+    		/*tablas de fieldset y de datos */
+    		body {
+		 		font-family: 'Open Sans';
+			  	/*font-style: normal;
+  			  	font-weight: 400;*/
+			  	padding-left: 2em;   		
+			  	padding-right: 2em;   
+			  	line-height: normal;    		
+    		}
+        
+    		/*tablas de fieldset y de datos */
+    		table {
+		 		-fs-table-paginate: paginate; /*importante para paginar*/
+		 		border: 1px solid #000000; 
+		 		table-layout: fixed;
+		 		border-spacing: 0px;	
+		 		margin-top: 30px; /* margen que separa cada tabla*/
+		 		margin-bottom: 10px; /* margen que separa cada tabla*/
+		 		width: 100%;
+		 	}
+
+			/* titulo de la tabla */
+    		table caption {
+		 		/*font-family: sans;*/
+		 		font-size: 14pt;
+		 		font-weight: bold;
+		 		text-align: left;		 		
+    		}
+		 	
+		 	/* celda en gral */
+		 	td { 
+				border-bottom: 1px solid #000000; 
+				margin: 0px; 
+				padding: 5px; 
+		 		/*font-family: mono;*/
+		 		font-size: 10pt;
+		 		font-weight: normal;
+		 		empty-cells: show;
+			} 
+
+    		/* encabezado de tablas */
+			th {
+				border-bottom: 1px solid #000000; 
+				margin: 0px; 
+				padding: 5px; 
+		 		/*font-family: sans;*/
+		 		font-size: 10pt;
+		 		font-weight: bold;
+		 		text-align: left;
+			} 
+
+			label{
+				text-align: right;
+				font-weight: bold; 
+			}
+			
+			fieldset {
+		 		margin: 0px; 
+		 		border: 1px solid #000000; 
+			}
+			
+			/* tabla de los fieldset */
+			fieldset table {
+		 		margin: 0px; 
+				border: 0px;
+			}
+			
+			/* celda de los fieldset */
+			fieldset table td {
+				white-space: nowrap;
+				border: 0px;
+			}
+
+			/*h1*/
+			.h1 {
+			
+			}
+			
+			.h2 {
+			
+			}
+
+			.h3 {
+				padding-top: 20pt;
+				font-weight: bold;
+			}
+
+			.h4 {
+			
+			}
+			
+			@page :first {
+			  color: green;
+			  @top-left {
+			    content: "-";
+			    color: blue;
+			  }
+			  @top-right {
+			    content: "Usuario: -";
+			  }
+			}
+			
+			@page { 
+				margin-top: 4cm;
+				@top-center { content: element(header); }
+				@bottom-right { content: "Página " counter(page) " de " counter(pages); } 
+			}
+			
+			header { position: running(header) }
+	</style>
+    </head>
+<body>
+
+<div class="header">
+	<div style="text-align: center; display: inline-block;">
+		<img src="/gait/images/escudo2.jpg" alt="Escudo" title="Escudo MSF" height="60px" style="margin:0;padding:0">
+<!-- 		<p style="margin:0;padding:0:float:left">SANTE FE<br>CIUDAD</p> -->
+	</div>
+	<hr>
+</div>
+

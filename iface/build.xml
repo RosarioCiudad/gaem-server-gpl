@@ -1,0 +1,4 @@
+<project default="build">
+	<property file="build.conf"/>
+	<import file="../.build.xml"/>
+</project>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC 
+	  "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"  
+	  "[WWW] http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+
+<struts-config>
+	<form-beans>		
+		<form-bean name="notificacionSearchPage" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="notificacionAdapter"    type="org.apache.struts.action.DynaActionForm"/>
+	</form-beans>
+	<form-beans>		
+		<form-bean name="tipoNotificacionSearchPage" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="tipoNotificacionAdapter"    type="org.apache.struts.action.DynaActionForm"/>
+	</form-beans>
+	<form-beans>		
+		<form-bean name="estadoNotificacionSearchPage" type="org.apache.struts.action.DynaActionForm"/>
+		<form-bean name="estadoNotificacionAdapter"    type="org.apache.struts.action.DynaActionForm"/>
+	</form-beans>
+	
+	<action-mappings>    
+	    <!-- Notificacion -->	    
+	    <action
+	    	path="/not/BuscarNotificacion"
+	        type="ar.gov.rosario.gait.not.view.struts.BuscarNotificacionDAction"
+			scope="request"
+	       	validate="false"
+	        name="notificacionSearchPage"
+	        parameter="method"
+	   		input=".not.notificacion.view.notificacionSearchPage"
+	        attribute="notificacionSearchPage">
+	           
+	   	    <forward name="notificacionSearchPage"   	path=".not.notificacion.view.notificacionSearchPage" />
+	   	    <forward name="administrarNotificacion" 	path="/not/AdministrarNotificacion.do?method=inicializar" />
+	    </action>
+		
+		<action
+     		path="/not/AdministrarNotificacion"
+	        type="ar.gov.rosario.gait.not.view.struts.AdministrarNotificacionDAction"
+		    scope="request"
+        	validate="false"
+	        name="notificacionAdapter"
+            parameter="method"
+    	    input=".not.notificacion.view.notificacionEditAdapter"
+	        attribute="notificacionAdapter">
+            
+    	    <forward name="notificacionViewAdapter" 	path=".not.notificacion.view.notificacionViewAdapter" />
+    	    <forward name="notificacionEditAdapter"    path=".not.notificacion.view.notificacionEditAdapter" />
+	    </action>
+	    <!-- Fin Notificacion -->
+
+	    <!-- Tipo Notificacion -->	    
+	    <action
+	    	path="/not/BuscarTipoNotificacion"
+	        type="ar.gov.rosario.gait.not.view.struts.BuscarTipoNotificacionDAction"
+			scope="request"
+	       	validate="false"
+	        name="tipoNotificacionSearchPage"
+	        parameter="method"
+	   		input=".not.notificacion.view.tipoNotificacionSearchPage"
+	        attribute="tipoNotificacionSearchPage">
+	           
+	   	    <forward name="tipoNotificacionSearchPage"   	path=".not.notificacion.view.tipoNotificacionSearchPage" />
+	   	    <forward name="administrarTipoNotificacion" 	path="/not/AdministrarTipoNotificacion.do?method=inicializar" />
+	    </action>
+		
+		<action
+     		path="/not/AdministrarTipoNotificacion"
+	        type="ar.gov.rosario.gait.not.view.struts.AdministrarTipoNotificacionDAction"
+		    scope="request"
+        	validate="false"
+	        name="tipoNotificacionAdapter"
+            parameter="method"
+    	    input=".not.notificacion.view.tipoNotificacionEditAdapter"
+	        attribute="tipoNotificacionAdapter">
+            
+    	    <forward name="tipoNotificacionViewAdapter" 	path=".not.notificacion.view.tipoNotificacionViewAdapter" />
+    	    <forward name="tipoNotificacionEditAdapter"    path=".not.notificacion.view.tipoNotificacionEditAdapter" />
+	    </action>
+	    <!-- Fin Tipo Notificacion -->    
+
+		<!-- Estado Notificacion -->	    
+	    <action
+	    	path="/not/BuscarEstadoNotificacion"
+	        type="ar.gov.rosario.gait.not.view.struts.BuscarEstadoNotificacionDAction"
+			scope="request"
+	       	validate="false"
+	        name="estadoNotificacionSearchPage"
+	        parameter="method"
+	   		input=".not.notificacion.view.estadoNotificacionSearchPage"
+	        attribute="estadoNotificacionSearchPage">
+	           
+	   	    <forward name="estadoNotificacionSearchPage"   	path=".not.notificacion.view.estadoNotificacionSearchPage" />
+	   	    <forward name="administrarEstadoNotificacion" 	path="/not/AdministrarEstadoNotificacion.do?method=inicializar" />
+	    </action>
+		
+		<action
+     		path="/not/AdministrarEstadoNotificacion"
+	        type="ar.gov.rosario.gait.not.view.struts.AdministrarEstadoNotificacionDAction"
+		    scope="request"
+        	validate="false"
+	        name="estadoNotificacionAdapter"
+            parameter="method"
+    	    input=".not.notificacion.view.estadoNotificacionEditAdapter"
+	        attribute="estadoNotificacionAdapter">
+            
+    	    <forward name="estadoNotificacionViewAdapter" 	path=".not.notificacion.view.estadoNotificacionViewAdapter" />
+    	    <forward name="estadoNotificacionEditAdapter"    path=".not.notificacion.view.estadoNotificacionEditAdapter" />
+	    </action>
+	    <!-- Fin Estado Notificacion -->    
+			      		
+ 	</action-mappings>    
+</struts-config>

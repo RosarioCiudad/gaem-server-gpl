@@ -1,0 +1,279 @@
+MSFGAEM-67 [DEV] - Agregar código de inspector en mantenedor
+
+alter table apm_usuarioapm add COLUMN numeroInspector varchar(50);
+	
+
+--Menu: Aplicación
+-------	   |-> Administrar Seccion
+--						|-> Mantenedor Seccion
+--		url:'	/apm/BuscarSeccion.do?method=inicializar'
+--		Modulo / Accion / Metodo: apm / ABM_Seccion / buscar
+
+INSERT INTO swe_accmodapl (idaplicacion,idmodapl,descripcion,nombreaccion,nombremetodo,usuario,fechaultmdf,estado) VALUES (3,60,'Mantenedor  Seccion','ABM_Seccion','agregar','admin     ','2013-04-24 16:55:39.0',1);
+INSERT INTO swe_accmodapl (idaplicacion,idmodapl,descripcion,nombreaccion,nombremetodo,usuario,fechaultmdf,estado) VALUES (3,60,'Mantenedor  Seccion','ABM_Seccion','buscar','admin     ','2013-04-24 16:57:22.0',1);
+INSERT INTO swe_accmodapl (idaplicacion,idmodapl,descripcion,nombreaccion,nombremetodo,usuario,fechaultmdf,estado) VALUES (3,60,'Mantenedor  Seccion','ABM_Seccion','eliminar','admin     ','2013-04-24 16:56:41.0',1);
+INSERT INTO swe_accmodapl (idaplicacion,idmodapl,descripcion,nombreaccion,nombremetodo,usuario,fechaultmdf,estado) VALUES (3,60,'Mantenedor  Seccion','ABM_Seccion','modificar','admin     ','2013-04-24 16:56:19.0',1);
+INSERT INTO swe_accmodapl (idaplicacion,idmodapl,descripcion,nombreaccion,nombremetodo,usuario,fechaultmdf,estado) VALUES (3,60,'Mantenedor  Seccion','ABM_Seccion','ver','admin     ','2013-04-24 16:57:46.0',1);
+
+
+
+unload to /tmp/x0.sql
+select
+'alter table ' || tabname || ' modify version int; --'
+from systables where tabid >= 100
+union all
+select 
+'alter table ' || tabname || ' add version int; --'
+from systables where tabid >= 100;
+
+
+unload to /tmp/x0.sql
+select
+'update ' || tabname || ' set usuario = ''admin''; --'
+from systables where tabid >= 100;
+
+unload to /tmp/x0.sql
+select
+'alter table ' || tabname || ' modify usuario varchar(60); --'
+from systables where tabid >= 100;
+
+
+
+
+
+insert into pro_tipoejecucion select  * from siat:pro_tipoejecucion;
+insert into pro_tipoprogejec select  * from siat:pro_tipoprogejec;
+insert into pro_estadocorrida select  * from siat:pro_estadocorrida;
+
+
+insert into def_parametro values (0, 'FileSharePath', 'Path del directorio de trabajo de la Aplicacion', '/mnt/gait', 'admin', current, 1);
+insert into def_parametro values (0, 'webGaitOn', 'Permitir acceso a Gait via WEB. 1-SI. 0-NO. ', '1', 'admin', current, 1);
+insert into def_parametro values (0, 'intraGaitOn', 'Permitir acceso a Gait via IntraWeb. 1-SI. 0-NO. ', '1', 'admin', current, 1);
+insert into seg_usuariogait values (0, null, null, 'admin', 'admin', 'admin', current, 1, 1);
+
+alter table seg_usuariogait add fechaUltLogin datetime year to second;
+
+
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Mantenedor Procesos','ABM_Proceso','agregar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Mantenedor Procesos','ABM_Proceso','buscar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Mantenedor Procesos','ABM_Proceso','eliminar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Mantenedor Procesos','ABM_Proceso','modificar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Mantenedor Procesos','ABM_Proceso','ver','admin',current,1);
+
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Mantenedor Corrida','ABM_Corrida','buscar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Mantenedor Corrida','ABM_Corrida','ver','admin',current,1);
+
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Consulta de Corridas por Codigo de Proceso','ABM_CorridaProceso','buscar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,58,'Consulta de Corridas por Codigo de Usuario','ABM_CorridaUsuario','buscar','admin',current,1);
+
+INSERT INTO swe_accmodapl VALUES (0,4,57,'Mantenedor Parametros','ABM_Parametro','agregar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,57,'Mantenedor Parametros','ABM_Parametro','buscar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,57,'Mantenedor Parametros','ABM_Parametro','eliminar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,57,'Mantenedor Parametros','ABM_Parametro','modificar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,57,'Mantenedor Parametros','ABM_Parametro','ver','admin',current,1);
+
+INSERT INTO swe_accmodapl VALUES (0,4,57,'Refrescar Caches','ABM_Caches','refrescar','admin',current,1);
+
+INSERT INTO swe_accmodapl VALUES (0,4,56,'Mantenedor Usuarios Gait','ABM_UsuarioGait','agregar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,56,'Mantenedor Usuarios Gait','ABM_UsuarioGait','buscar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,56,'Mantenedor Usuarios Gait','ABM_UsuarioGait','eliminar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,56,'Mantenedor Usuarios Gait','ABM_UsuarioGait','modificar','admin',current,1);
+INSERT INTO swe_accmodapl VALUES (0,4,56,'Mantenedor Usuarios Gait','ABM_UsuarioGait','ver','admin',current,1);
+
+
+insert into seg_usuariogrs  values (0, 'Admin', 'admin', 'admin', current, 1, 0, current);
+ 
+ create table "informix".seg_usuariogait 
+  (
+    id serial not null ,
+    descripcion varchar(50) not null ,
+    usuariogait varchar(50) not null ,
+    usuario varchar(30) not null ,
+    fechaultmdf datetime year to second not null ,
+    estado "informix".smallint not null ,
+    version smallint not null ,
+    fechaUltLogin datetime year to second,
+    primary key (id) 
+    );
+ 
+ 
+ 
+## Database swe:
+
+    alter table swe_aplicacion add id_tipoauth int;
+    create table swe_tipoauth (
+       id serial primary key,
+       descripcion varchar(255)); 
+    
+    
+    
+## Database Adpcore modelo pro_*    
+    
+    
+create table "informix".pro_deletedcorrida 
+  (
+    id serial not null ,
+    desdeletedcorrida varchar(100) not null ,
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    primary key (id) 
+  );
+
+create table "informix".pro_procesoatrval 
+  (
+    id serial not null ,
+    idproceso integer not null ,
+    idatributo integer not null ,
+    strvalor varchar(255),
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    primary key (id) 
+  );
+
+
+
+  create table "informix".pro_tipoejecucion 
+  (
+    id serial not null ,
+    destipoejecucion varchar(40) not null ,
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    primary key (id) 
+  );
+  
+  
+  
+  create table "informix".pro_tipoprogejec 
+  (
+    id serial not null ,
+    destipoprogejec varchar(40) not null ,
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    primary key (id) 
+  );
+  
+  
+  create table "informix".pro_filecorrida 
+  (
+    id serial not null ,
+    idcorrida integer not null ,
+    paso smallint not null ,
+    filename varchar(255),
+    nombre varchar(100),
+    observacion varchar(255),
+    orden integer,
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    ctdregistros integer,
+    primary key (id) 
+  );
+  
+  create table "informix".pro_procesoparval 
+  (
+    id serial not null ,
+    idcorrida integer not null ,
+    strvalor lvarchar,
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    codparval varchar(60),
+    estemporal smallint,
+    primary key (id) 
+  );
+  
+  create table "informix".pro_pasocorrida 
+  (
+    id serial not null ,
+    idcorrida integer not null ,
+    paso smallint not null ,
+    fechacorrida datetime year to second,
+    iddeletedcorrida integer not null ,
+    observacion lvarchar,
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    primary key (id) 
+  );
+  
+  create table "informix".pro_logcorrida 
+  (
+    id serial not null ,
+    idcorrida integer not null ,
+    paso integer not null ,
+    fecha datetime year to second not null ,
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second,
+    deleted smallint not null ,
+    log lvarchar,
+    primary key (id) 
+  );
+  
+  create table "informix".pro_corrida 
+  (
+    id serial not null ,
+    descorrida varchar(255) not null ,
+    idproceso integer not null ,
+    fechainicio datetime year to second,
+    fechafin datetime year to second,
+    fechaultresume datetime year to second,
+    iddeletedcorrida integer not null ,
+    mensajedeleted lvarchar,
+    observacion varchar(255),
+    pasoactual smallint not null ,
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    nodoowner varchar(120),
+    primary key (id) 
+  );
+  
+  create table "informix".pro_proceso 
+  (
+    id serial not null ,
+    codproceso varchar(100),
+    desproceso varchar(100) not null ,
+    esasincronico smallint not null ,
+    idtipoejecucion integer not null ,
+    directorioinput varchar(255),
+    cantpasos integer not null ,
+    idtipoprogejec integer not null ,
+    classforname varchar(255),
+    spvalidate varchar(255),
+    spexecute varchar(255),
+    spresume varchar(255),
+    spcancel varchar(255),
+    modificationuser varchar(60) not null ,
+    modificationtimestamp datetime year to second not null ,
+    deleted smallint not null ,
+    ejecnodo varchar(255),
+    locked smallint,
+    cronexpression varchar(100),
+    cantcorridasperm smallint,
+    period smallint,
+    primary key (id) 
+  );
+  
+  create index "informix".idx_1 on "informix".pro_corrida (fechainicio) 
+    using btree ;
+  
+  create index "informix".idx1 on "informix".pro_proceso (codproceso) 
+    using btree ;
+    
+  alter table "informix".pro_procesoatrval add constraint (foreign 
+    key (idproceso) references "informix".pro_proceso );
+    
+  alter table "informix".pro_procesoparval add constraint (foreign 
+    key (idcorrida) references "informix".pro_corrida );
+  
+  alter table "informix".pro_corrida add constraint (foreign key 
+    (idproceso) references "informix".pro_proceso );
+  
+  
+  
+  
+  

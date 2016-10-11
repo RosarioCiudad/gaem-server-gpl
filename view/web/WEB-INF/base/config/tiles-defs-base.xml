@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+<tiles-definitions>
+	<definition name=".base.view.grs" extends=".gaitStdLayout">
+		<put name="body" value="/base/grs.jsp"/>
+	</definition>
+
+	<definition name=".base.view.gaitMessage" extends=".gaitStdLayout">
+		<put name="body" value="/base/gaitMessage.jsp"/>
+	</definition>
+    
+    <definition name=".base.view.gaitIndex" extends=".gaitStdLayout">
+	    <put name="body" value="/base/gaitIndex.jsp"/>
+	</definition>
+
+	<definition name=".base.view.gaitErrorNavegacion" extends=".gaitStdLayout">
+		<put name="body" value="/base/gaitErrorNavegacion.jsp"/>
+	</definition>
+
+	<definition name=".base.view.gaitErrorServer" extends=".gaitStdLayout">
+		<!--put name="body" value="/base/gaitErrorServer.jsp"/-->
+		<put name="body" value="/error.jsp"/>
+	</definition>
+
+	<definition name=".base.view.gaitErrorPrint" extends=".gaitStdLayout"> 
+		<put name="header" value="/layouts/headerVacio.jsp" />
+		<put name="menutab" value="/seg/menutabVacio.jsp" />
+		<put name="body" value="/base/gaitErrorPrint.jsp"/>
+		<put name="footer" value="/layouts/footerVacio.jsp" />
+	</definition>
+
+	<definition name=".base.view.imprimir" extends=".gaitStdLayout">
+		<put name="body" value="/base/imprimir.jsp"/>
+	</definition>
+	
+	<definition name=".base.view.gaitOffLine" extends=".gaitStdLayout">
+		<put name="body" value="/base/gaitOffLine.jsp"/>
+	</definition>
+</tiles-definitions>

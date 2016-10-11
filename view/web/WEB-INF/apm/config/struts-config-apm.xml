@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC 
+	  "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"  
+	  "[WWW] http://struts.apache.org/dtds/struts-config_1_2.dtd">
+
+
+<struts-config>
+	<form-beans>
+		<!-- Seccion -->
+		<form-bean name="seccionSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="seccionAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Dispositivo Movil -->
+		<form-bean name="dispositivoMovilSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="dispositivoMovilAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Tabla -->
+		<form-bean name="aplicacionTablaSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="aplicacionTablaAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Campo -->
+		<form-bean name="campoSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="campoAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Campo Valor Adapter -->
+		<form-bean name="campoValorAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Campo Valor Opcion Adapter -->
+		<form-bean name="campoValorOpcionAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Perfil -->
+		<form-bean name="aplicacionPerfilSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="aplicacionPerfilAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Perfil Seccion -->
+		<form-bean name="aplicacionPerfilSeccionAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Perfil Seccion Campo -->
+		<form-bean name="aplPerfilSeccionCampoAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Perfil Seccion Campo Valor -->
+		<form-bean name="aplPerfilSeccionCampoValorAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Perfil Seccion Campo Valor Opcion -->
+		<form-bean name="aplPerfilSeccionCampoValorOpcionAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Perfil Parametro -->
+		<form-bean name="aplicacionPerfilParametroAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Impresora -->
+		<form-bean name="impresoraSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="impresoraAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion -->
+		<form-bean name="aplicacionSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="aplicacionAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Binario Version -->
+		<form-bean name="aplicacionBinarioVersionAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Aplicacion Parametro -->
+		<form-bean name="aplicacionParametroAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Usuario Apm -->
+		<form-bean name="usuarioApmAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="usuarioApmSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Usuario Apm DM -->
+		<form-bean name="usuarioApmDMAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- UsuarioApmImpresora -->
+		<form-bean name="usuarioApmImpresoraAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Perfil acceso Usuario -->
+		<form-bean name="perfilAccesoUsuarioAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- TablaVersion -->
+		<form-bean name="tablaVersionSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="tablaVersionAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- HistoriaGPS -->
+		<form-bean name="historiaGPSSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="historiaGPSAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- AplicacionTipoBinario -->
+		<form-bean name="aplicacionTipoBinarioSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="aplicacionTipoBinarioAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Perfil Acceso -->
+		<form-bean name="perfilAccesoSearchPage" type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="perfilAccesoAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- AreaAplicacionPerfil -->
+		<form-bean name="areaAplicacionPerfilAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- TelefeonoPanico -->
+		<form-bean name="telefonoPanicoAdapter" type="org.apache.struts.action.DynaActionForm" />
+		<!-- Panico -->
+		<form-bean name="panicoSearchPage" 	type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="panicoAdapter" 	type="org.apache.struts.action.DynaActionForm" />
+		<form-bean name="hisEstPanAdapter" 	type="org.apache.struts.action.DynaActionForm" />
+		<!-- Perfil Acceso Aplicacion-->
+		<form-bean name="perfilAccesoAplicacionAdapter" 	type="org.apache.struts.action.DynaActionForm" />
+	</form-beans>
+
+	<action-mappings>
+		<!-- Seccion -->
+		<action 
+		    path="/apm/BuscarSeccion"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarSeccionDAction"
+			scope="request" 
+			validate="false" 
+			name="seccionSearchPage" 
+			parameter="method"
+			input=".apm.seccion.view.seccionSearchPage" 
+			attribute="seccionSearchPage">
+
+			<forward name="seccionSearchPage" path=".apm.seccion.view.seccionSearchPage" />
+			<forward name="administrarSeccion" path="/apm/AdministrarSeccion.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarSeccion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarSeccionDAction"
+			scope="request" 
+			validate="false" 
+			name="seccionAdapter" 
+			parameter="method"
+			input=".apm.seccion.view.seccionEditAdapter" 
+			attribute="seccionAdapter">
+
+			<forward name="seccionViewAdapter" path=".apm.seccion.view.seccionViewAdapter" />
+			<forward name="seccionEditAdapter" path=".apm.seccion.view.seccionEditAdapter" />
+		</action>
+		<!-- Fin Seccion -->
+
+		<!-- Dispositivo Movil -->
+		<action 
+		    path="/apm/BuscarDispositivoMovil"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarDispositivoMovilDAction"
+			scope="request" 
+			validate="false" 
+			name="dispositivoMovilSearchPage"
+			parameter="method" 
+			input=".apm.dispositivoMovil.view.dispositivoMovilSearchPage"
+			attribute="dispositivoMovilSearchPage">
+
+			<forward name="dispositivoMovilSearchPage"	path=".apm.dispositivoMovil.view.dispositivoMovilSearchPage" />
+			<forward name="administrarDispositivoMovil"	path="/apm/AdministrarDispositivoMovil.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarDispositivoMovil"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarDispositivoMovilDAction"
+			scope="request" 
+			validate="false" 
+			name="dispositivoMovilAdapter"
+			parameter="method" 
+			input=".apm.dispositivoMovil.view.dispositivoMovilEditAdapter"
+			attribute="dispositivoMovilAdapter">
+
+			<forward name="dispositivoMovilViewAdapter"	path=".apm.dispositivoMovil.view.dispositivoMovilViewAdapter" />
+			<forward name="dispositivoMovilEditAdapter"	path=".apm.dispositivoMovil.view.dispositivoMovilEditAdapter" />
+		</action>
+		<!-- Fin Dispositivo Movil -->
+
+		<!-- Campo -->
+		<action 
+		    path="/apm/BuscarCampo"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarCampoDAction" scope="request"
+			validate="false" 
+			name="campoSearchPage" 
+			parameter="method"
+			input=".apm.campo.view.campoSearchPage"
+			attribute="campoSearchPage">
+
+			<forward name="campoSearchPage" 			path=".apm.campo.view.campoSearchPage" />
+			<forward name="administrarCampo" 			path="/apm/AdministrarCampo.do?method=inicializar" />
+			<forward name="administrarEncCampo"			path="/apm/AdministrarEncCampo.do?method=inicializar" />
+			<forward name="administrarEncCampoValor"	path="/apm/AdministrarEncCampoValor.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarCampo"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarCampoDAction"
+			scope="request" 
+			validate="false" 
+			name="campoAdapter" 
+			parameter="method"
+			input=".apm.campo.view.campoAdapter" 
+			attribute="campoAdapter">
+
+			<forward name="campoViewAdapter" 			path=".apm.campo.view.campoViewAdapter" />
+			<forward name="campoAdapter" 				path=".apm.campo.view.campoAdapter" />
+			<forward name="administrarEncCampo"			path="/apm/AdministrarEncCampo.do?method=inicializar" />
+			<forward name="administrarCampoValor"		path="/apm/AdministrarCampoValor.do?method=inicializar" />
+			<forward name="administrarEncCampoValor"	path="/apm/AdministrarEncCampoValor.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncCampo"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncCampoDAction"
+			scope="request" 
+			validate="false"
+			name="campoAdapter" 
+			parameter="method"
+			input=".apm.campo.view.campoEncEditAdapter" 
+			attribute="campoAdapter">
+
+			<forward name="campoEncEditAdapter" path=".apm.campo.view.campoEncEditAdapter" />
+		</action>
+		<!-- Fin Campo -->
+
+		<!-- Campo Valor -->
+		<action 
+		    path="/apm/AdministrarCampoValor"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarCampoValorDAction"
+			scope="request" 
+			validate="false" 
+			name="campoValorAdapter" 
+			parameter="method"
+			input=".apm.campoValor.view.campoValorAdapter" 
+			attribute="campoValorAdapter">
+
+			<forward name="campoValorViewAdapter" 		path=".apm.campoValor.view.campoValorViewAdapter" />
+			<forward name="campoValorAdapter" 			path=".apm.campoValor.view.campoValorAdapter" />
+			<forward name="administrarEncCampoValor"	path="/apm/AdministrarEncCampoValor.do?method=inicializar" />
+			<forward name="administrarCampoValorOpcion"	path="/apm/AdministrarCampoValorOpcion.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncCampoValor"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncCampoValorDAction"
+			scope="request" 
+			validate="false" 
+			name="campoValorAdapter" 
+			parameter="method"
+			input=".apm.campoValor.view.campoValorEncEditAdapter" 
+			attribute="campoValorAdapter">
+
+			<forward name="administrarCampoValor" path="/apm/AdministrarCampoValor.do?method=inicializar" />
+			<forward name="campoValorEncEditAdapter" path=".apm.campoValor.view.campoValorEncEditAdapter" />
+		</action>
+		<!-- Fin Campo Valor -->
+
+		<!-- Campo Valor Opcion -->
+		<action 
+		    path="/apm/AdministrarCampoValorOpcion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarCampoValorOpcionDAction"
+			scope="request" 
+			validate="false" 
+			name="campoValorOpcionAdapter"
+			parameter="method" 
+			input=".apm.campoValorOpcion.view.campoValorOpcionAdapter"
+			attribute="campoValorOpcionAdapter">
+
+			<forward name="campoValorOpcionViewAdapter"		path=".apm.campoValorOpcion.view.campoValorOpcionViewAdapter" />
+			<forward name="campoValorOpcionEditAdapter"		path=".apm.campoValorOpcion.view.campoValorOpcionEditAdapter" />
+		</action>
+		<!-- Fin Campo Valor Opcion -->
+
+		<!-- AplicacionPerfil -->
+		<action 
+		    path="/apm/BuscarAplicacionPerfil"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarAplicacionPerfilDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionPerfilSearchPage"
+			parameter="method" 
+			input=".apm.aplicacionPerfil.view.aplicacionPerfilSearchPage"
+			attribute="aplicacionPerfilSearchPage">
+
+			<forward name="aplicacionPerfilSearchPage"	path=".apm.aplicacionPerfil.view.aplicacionPerfilSearchPage" />
+			<forward name="administrarAplicacionPerfil"	path="/apm/AdministrarAplicacionPerfil.do?method=inicializar" />
+			<forward name="administrarEncAplicacionPerfil"	path="/apm/AdministrarEncAplicacionPerfil.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarAplicacionPerfil"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplicacionPerfilDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionPerfilAdapter"
+			parameter="method" 
+			input=".apm.aplicacionPerfil.view.aplicacionPerfilAdapter"
+			attribute="aplicacionPerfilAdapter">
+
+			<forward name="aplicacionPerfilViewAdapter"	path=".apm.aplicacionPerfil.view.aplicacionPerfilViewAdapter" />
+			<forward name="aplicacionPerfilAdapter"		path=".apm.aplicacionPerfil.view.aplicacionPerfilAdapter" />
+			<forward name="administrarEncAplicacionPerfil"	path="/apm/AdministrarEncAplicacionPerfil.do?method=inicializar" />
+			<forward name="administrarAplicacionPerfilSeccion"	path="/apm/AdministrarAplicacionPerfilSeccion.do?method=inicializar" />
+			<forward name="administrarAplicacionPerfilParametro" 	path="/apm/AdministrarAplicacionPerfilParametro.do?method=inicializar" />
+			<forward name="administrarEncAplicacionPerfilSeccion"	path="/apm/AdministrarEncAplicacionPerfilSeccion.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncAplicacionPerfil"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncAplicacionPerfilDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionPerfilAdapter"
+			parameter="method" 
+			input=".apm.aplicacionPerfil.view.aplicacionPerfilEncEditAdapter"
+			attribute="aplicacionPerfilAdapter">
+
+			<forward name="aplicacionPerfilEncEditAdapter"	path=".apm.aplicacionPerfil.view.aplicacionPerfilEncEditAdapter" />
+		</action>
+		<!-- Fin AplicacionPerfil -->
+
+		<!-- Aplicacion Perfil Seccion -->
+		<action 
+		    path="/apm/AdministrarAplicacionPerfilSeccion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplicacionPerfilSeccionDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionPerfilSeccionAdapter"
+			parameter="method"
+			input=".apm.aplicacionPerfilSeccion.view.aplicacionPerfilSeccionAdapter"
+			attribute="aplicacionPerfilSeccionAdapter">
+
+
+			<forward name="aplicacionPerfilSeccionViewAdapter"	path=".apm.aplicacionPerfilSeccion.view.aplicacionPerfilSeccionViewAdapter" />
+			<forward name="aplicacionPerfilSeccionAdapter"		path=".apm.aplicacionPerfilSeccion.view.aplicacionPerfilSeccionAdapter" />
+			<forward name="administrarEncAplicacionPerfilSeccion"	path="/apm/AdministrarEncAplicacionPerfilSeccion.do?method=inicializar" />
+			<forward name="administrarAplPerfilSeccionCampo"		path="/apm/AdministrarAplPerfilSeccionCampo.do?method=inicializar" />
+			<forward name="administrarEncAplPerfilSeccionCampo"		path="/apm/AdministrarEncAplPerfilSeccionCampo.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncAplicacionPerfilSeccion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncAplicacionPerfilSeccionDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionPerfilSeccionAdapter"
+			parameter="method"
+			input=".apm.aplicacionPerfilSeccion.view.aplicacionPerfilSeccionEncEditAdapter"
+			attribute="aplicacionPerfilSeccionAdapter">
+
+			<forward name="administrarAplicacionPerfilSeccion"		path="/apm/AdministrarAplicacionPerfilSeccion.do?method=inicializar" />
+			<forward name="aplicacionPerfilSeccionEncEditAdapter"	path=".apm.aplicacionPerfilSeccion.view.aplicacionPerfilSeccionEncEditAdapter" />
+		</action>
+		<!-- Fin Aplicacion Perfil Seccion -->
+
+		<!-- Apl Perfil Seccion Campo -->
+		<action 
+		    path="/apm/AdministrarAplPerfilSeccionCampo"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplPerfilSeccionCampoDAction"
+			scope="request" 
+			validate="false" 
+			name="aplPerfilSeccionCampoAdapter"
+			parameter="method"
+			input=".apm.aplPerfilSeccionCampo.view.aplPerfilSeccionCampoAdapter"
+			attribute="aplPerfilSeccionCampoAdapter">
+
+			<forward name="aplPerfilSeccionCampoViewAdapter"	path=".apm.aplPerfilSeccionCampo.view.aplPerfilSeccionCampoViewAdapter" />
+			<forward name="aplPerfilSeccionCampoAdapter"		path=".apm.aplPerfilSeccionCampo.view.aplPerfilSeccionCampoAdapter" />
+			<forward name="administrarEncAplPerfilSeccionCampo"		path="/apm/AdministrarEncAplPerfilSeccionCampo.do?method=inicializar" />
+			<forward name="administrarAplPerfilSeccionCampoValor"	path="/apm/AdministrarAplPerfilSeccionCampoValor.do?method=inicializar" />
+			<forward name="administrarEncAplPerfilSeccionCampoValor"	path="/apm/AdministrarEncAplPerfilSeccionCampoValor.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncAplPerfilSeccionCampo"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncAplPerfilSeccionCampoDAction"
+			scope="request" 
+			validate="false" 
+			name="aplPerfilSeccionCampoAdapter"
+			parameter="method"
+			input=".apm.aplPerfilSeccionCampo.view.aplPerfilSeccionCampoEncEditAdapter"
+			attribute="aplPerfilSeccionCampoAdapter">
+
+			<forward name="administrarAplicacionPerfilSeccion"	path="/apm/AdministrarAplicacionPerfilSeccion.do?method=inicializar" />
+			<forward name="aplPerfilSeccionCampoEncEditAdapter"	path=".apm.aplPerfilSeccionCampo.view.aplPerfilSeccionCampoEncEditAdapter" />
+
+		</action>
+		<!-- Fin Apl Perfil Seccion Campo -->
+
+		<!-- Apl Perfil Seccion Campo Valor -->
+		<action 
+		    path="/apm/AdministrarAplPerfilSeccionCampoValor"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplPerfilSeccionCampoValorDAction"
+			scope="request" 
+			validate="false" 
+			name="aplPerfilSeccionCampoValorAdapter"
+			parameter="method"
+			input=".apm.aplPerfilSeccionCampoValor.view.aplPerfilSeccionCampoValorAdapter"
+			attribute="aplPerfilSeccionCampoValorAdapter">
+
+			<forward name="aplPerfilSeccionCampoValorViewAdapter"		path=".apm.aplPerfilSeccionCampoValor.view.aplPerfilSeccionCampoValorViewAdapter" />
+			<forward name="aplPerfilSeccionCampoValorAdapter"			path=".apm.aplPerfilSeccionCampoValor.view.aplPerfilSeccionCampoValorAdapter" />
+			<forward name="administrarEncAplPerfilSeccionCampoValor"	path="/apm/AdministrarEncAplPerfilSeccionCampoValor.do?method=inicializar" />
+			<forward name="administrarAplPerfilSeccionCampoValorOpcion"	path="/apm/AdministrarAplPerfilSeccionCampoValorOpcion.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncAplPerfilSeccionCampoValor"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncAplPerfilSeccionCampoValorDAction"
+			scope="request" 
+			validate="false" 
+			name="aplPerfilSeccionCampoValorAdapter"
+			parameter="method"
+			input=".apm.aplPerfilSeccionCampoValor.view.aplPerfilSeccionCampoValorEncEditAdapter"
+			attribute="aplPerfilSeccionCampoValorAdapter">
+
+			<forward name="administrarAplPerfilSeccionCampoValor"	path="/apm/AdministrarAplPerfilSeccionCampoValor.do?method=inicializar" />
+			<forward name="aplPerfilSeccionCampoValorEncEditAdapter" path=".apm.aplPerfilSeccionCampoValor.view.aplPerfilSeccionCampoValorEncEditAdapter" />
+		</action>
+		<!-- Fin Apl Perfil Seccion Campo Valor -->
+
+		<!-- Apl Perfil Seccion Campo Valor Opcion -->
+		<action 
+		    path="/apm/AdministrarAplPerfilSeccionCampoValorOpcion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplPerfilSeccionCampoValorOpcionDAction"
+			scope="request" 
+			validate="false" 
+			name="aplPerfilSeccionCampoValorOpcionAdapter"
+			parameter="method"
+			input=".apm.aplPerfilSeccionCampoValorOpcion.view.aplPerfilSeccionCampoValorOpcionAdapter"
+			attribute="aplPerfilSeccionCampoValorOpcionAdapter">
+
+			<forward name="aplPerfilSeccionCampoValorOpcionViewAdapter" 	path=".apm.aplPerfilSeccionCampoValorOpcion.view.aplPerfilSeccionCampoValorOpcionViewAdapter" />
+			<forward name="aplPerfilSeccionCampoValorOpcionEditAdapter"		path=".apm.aplPerfilSeccionCampoValorOpcion.view.aplPerfilSeccionCampoValorOpcionEditAdapter" />
+		</action>
+		<!-- Fin Apl Perfil Seccion Campo Valor Opcion -->
+
+		<!-- Apl Perfil Parametro -->
+		<action 
+		    path="/apm/AdministrarAplicacionPerfilParametro"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplicacionPerfilParametroDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionPerfilParametroAdapter"
+			parameter="method"
+			input=".apm.aplicacionPerfilParametro.view.aplicacionPerfilParametroEditAdapter"
+			attribute="aplicacionPerfilParametroAdapter">
+
+			<forward name="aplicacionPerfilParametroViewAdapter"	path=".apm.aplicacionPerfilParametro.view.aplicacionPerfilParametroViewAdapter" />
+			<forward name="aplicacionPerfilParametroEditAdapter"	path=".apm.aplicacionPerfilParametro.view.aplicacionPerfilParametroEditAdapter" />
+		</action>
+		<!-- Fin Apl Perfil Parametro -->
+
+		<!-- Impresora -->
+		<action 
+		    path="/apm/BuscarImpresora"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarImpresoraDAction"
+			scope="request" 
+			validate="false" 
+			name="impresoraSearchPage"
+			parameter="method" 
+			input=".apm.impresora.view.impresoraSearchPage"
+			attribute="impresoraSearchPage">
+
+			<forward name="impresoraSearchPage" 	path=".apm.impresora.view.impresoraSearchPage" />
+			<forward name="administrarImpresora" 	path="/apm/AdministrarImpresora.do?method=inicializar" />
+		</action>
+
+		<action
+		    path="/apm/AdministrarImpresora"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarImpresoraDAction"
+			scope="request" 
+			validate="false" 
+			name="impresoraAdapter" 
+			parameter="method"
+			input=".apm.impresora.view.impresoraEditAdapter" 
+			attribute="impresoraAdapter">
+
+			<forward name="impresoraViewAdapter" path=".apm.impresora.view.impresoraViewAdapter" />
+			<forward name="impresoraEditAdapter" path=".apm.impresora.view.impresoraEditAdapter" />
+		</action>
+		<!-- Fin Impresora -->
+
+		<!-- Aplicacion -->
+		<action 
+		    path="/apm/BuscarAplicacion"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarAplicacionDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionSearchPage"
+			parameter="method" 
+			input=".apm.aplicacion.view.aplicacionSearchPage"
+			attribute="aplicacionSearchPage">
+
+			<forward name="aplicacionSearchPage" 		path=".apm.aplicacion.view.aplicacionSearchPage" />
+			<forward name="administrarAplicacion"		path="/apm/AdministrarAplicacion.do?method=inicializar" />
+			<forward name="administrarEncAplicacion"	path="/apm/AdministrarEncAplicacion.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarAplicacion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplicacionDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionAdapter" 
+			parameter="method"
+			input=".apm.aplicacion.view.aplicacionAdapter" 
+			attribute="aplicacionAdapter">
+
+			<forward name="aplicacionViewAdapter" path=".apm.aplicacion.view.aplicacionViewAdapter" />
+			<forward name="aplicacionAdapter" path=".apm.aplicacion.view.aplicacionAdapter" />
+			<forward name="administrarEncAplicacion" path="/apm/AdministrarEncAplicacion.do?method=inicializar" />
+			<forward name="administrarAplicacionBinarioVersion"	path="/apm/AdministrarAplicacionBinarioVersion.do?method=inicializar" />
+			<forward name="administrarAplicacionParametro"	path="/apm/AdministrarAplicacionParametro.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncAplicacion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncAplicacionDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionAdapter" 
+			parameter="method"
+			input=".apm.aplicacion.view.aplicacionEncEditAdapter" 
+			attribute="aplicacionAdapter">
+
+			<forward name="aplicacionEncEditAdapter" path=".apm.aplicacion.view.aplicacionEncEditAdapter" />
+		</action>
+		<!-- Aplicacion -->
+		
+		<!-- Aplicacion Binario version -->
+		<action 
+		    path="/apm/AdministrarAplicacionBinarioVersion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplicacionBinarioVersionDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionBinarioVersionAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.aplicacionBinarioVersionEditAdapter"
+			attribute="aplicacionBinarioVersionAdapter">
+
+			<forward name="aplicacionBinarioVersionViewAdapter"	path=".apm.aplicacion.view.aplicacionBinarioVersionViewAdapter" />
+			<forward name="aplicacionBinarioVersionEditAdapter"	path=".apm.aplicacion.view.aplicacionBinarioVersionEditAdapter" />
+		</action>
+		<!-- Aplicacion Binario version -->
+
+		<!-- Aplicacion Parametro -->
+		<action 
+		    path="/apm/AdministrarAplicacionParametro"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplicacionParametroDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionParametroAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.aplicacionParametroEditAdapter"
+			attribute="aplicacionParametroAdapter">
+
+			<forward name="aplicacionParametroViewAdapter"	path=".apm.aplicacion.view.aplicacionParametroViewAdapter" />
+			<forward name="aplicacionParametroEditAdapter"	path=".apm.aplicacion.view.aplicacionParametroEditAdapter" />
+		</action>
+		<!-- Aplicacion Parametro -->
+
+		<!-- UsuarioApm -->
+		<action 
+		    path="/apm/BuscarUsuarioApm"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarUsuarioApmDAction"
+			scope="request" 
+			validate="false" 
+			name="usuarioApmSearchPage"
+			parameter="method" 
+			input=".apm.aplicacion.view.usuarioApmSearchPage"
+			attribute="usuarioApmSearchPage">
+
+			<forward name="usuarioApmSearchPage" 		path=".apm.aplicacion.view.usuarioApmSearchPage" />
+			<forward name="administrarUsuarioApm" 		path="/apm/AdministrarUsuarioApm.do?method=inicializar" />
+			<forward name="administrarEncUsuarioApm"	path="/apm/AdministrarEncUsuarioApm.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarUsuarioApm"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarUsuarioApmDAction"
+			scope="request" 
+			validate="false" 
+			name="usuarioApmAdapter"
+			parameter="method"
+			input=".apm.aplicacion.view.usuarioApmAdapter" 
+			attribute="usuarioApmAdapter">
+
+			<forward name="usuarioApmViewAdapter" 			path=".apm.aplicacion.view.usuarioApmViewAdapter" />
+			<forward name="usuarioApmAdapter" 	 			path=".apm.aplicacion.view.usuarioApmAdapter" />
+			<forward name="administrarEncUsuarioApm" 		path="/apm/AdministrarEncUsuarioApm.do?method=inicializar" />
+			<forward name="administrarPerfilAccesoUsuario"	path="/apm/AdministrarPerfilAccesoUsuario.do?method=inicializar" />
+			<forward name="administrarUsuarioApmDM"			path="/apm/AdministrarUsuarioApmDM.do?method=inicializar" />
+			<forward name="administrarUsuarioApmImpresora"	path="/apm/AdministrarUsuarioApmImpresora.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncUsuarioApm" 
+		    type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncUsuarioApmDAction"
+			scope="request" 
+			validate="false" 
+			name="usuarioApmAdapter" 
+			parameter="method"
+			input=".apm.aplicacion.view.usuarioApmEncEditAdapter" 
+			attribute="usuarioApmAdapter">
+
+			<forward name="usuarioApmEncEditAdapter" path=".apm.aplicacion.view.usuarioApmEncEditAdapter" />
+		</action>
+
+		<!-- Usuario Apm DM -->
+		<action 
+		    path="/apm/AdministrarUsuarioApmDM"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarUsuarioApmDMDAction"
+			scope="request" 
+			validate="false" 
+			name="usuarioApmDMAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.usuarioApmDMEditAdapter"
+			attribute="usuarioApmDMAdapter">
+
+			<forward name="usuarioApmDMViewAdapter" path=".apm.aplicacion.view.usuarioApmDMViewAdapter" />
+			<forward name="usuarioApmDMEditAdapter" path=".apm.aplicacion.view.usuarioApmDMEditAdapter" />
+		</action>
+		<!-- usuarioApmDM -->
+		
+		<!-- UsuarioApmImpresora -->
+		<action 
+		    path="/apm/AdministrarUsuarioApmImpresora"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarUsuarioApmImpresoraDAction"
+			scope="request" 
+			validate="false" 
+			name="usuarioApmImpresoraAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.usuarioApmImpresoraEditAdapter"
+			attribute="usuarioApmImpresoraAdapter">
+
+			<forward name="usuarioApmImpresoraViewAdapter" path=".apm.aplicacion.view.usuarioApmImpresoraViewAdapter" />
+			<forward name="usuarioApmImpresoraEditAdapter" path=".apm.aplicacion.view.usuarioApmImpresoraEditAdapter" />
+		</action>
+		<!-- UsuarioApmImpresora -->
+
+		<!-- Perfil Acceso Usuario -->
+		<action 
+		    path="/apm/AdministrarPerfilAccesoUsuario"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarPerfilAccesoUsuarioDAction"
+			scope="request" 
+			validate="false" 
+			name="perfilAccesoUsuarioAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.perfilAccesoUsuarioEditAdapter"
+			attribute="perfilAccesoUsuarioAdapter">
+
+			<forward name="perfilAccesoUsuarioViewAdapter"	path=".apm.aplicacion.view.perfilAccesoUsuarioViewAdapter" />
+			<forward name="perfilAccesoUsuarioEditAdapter"	path=".apm.aplicacion.view.perfilAccesoUsuarioEditAdapter" />
+		</action>
+		<!-- PerfilAccesoUsuario -->
+
+		<!-- TablaVersion -->
+		<action 
+		    path="/apm/BuscarTablaVersion"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarTablaVersionDAction"
+			scope="request" 
+			validate="false" 
+			name="tablaVersionSearchPage"
+			parameter="method" 
+			input=".apm.aplicacion.view.tablaVersionSearchPage"
+			attribute="tablaVersionSearchPage">
+
+			<forward name="tablaVersionSearchPage" 	path=".apm.aplicacion.view.tablaVersionSearchPage" />
+			<forward name="administrarTablaVersion"	path="/apm/AdministrarTablaVersion.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarTablaVersion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarTablaVersionDAction"
+			scope="request" 
+			validate="false"
+			name="tablaVersionAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.tablaVersionEditAdapter"
+			attribute="tablaVersionAdapter">
+
+			<forward name="tablaVersionViewAdapter" path=".apm.aplicacion.view.tablaVersionViewAdapter" />
+			<forward name="tablaVersionEditAdapter" path=".apm.aplicacion.view.tablaVersionEditAdapter" />
+		</action>
+		<!-- Fin TablaVersion -->
+
+		<!-- AplicacionTabla -->
+		<action 
+		    path="/apm/BuscarAplicacionTabla"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarAplicacionTablaDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionTablaSearchPage"
+			parameter="method" 
+			input=".apm.aplicacion.view.aplicacionTablaSearchPage"
+			attribute="aplicacionTablaSearchPage">
+
+			<forward name="aplicacionTablaSearchPage"	path=".apm.aplicacion.view.aplicacionTablaSearchPage" />
+			<forward name="administrarAplicacionTabla"	path="/apm/AdministrarAplicacionTabla.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarAplicacionTabla"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAplicacionTablaDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionTablaAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.aplicacionTablaEditAdapter"
+			attribute="aplicacionTablaAdapter">
+
+			<forward name="aplicacionTablaViewAdapter"	path=".apm.aplicacion.view.aplicacionTablaViewAdapter" />
+			<forward name="aplicacionTablaEditAdapter"	path=".apm.aplicacion.view.aplicacionTablaEditAdapter" />
+		</action>
+		<!-- Fin AplicacionTabla -->
+
+		<!-- HistoriaGPS -->
+		<action
+		    path="/apm/BuscarHistoriaGPS"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarHistoriaGPSDAction"
+			scope="request" 
+			validate="false" 
+			name="historiaGPSSearchPage"
+			parameter="method" 
+			input=".apm.aplicacion.view.historiaGPSSearchPage"
+			attribute="historiaGPSSearchPage">
+
+			<forward name="historiaGPSSearchPage" 	path=".apm.aplicacion.view.historiaGPSSearchPage" />
+			<forward name="administrarHistoriaGPS"	path="/apm/AdministrarHistoriaGPS.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarHistoriaGPS"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarHistoriaGPSDAction"
+			scope="request" 
+			validate="false" 
+			name="historiaGPSAdapter" 
+			parameter="method"
+			input=".apm.aplicacion.view.historiaGPSEditAdapter" 
+			attribute="historiaGPSAdapter">
+
+			<forward name="historiaGPSViewAdapter" path=".apm.aplicacion.view.historiaGPSViewAdapter" />
+			<forward name="historiaGPSEditAdapter" path=".apm.aplicacion.view.historiaGPSEditAdapter" />
+		</action>
+		<!-- Fin HistoriaGPS -->
+
+		<!-- AplicacionTipoBinario -->
+		<action path="/apm/BuscarAplicacionTipoBinario"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarAplicacionTipoBinarioDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionTipoBinarioSearchPage"
+			parameter="method" 
+			input=".apm.aplicacion.view.aplicacionTipoBinarioSearchPage"
+			attribute="aplicacionTipoBinarioSearchPage">
+
+			<forward name="aplicacionTipoBinarioSearchPage" 	path=".apm.aplicacion.view.aplicacionTipoBinarioSearchPage" />
+			<forward name="administrarAplicacionTipoBinario"	path="/apm/AdministrarAplicacionTipoBinario.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarAreaAplicacionPerfil"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarAreaAplicacionPerfilDAction"
+			scope="request" 
+			validate="false" 
+			name="aplicacionTipoBinarioAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.aplicacionTipoBinarioEditAdapter"
+			attribute="aplicacionTipoBinarioAdapter">
+
+			<forward name="aplicacionTipoBinarioViewAdapter" path=".apm.aplicacion.view.aplicacionTipoBinarioViewAdapter" />
+			<forward name="aplicacionTipoBinarioEditAdapter" path=".apm.aplicacion.view.aplicacionTipoBinarioEditAdapter" />
+		</action>
+		<!-- Fin AplicacionTipoBinario -->
+		
+		<!-- PerfilAcceso -->
+		<action 
+		    path="/apm/BuscarPerfilAcceso"
+			type="ar.gov.rosario.gait.apm.view.struts.BuscarPerfilAccesoDAction"
+			scope="request" 
+			validate="false" 
+			name="perfilAccesoSearchPage"
+			parameter="method" 
+			input=".apm.aplicacion.view.perfilAccesoSearchPage"
+			attribute="perfilAccesoSearchPage">
+
+			<forward name="perfilAccesoSearchPage" 		path=".apm.aplicacion.view.perfilAccesoSearchPage" />
+			<forward name="administrarPerfilAcceso" 	path="/apm/AdministrarPerfilAcceso.do?method=inicializar" />
+			<forward name="administrarEncPerfilAcceso"  path="/apm/AdministrarEncPerfilAcceso.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarPerfilAcceso"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarPerfilAccesoDAction"
+			scope="request" 
+			validate="false" 
+			name="perfilAccesoAdapter" 
+			parameter="method"
+			input=".apm.aplicacion.view.perfilAccesoAdapter" 
+			attribute="perfilAccesoAdapter">
+
+			<forward name="perfilAccesoViewAdapter" 			path=".apm.aplicacion.view.perfilAccesoViewAdapter" />
+			<forward name="perfilAccesoAdapter" 				path=".apm.aplicacion.view.perfilAccesoAdapter" />
+			<forward name="administrarEncPerfilAcceso"  		path="/apm/AdministrarEncPerfilAcceso.do?method=inicializar" />
+			<forward name="administrarAreaAplicacionPerfil" 	path="/def/AdministrarAreaAplicacionPerfil.do?method=inicializar" />
+			<forward name="administrarPerfilAccesoAplicacion" 	path="/apm/AdministrarPerfilAccesoAplicacion.do?method=inicializar" />
+		</action>
+
+		<action 
+		    path="/apm/AdministrarEncPerfilAcceso"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarEncPerfilAccesoDAction"
+			scope="request" 
+			validate="false" 
+			name="perfilAccesoAdapter" 
+			parameter="method"
+			input=".apm.aplicacion.view.perfilAccesoEncEditAdapter" 
+			attribute="perfilAccesoAdapter">
+
+			<forward name="perfilAccesoEncEditAdapter" path=".apm.aplicacion.view.perfilAccesoEncEditAdapter" />
+		</action>
+		
+	    <action 
+	    	path="/def/AdministrarAreaAplicacionPerfil"
+			type="ar.gov.rosario.gait.def.view.struts.AdministrarAreaAplicacionPerfilDAction"
+			scope="request" 
+			validate="false" 
+			name="areaAplicacionPerfilAdapter"
+			parameter="method" 
+			input=".def.configuracion.view.areaAplicacionPerfilEditAdapter"
+			attribute="areaAplicacionPerfilAdapter">
+			
+			<forward name="areaAplicacionPerfilViewAdapter" path=".def.configuracion.view.areaAplicacionPerfilViewAdapter" />
+			<forward name="areaAplicacionPerfilEditAdapter" path=".def.configuracion.view.areaAplicacionPerfilEditAdapter" />
+		</action>
+		
+	   	<action 
+	    	path="/apm/AdministrarPerfilAccesoAplicacion"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarPerfilAccesoAplicacionDAction"
+			scope="request" 
+			validate="false" 
+			name="perfilAccesoAplicacionAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.perfilAccesoAplicacionEditAdapter"
+			attribute="perfilAccesoAplicacionAdapter">
+			
+			<forward name="perfilAccesoAplicacionViewAdapter" path=".apm.aplicacion.view.perfilAccesoAplicacionViewAdapter" />
+			<forward name="perfilAccesoAplicacionEditAdapter" path=".apm.aplicacion.view.perfilAccesoAplicacionEditAdapter" />
+		</action>
+		
+		<action 
+	    	path="/apm/AdministrarTelefonoPanico"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarTelefonoPanicoDAction"
+			scope="request" 
+			validate="false" 
+			name="telefonoPanicoAdapter"
+			parameter="method" 
+			input=".apm.aplicacion.view.telefonoPanicoEditAdapter"
+			attribute="telefonoPanicoAdapter">
+			
+			<forward name="telefonoPanicoViewAdapter" path=".apm.aplicacion.view.telefonoPanicoViewAdapter" />
+			<forward name="telefonoPanicoEditAdapter" path=".apm.aplicacion.view.telefonoPanicoEditAdapter" />
+		</action>
+		
+		<!-- Panico -->
+		<action
+	    	path="/apm/BuscarPanico"
+	        type="ar.gov.rosario.gait.apm.view.struts.BuscarPanicoDAction"
+			scope="request"
+	       	validate="false"
+	        name="panicoSearchPage"
+	        parameter="method"
+	   		input=".apm.panico.view.panicoSearchPage"
+	        attribute="panicoSearchPage">
+	           
+	   	    <forward name="panicoSearchPage"   	path=".apm.panico.view.panicoSearchPage" />
+	   	    <forward name="administrarPanico" 	path="/apm/AdministrarPanico.do?method=inicializar" />
+	    </action>
+	    
+	    <action 
+		    path="/apm/AdministrarPanico"
+			type="ar.gov.rosario.gait.apm.view.struts.AdministrarPanicoDAction"
+			scope="request" 
+			validate="false" 
+			name="panicoAdapter" 
+			parameter="method"
+			input=".apm.panico.view.panicoViewAdapter" 
+			attribute="panicoAdapter">
+
+			<forward name="panicoAdapter"				path=".apm.panico.view.panicoAdapter" />
+			<forward name="panicoViewAdapter" 			path=".apm.panico.view.panicoViewAdapter" />
+			
+    	    <forward name="administrarEncPanico" 			path="/apm/AdministrarEncPanico.do?method=inicializar" />
+    	    <forward name="administrarHisEstPan" 	 		path="/apm/AdministrarHisEstPan.do?method=inicializar" />
+    	    <forward name="administrarCambioEstadoPanico" 	path="/apm/AdministrarCambioEstadoPanico.do?method=inicializar" />
+		</action>
+		
+	   	<action
+     		path="/apm/AdministrarCambioEstadoPanico"
+	        type="ar.gov.rosario.gait.apm.view.struts.AdministrarCambioEstadoPanicoDAction"
+		    scope="request"
+        	validate="false"
+	        name="panicoAdapter"
+            parameter="method"
+    	    input=".apm.panico.view.cambioEstadoPanicoAdapter"
+	        attribute="panicoAdapter">
+            			   
+    	    <forward name="cambioEstadoPanicoAdapter"	path=".apm.panico.view.cambioEstadoPanicoAdapter" />
+	    </action>
+	    	    
+	    <action
+     		path="/apm/AdministrarHisEstPan"
+	        type="ar.gov.rosario.gait.apm.view.struts.AdministrarHisEstPanDAction"
+		    scope="request"
+        	validate="false"
+	        name="hisEstPanAdapter"
+            parameter="method"
+    	    input=".apm.panico.view.hisEstFacEditAdapter"
+	        attribute="hisEstPanAdapter">
+            
+    	    <forward name="hisEstPanViewAdapter"      	path=".apm.panico.view.hisEstPanViewAdapter" />    	    
+	    </action>
+	    <!-- FIN Panico -->
+	</action-mappings>
+</struts-config>
