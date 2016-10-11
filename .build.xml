@@ -1,0 +1,54 @@
+<project default="build" xmlns:ivy="antlib:org.apache.ivy.ant">
+	
+	<property name="build" value="build"/>
+	<property name="modulebuild" value="${build}"/>
+	
+	<path id="depspath">
+		<fileset dir="${build}" includes="${lib}"/>
+	</path>
+	
+	<target name="build">
+		<echo message="${module} : ${modulebuild}/${jar}"/>
+		
+		<mkdir dir="${modulebuild}/lib"/>
+		<copy todir="${modulebuild}/lib" failonerror="false">
+			<fileset dir="lib" includes="*/**"/>
+		</copy>
+
+		<mkdir dir="${modulebuild}/classes"/>	
+		<javac destdir="${modulebuild}/classes" debug="on" encoding="utf-8" includeAntRuntime="false">
+			<src>
+				<pathelement path="src"/>
+			</src>
+			<classpath>
+				<path refid="depspath"/>
+			</classpath>
+		</javac>	
+
+		<!-- resources -->
+		<copy todir="${modulebuild}/classes" includeemptydirs="true" failonerror="false">
+			<fileset dir="src" includes="*/**" excludes="**/*.java"/>
+			<!--fileset dir="res" includes="*/**" /-->
+		</copy>
+	
+		<jar destfile="${modulebuild}/${jar}" basedir="${modulebuild}/classes" includes="**"/>
+	</target>
+
+	<target name="clean">
+		<delete includeemptydirs="true" failonerror="false" dir="${modulebuild}"/>
+	</target>
+
+	<target name="cleanall">
+		<delete dir="${build}" failonerror="false"/>
+	</target>
+
+    <!-- setproxy proxyhost="" proxyport="" proxyuser="" proxypassword=""/ -->
+	<!-- export ANT_OPTS="$ANT_OPS -Dhttp.proxyHost=172.16.17.18 -Dhttp.proxyPort=3128" -->
+	
+    <target name="resolve" description="Trae desde los repositorios las depencias de siat. NOTA: solo usar si esta modificando alguna dependencia de siat.">
+    	<ivy:settings url="http://sat1:8060/roboto/release/ivysettings.xml"/>
+    	<ivy:retrieve type="jar,bundle" pattern="./lib/[conf]/[artifact]-[revision].[ext]" sync="true" refresh="true"/>
+		<ivy:report graph="false" todir="./lib/report-deps"/> 
+    </target>
+
+</project>
