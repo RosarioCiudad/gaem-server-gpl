@@ -1,8 +1,7 @@
 # GAEM
 
 - Gestión Actas Electrónicas Móviles
-- Municipalidad de Santa Fé 
-- 2014-02-23
+- 2016-10-26
 
 ## Descripción
 
@@ -15,15 +14,16 @@ recibe dichas peticiones y sirve como proxy/interface con los sistemas existente
 
 ## Instalación GAEM-Server
 
-### Instalar Java SDK 7
+### Instalar Java SDK 8
 
     $ javac -version
-    javac 1.7.0_21
+	javac 1.8.0_91
+	
 
 ### Instalar Apache Ant 
    
     # install
-    $ Ant=apache-ant-1.9.0
+    $ Ant=apache-ant-1.9.x
     $ cd /tmp ; curl -O http://archive.apache.org/dist/ant/binaries/${Ant}-bin.tar.gz
     $ mkdir -p ~/opt ; tar zxf /tmp/${Ant}-bin.tar.gz ~/opt
     $ sudo ln -s ~/opt/$Ant/bin/ant /usr/bin/ant
@@ -34,8 +34,8 @@ recibe dichas peticiones y sirve como proxy/interface con los sistemas existente
 
 ### Instalar Gaem
 
-    $ git clone https://gitlab.tecso.coop/tecso/gaem-server-msf.git
-    $ cd gaem-server-msf    
+    $ git clone https://gitlab.tecso.coop/tecso/gaem-server-gpl
+    $ cd gaem-server-gpl    
     $ ant mkenv tomcat
     $ ./gait tomcat start
 
@@ -60,13 +60,12 @@ recibe dichas peticiones y sirve como proxy/interface con los sistemas existente
 
 TODO
 
-### Eclipse
+### Android Studio
 
 TODO
   
 ## Links
 
-- Server <https://gitlab.tecso.coop/tecso/gaem-server-msf/>
-- Client <https://gitlab.tecso.coop/tecso/gaem-client-msf/>
+- Server <https://gitlab.tecso.coop/tecso/gaem-server-gpl/>
+- Client <https://gitlab.tecso.coop/tecso/gaem-client-gpl>
 - Documentación <https://svn.tecso.coop/svn/msf/gaem/documentacion/trunk>
-- Issues <http://jira.tecso.coop/browse/MSFGAEM>
