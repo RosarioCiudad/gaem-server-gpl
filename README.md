@@ -23,7 +23,7 @@ recibe dichas peticiones y sirve como proxy/interface con los sistemas existente
 ### Instalar Apache Ant 
    
     # install
-    $ Ant=apache-ant-1.9.x
+    $ Ant=apache-ant-1.9.6
     $ cd /tmp ; curl -O http://archive.apache.org/dist/ant/binaries/${Ant}-bin.tar.gz
     $ mkdir -p ~/opt ; tar zxf /tmp/${Ant}-bin.tar.gz ~/opt
     $ sudo ln -s ~/opt/$Ant/bin/ant /usr/bin/ant
