@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TomcatVersion=7.0.39
+TomcatVersion=8.0.32
 Tomcat=apache-tomcat-${TomcatVersion}
 
 if [[ $@ =~ (^| )"--help"($| ) ]] ; then
@@ -14,7 +14,7 @@ cd .env
 
 if [[ $@ =~ (^| )"--tomcat"($| ) ]]; then
 	if [[ ! -f ${Tomcat}.tar.gz ]] ; then
-		curl -O http://archive.apache.org/dist/tomcat/tomcat-7/v${TomcatVersion}/bin/${Tomcat}.tar.gz
+		curl -O http://archive.apache.org/dist/tomcat/tomcat-8/v${TomcatVersion}/bin/${Tomcat}.tar.gz
 	fi
 	tar zxf ${Tomcat}.tar.gz
 	mv $Tomcat tomcat
