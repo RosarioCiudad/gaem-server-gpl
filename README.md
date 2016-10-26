@@ -58,14 +58,18 @@ recibe dichas peticiones y sirve como proxy/interface con los sistemas existente
 
 ## Instalación Gaem-Client
 
-TODO
+### Instalar Gaem
+
+    $ git clone git@gitlab.tecso.coop:tecso/gaem-client-gpl.git
 
 ### Android Studio
 
-TODO
+- Instalar y configurar Android Studio (Guía en su web)
+- File -> Open -> gaem-client-gpl -> <APLICACION>
   
 ## Links
 
 - Server <https://gitlab.tecso.coop/tecso/gaem-server-gpl/>
 - Client <https://gitlab.tecso.coop/tecso/gaem-client-gpl>
 - Documentación <https://svn.tecso.coop/svn/msf/gaem/documentacion/trunk>
+
