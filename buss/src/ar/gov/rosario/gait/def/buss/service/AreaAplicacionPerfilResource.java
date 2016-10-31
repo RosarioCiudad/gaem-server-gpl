@@ -19,7 +19,7 @@ public class AreaAplicacionPerfilResource {
 
 	public Route[] routes() {
 		return new Route[] {
-				Route.create("GET", "/gait/api/areaaplicacionperfil/list.json", this.getClass(), "list")
+				Route.create("GET", "/gaem/api/areaaplicacionperfil/list.json", this.getClass(), "list")
 		};
 	}
 		

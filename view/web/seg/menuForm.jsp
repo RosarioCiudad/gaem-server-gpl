@@ -19,10 +19,10 @@ Aqu&iacute; se presentan las opciones del sistema ordenadas por m&oacute;dulo y 
 	<li>
 
 	<logic:equal name="itemMenuVO" property="seleccionadoView" value="true">
-   		<a class="activo" href="/gait/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=0"><bean:write name="itemMenuVO" property="titulo"/></a>
+   		<a class="activo" href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=0"><bean:write name="itemMenuVO" property="titulo"/></a>
     </logic:equal>
 	<logic:notEqual name="itemMenuVO" property="seleccionadoView" value="true">
-   		<a href="/gait/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=0"><bean:write name="itemMenuVO" property="titulo"/></a>
+   		<a href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=0"><bean:write name="itemMenuVO" property="titulo"/></a>
     </logic:notEqual>
     
 	</li>
@@ -42,10 +42,10 @@ Aqu&iacute; se presentan las opciones del sistema ordenadas por m&oacute;dulo y 
 		<logic:iterate id="itemMenuVO" name="gaitMenuAdapter" property="listItemMenuNivel2">
   		<li>
 		<logic:equal name="itemMenuVO" property="seleccionadoView" value="true">
-    		<a class="activo" href="/gait/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel1" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>"><bean:write name="itemMenuVO" property="titulo"/></a>
+    		<a class="activo" href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel1" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>"><bean:write name="itemMenuVO" property="titulo"/></a>
 		</logic:equal>
 		<logic:notEqual name="itemMenuVO" property="seleccionadoView" value="true">
-    		<a href="/gait/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel1" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>"><bean:write name="itemMenuVO" property="titulo"/></a>
+    		<a href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel1" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>"><bean:write name="itemMenuVO" property="titulo"/></a>
 		</logic:notEqual>
   		</li>
 		</logic:iterate>
@@ -71,7 +71,7 @@ Aqu&iacute; se presentan las opciones del sistema ordenadas por m&oacute;dulo y 
 		<logic:iterate id="itemMenuVO" name="gaitMenuAdapter" property="listItemMenuNivel3">
 	    <tr>
 	      <td>
-	   		<a href="/gait/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel1" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel2" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel3=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>"><bean:write name="itemMenuVO" property="titulo"/></a>
+	   		<a href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel1" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel2" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel3=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>"><bean:write name="itemMenuVO" property="titulo"/></a>
 	      </td>
 	      <td>      
 	      </td>

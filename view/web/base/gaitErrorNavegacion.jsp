@@ -9,7 +9,7 @@
 
 	<table class="tablamenu">
 		<tr>
-    		<th>GAIT &gt; Mensaje</th>
+    		<th>GAEM &gt; Mensaje</th>
 		</tr>
 	</table>
 	<table width="100%" border="0">

@@ -35,7 +35,7 @@ public class ReparticionResource {
 
 	public Route[] routes() {
 		return new Route[] {
-				Route.create("GET", "/gait/api/reparticion/list.json", this.getClass(), "list")
+				Route.create("GET", "gaem/api/reparticion/list.json", this.getClass(), "list")
 		};
 	}
 

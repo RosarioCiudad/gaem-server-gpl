@@ -13,7 +13,7 @@
 	<div id="top">
 		<div id="iconostop">
       			<ul>
-				<li><a href="/gait/Login.do" title="Login">Login</a></li>
+				<li><a href="<%= request.getContextPath()%>/Login.do" title="Login">Login</a></li>
       			</ul>
 		</div>
 	</div>
@@ -21,8 +21,8 @@
 	<div id="top">
 		<div id="iconostop">
       			<ul>
-				<li><a href="/gait/seg/Login.do?method=logout" title="Salir">Salir</a></li>
-        		<li><a href="/gait/seg/GaitMenu.do?method=build">&nbsp;&nbsp;Men&uacute;&nbsp;&nbsp;</a></li>
+				<li><a href="<%= request.getContextPath()%>/seg/Login.do?method=logout" title="Salir">Salir</a></li>
+        		<li><a href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=build">&nbsp;&nbsp;Men&uacute;&nbsp;&nbsp;</a></li>
       			</ul>
 		</div>
 	</div>

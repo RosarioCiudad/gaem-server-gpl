@@ -30,7 +30,7 @@ public class ApsvResource {
 
 	public Route[] routes() {
 		return new Route[] {
-				Route.create("GET", "/gait/api/apsv/estadoLicencia.json", this.getClass(), "estado")
+				Route.create("GET", "gaem/api/apsv/estadoLicencia.json", this.getClass(), "estado")
 		};
 	}
 

@@ -26,19 +26,19 @@ function refreshCaches(id) {
 		<!-- Errors  -->
 		<html:errors bundle="base"/>
 		
-		<h1>Admininstracion de Caches del Gait</h1>	
+		<h1>Administraci&oacute;n de Caches del Gaem</h1>	
 		
 		<!-- Cache -->
 		<fieldset>
-			<legend>Refrecar Remotamente</legend>
+			<legend>Refrescar Remotamente</legend>
 			<table class="datos">
 				<tr>					
 					<td colspan="2">
-						<b>Actualización remota de los cache en cada Instancia.</b>
-						<span style="font-size:80%">
-						<br/>OK = Significa actualizado con exito.
-						<br/>ERROR = Fallo. Ocurrio un error durante la actualización.
-						<br/>COLOR GRIS = Fallo. No se pudo enviar el mensage para que se refresque el cache.
+						<b style="font-size:11px; padding-buttom:10px">Actualizaci&oacute;n remota de los cache en cada Instancia.</b>
+						<span style="font-size:10px">
+						<br/>OK = Significa actualizado con &eacute;xito.
+						<br/>ERROR = Fall&oacute;. Ocurrio un error durante la actualizaci&oacute;n.
+						<br/>COLOR GRIS = Fall&oacute;. No se pudo enviar el mensaje para que se refresque el cache.
 						</span>
 					</td>
 				</tr>
@@ -47,37 +47,37 @@ function refreshCaches(id) {
 					<td></td>				
 					<td>
 						<br/>
-						<a target="cache01" href="http://sint1e.pm.rosario.gov.ar:9060/gait/def/configuracion/cache.jsp">Refrescar intragait(e)</a>
-						<iframe name="cache01" style="width:160px; height:10px;border:solid 1px gray"  scrolling="no"  src="" frameborder=0></iframe>
+						<a target="cache01" href="http://sint1e.pm.rosario.gov.ar:9060/gaem/def/configuracion/cache.jsp">Refrescar intragaem(e)</a>
+						<iframe name="cache01" scrolling="no" src="" frameborder=0></iframe>
 						<br/><br/>
 						
-						<a target="cache02" href="http://sint1f.pm.rosario.gov.ar:9060/gait/def/configuracion/cache.jsp">Refrescar intragait(f)</a>
-						<iframe name="cache02" style="width:160px; height:10px;border:solid 1px gray"  scrolling="no"  src="" frameborder=0></iframe>
+						<a target="cache02" href="http://sint1f.pm.rosario.gov.ar:9060/gaem/def/configuracion/cache.jsp">Refrescar intragaem(f)</a>
+						<iframe name="cache02" scrolling="no" src="" frameborder=0></iframe>
 						<br/><br/>
 						
-						<a target="cache03" href="http://sext1e.pm.rosario.gov.ar:9080/gait/def/configuracion/cache.jsp">Refrescar webgait(e)</a>
-						<iframe name="cache03" style="width:160px; height:10px;border:solid 1px gray"  scrolling="no"  src="" frameborder=0></iframe>
+						<a target="cache03" href="http://sext1e.pm.rosario.gov.ar:9080/gaem/def/configuracion/cache.jsp">Refrescar webgaem(e)</a>
+						<iframe name="cache03" scrolling="no" src="" frameborder=0></iframe>
 						<br/><br/>
 						
-						<a target="cache04" href="http://sext1f.pm.rosario.gov.ar:9080/gait/def/configuracion/cache.jsp">Refrescar webgait(f)</a>
-						<iframe name="cache04" style="width:160px; height:10px;border:solid 1px gray"  scrolling="no"  src="" frameborder=0></iframe>
+						<a target="cache04" href="http://sext1f.pm.rosario.gov.ar:9080/gaem/def/configuracion/cache.jsp">Refrescar webgaem(f)</a>
+						<iframe name="cache04" scrolling="no" src="" frameborder=0></iframe>
 						<br/><br/>
 						
-						<a target="cache05" href="http://sint1e.pm.rosario.gov.ar:9070/adpgait/cache.jsp">Refrescar adpgait(e)</a>
-						<iframe name="cache05" style="width:160px; height:10px;border:solid 1px gray"  scrolling="no"  src="" frameborder=0></iframe>
+						<a target="cache05" href="http://sint1e.pm.rosario.gov.ar:9070/adpgait/cache.jsp">Refrescar adpgaem(e)</a>
+						<iframe name="cache05" scrolling="no" src="" frameborder=0></iframe>
 						<br/><br/>
 						
-						<a target="cache06" href="http://sint1f.pm.rosario.gov.ar:9070/adpgait/cache.jsp">Refrescar adpgait(f)</a>
-						<iframe name="cache06" style="width:160px; height:10px;border:solid 1px gray"  scrolling="no"  src="" frameborder=0></iframe>
+						<a target="cache06" href="http://sint1f.pm.rosario.gov.ar:9070/adpgait/cache.jsp">Refrescar adpgaem(f)</a>
+						<iframe name="cache06" scrolling="no" src="" frameborder=0></iframe>
 						<br/><br/>
 
 						<br/><br/>						
-						<a target="cache07" href="/gait/def/configuracion/cache.jsp">Refrescar gait (actual)</a>
-						<iframe name="cache07" style="width:160px; height:10px;border:solid 1px gray"  scrolling="no"  src="" frameborder=0></iframe>
+						<a target="cache07" href="<%= request.getContextPath()%>/def/configuracion/cache.jsp">Refrescar gaem (actual)</a>
+						<iframe name="cache07" scrolling="no" src="" frameborder=0></iframe>
 						<br/><br/>
 						
-						<a target="cache08" href="/adpgait/cache.jsp">Refrescar adpgait (actual)</a>
-						<iframe name="cache08" style="width:160px; height:10px;border:solid 1px gray"  scrolling="no"  src="" frameborder=0></iframe>
+						<a target="cache08" href="/adpgait/cache.jsp">Refrescar adpgaem (actual)</a>
+						<iframe name="cache08" scrolling="no" src="" frameborder=0></iframe>
 						<br/><br/>					
 					</td>
 				</tr>

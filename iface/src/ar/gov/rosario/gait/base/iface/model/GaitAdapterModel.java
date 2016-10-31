@@ -10,7 +10,7 @@ public class GaitAdapterModel extends AdapterModel {
 		try {
 			this.getReport().setReportFileSharePath(GaitParam.getString("FileSharePath"));
 		} catch (Exception e) {
-			this.getReport().setReportFileSharePath("/mnt/gait");
+			this.getReport().setReportFileSharePath("/mnt/gaem");
 		}		
 	}
 	
@@ -19,7 +19,7 @@ public class GaitAdapterModel extends AdapterModel {
 		try {
 			this.getReport().setReportFileSharePath(GaitParam.getString("FileSharePath"));
 		} catch (Exception e) {
-			this.getReport().setReportFileSharePath("/mnt/gait");
+			this.getReport().setReportFileSharePath("/mnt/gaem");
 		}		
 	}
 	

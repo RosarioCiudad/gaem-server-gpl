@@ -20,8 +20,8 @@ public class AdpListener implements ServletContextListener {
 
     public void contextInitialized(ServletContextEvent event) {
 		try {
-	    	System.out.println("INICIANDO ADPgait...");
-	    	System.out.println("  INICIANDO Gait");
+	    	System.out.println("INICIANDO ADPgaem...");
+	    	System.out.println("  INICIANDO Gaem");
 			DefServiceLocator.getConfiguracionService().initializeGait();
 			
 			if (engine == null) {
@@ -30,12 +30,12 @@ public class AdpListener implements ServletContextListener {
     			engine = new AdpEngine();
     			engine.start();		
 			}
-	    	System.out.println("INICIANDO ADPgait... OK");
+	    	System.out.println("INICIANDO ADPgaem... OK");
 			
 		} catch (Exception e) {
 			System.out.println("**************************************");
-			System.out.println("ADPgait ERROR:");
-			System.out.println("No se pudo Inicializar gait.");
+			System.out.println("ADPgaem ERROR:");
+			System.out.println("No se pudo Inicializar Gaem.");
 			System.out.println("El comportamiento de la aplicacion es inesperado.");
 			System.out.println("El error fue: " + e);
 			e.printStackTrace();
@@ -45,17 +45,17 @@ public class AdpListener implements ServletContextListener {
 
     public void contextDestroyed(ServletContextEvent event) {
 		try {
-	    	System.out.println("DESTRUYENDO ADPgait...");
+	    	System.out.println("DESTRUYENDO ADPgaem...");
 			if (engine != null) {
 		    	System.out.println("  DESTRUYENDO Adp Engine");
 				engine.stop();
 			}
-	    	System.out.println("  DESTRUYENDO Gait");
+	    	System.out.println("  DESTRUYENDO Gaem");
 	    	DefServiceLocator.getConfiguracionService().destroyGait();
-	    	System.out.println("DESTRUYENDO ADPgait... OK");
+	    	System.out.println("DESTRUYENDO ADPgaem... OK");
 		} catch (Exception e) {
 			System.out.println("**************************************");
-			System.out.println("ADPgait ERROR:");
+			System.out.println("ADPgaem ERROR:");
 			System.out.println("No se pudo Destruir gait.");
 			System.out.println("El comportamiento de la aplicacion es inesperado.");
 			System.out.println("El error fue: " + e);
@@ -80,7 +80,7 @@ public class AdpListener implements ServletContextListener {
     			return DemodaUtil.currentUserContext().getUserName();
     		} catch (DemodaServiceException e) {
     			log.info("No se puede obtener informacion del usuario para Adp. Usamos valor por defecto", e);
-    			return "gait";
+    			return "gaem";
     		}
     	}
     }

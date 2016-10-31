@@ -37,7 +37,7 @@ public class TablaVersionResource {
 
 	public Route[] routes() {
 		return new Route[] {
-				Route.create("GET", "/gait/api/tablaversion/list.json", this.getClass(), "list")
+				Route.create("GET", "/gaem/api/tablaversion/list.json", this.getClass(), "list")
 		};
 	}
 	

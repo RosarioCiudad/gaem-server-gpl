@@ -21,16 +21,16 @@ public class EntityDeltaResource {
 	private Logger log = Logger.getLogger(ApmAplicacionServiceHbmImpl.class);
 	private To to = new To();
 
-	/* ROUTE  : startWith(/gait/api/delta) -> EntityDelta.delta
-	 * EJEMPLO: /gait/api/delta?entidad=UsuarioApm&version=1  -> EntityDelta.delta
+	/* ROUTE  : startWith(/gaem/api/delta) -> EntityDelta.delta
+	 * EJEMPLO: /gaem/api/delta?entidad=UsuarioApm&version=1  -> EntityDelta.delta
 	 */
 	public Route[] routes() {
 		return new Route[] {
-				Route.create("GET", "/gait/api/delta/list.json", this.getClass(), "getDelta"),
-				Route.create("GET", "/gait/api/delta/entity.json", this.getClass(), "getEntity"),
-				Route.create("GET", "/gait/api/delta/listByAplicacion.json", this.getClass(), "getDeltaByAplicacion"),
-				Route.create("GET", "/gait/api/delta/listByUsuario.json", this.getClass(), "getDeltaByUsuario"),
-				Route.create("GET", "/gait/api/delta/listByArea.json", this.getClass(), "getDeltaByArea")
+				Route.create("GET", "/gaem/api/delta/list.json", this.getClass(), "getDelta"),
+				Route.create("GET", "/gaem/api/delta/entity.json", this.getClass(), "getEntity"),
+				Route.create("GET", "/gaem/api/delta/listByAplicacion.json", this.getClass(), "getDeltaByAplicacion"),
+				Route.create("GET", "/gaem/api/delta/listByUsuario.json", this.getClass(), "getDeltaByUsuario"),
+				Route.create("GET", "/gaem/api/delta/listByArea.json", this.getClass(), "getDeltaByArea")
 		};
 	}
 

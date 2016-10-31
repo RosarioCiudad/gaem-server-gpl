@@ -9,7 +9,7 @@ function grsfunc(fname) {
 }
 
 function grsback() {
-	window.location.href = "/gait/seg/GaitMenu.do?method=build";
+	window.location.href = "<%= request.getContextPath()%>/seg/GaitMenu.do?method=build";
 }
 
 </script>

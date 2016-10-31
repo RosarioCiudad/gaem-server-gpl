@@ -31,7 +31,7 @@ public class DispositivoMovilResource {
 
 	public Route[] routes() {
 		return new Route[] {
-				Route.create("GET", "/gait/api/dispositivomovil.json", this.getClass(), "syncDispositivoMovil")
+				Route.create("GET", "gaem/api/dispositivomovil.json", this.getClass(), "syncDispositivoMovil")
 		};
 	}
 

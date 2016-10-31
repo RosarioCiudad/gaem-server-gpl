@@ -1,4 +1,4 @@
-<Context path="/gait" reloadable="true">
+<Context path="/gaem" reloadable="true">
   <ResourceLink global="jdbc/aplmov" name="ds/gait"  type="javax.sql.DataSource"/>
   <ResourceLink global="jdbc/swe"  name="ds/swe"  type="javax.sql.DataSource"/>
   <ResourceLink global="config/ldap/server" name="config/ldap/server" type="java.lang.String"/>

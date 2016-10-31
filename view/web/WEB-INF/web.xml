@@ -4,7 +4,7 @@
   "http://java.sun.com/j2ee/dtds/web-app_2_3.dtd">
   
 <web-app>
-  <display-name>GAIT</display-name>
+  <display-name>GAEM</display-name>
   
   <listener>	
     <listener-class>ar.gov.rosario.gait.base.view.util.GaitListener</listener-class>

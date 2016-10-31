@@ -26,7 +26,7 @@ public class AplicacionResource {
 
 	public Route[] routes() {
 		return new Route[] {
-				Route.create("POST", "/gait/api/panico.json", this.getClass(), "savePanico")
+				Route.create("POST", "<%= request.getContextPath()%>/api/panico.json", this.getClass(), "savePanico")
 		};
 	}
 	

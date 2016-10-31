@@ -17,7 +17,7 @@
 	@import url("<%= request.getContextPath()%>/styles/gait.css");
 	@import url("<%= request.getContextPath()%>/styles/style.css");
 	</style>
-	<link rel="shortcut icon" href="/gait/images/favicon.ico" />
+	<link rel="shortcut icon" href="<%= request.getContextPath()%>/images/favicon.ico" />
 	<title><bean:message bundle="base" key="base.gait.title"/></title>
 
     <script src="<%= request.getContextPath()%>/base/submitForm.js"></script>

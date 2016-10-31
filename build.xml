@@ -1,4 +1,4 @@
-<project name="gait" default="build" xmlns:ivy="antlib:org.apache.ivy.ant">
+<project name="gaem" default="build" xmlns:ivy="antlib:org.apache.ivy.ant">
 	
 	<property name="build" value="./build"/>
 	<property name="webapps" value="${build}/webapps"/>	
@@ -19,20 +19,20 @@
 		<ant dir="iface" inheritAll="false" inheritRefs="false"/>
 		<ant dir="buss" inheritAll="false" inheritRefs="false"/>
 		<ant dir="view" inheritAll="false" inheritRefs="false"/>
-		<ant dir="adpgait" inheritAll="false" inheritRefs="false"/>
+		<ant dir="adpgaem" inheritAll="false" inheritRefs="false"/>
 
 		<antcall target="web"/>
 	</target>
 	
 	<target name="web">
-		<echo message="web: ${webapps}/gait"/>
-		<copy todir="${webapps}/gait" >
+		<echo message="web: ${webapps}/gaem"/>
+		<copy todir="${webapps}/gaem" >
 			<fileset dir="view/web" includes="**/*"/>
 		</copy>
-		<copy todir="${webapps}/gait/WEB-INF/lib" flatten="true" includeemptydirs="false">
+		<copy todir="${webapps}/gaem/WEB-INF/lib" flatten="true" includeemptydirs="false">
 			<fileset dir="${build}/lib/runtime" includes="**/*" excludes="servlet-api-*.jar"/>
 		</copy>
-		<copy todir="${webapps}/gait/WEB-INF/lib" flatten="true" includeemptydirs="false">
+		<copy todir="${webapps}/gaem/WEB-INF/lib" flatten="true" includeemptydirs="false">
 			<fileset dir="${build}">
 				<include name="demoda/*.jar"/>
 				<include name="iface/*.jar"/>
@@ -42,35 +42,35 @@
 			</fileset>
 		</copy>
 		
-		<echo message="adpsiat : ${webapps}/adpgait"/>
-		<copy todir="${webapps}/adpgait" >
-			<fileset dir="adpgait/web" includes="**/*"/>
+		<echo message="adpsiat : ${webapps}/adpgaem"/>
+		<copy todir="${webapps}/adpgaem" >
+			<fileset dir="adpgaem/web" includes="**/*"/>
 		</copy>
-		<copy todir="${webapps}/adpgait/WEB-INF/lib" flatten="true" includeemptydirs="false">
+		<copy todir="${webapps}/adpgaem/WEB-INF/lib" flatten="true" includeemptydirs="false">
 			<fileset dir="${build}/lib/runtime" includes="**/*" excludes="servlet-api.jar"/>
 		</copy>
-		<copy todir="${webapps}/adpgait/WEB-INF/lib" flatten="true" includeemptydirs="false">
+		<copy todir="${webapps}/adpgaem/WEB-INF/lib" flatten="true" includeemptydirs="false">
 			<fileset dir="${build}">
 				<include name="demoda/*.jar"/>
 				<include name="iface/*.jar"/>
 				<include name="buss/*.jar"/>
 				<include name="view/*.jar"/>
 				<include name="ext/*.jar"/>
-				<include name="adpgait/*.jar"/>
+				<include name="adpgaem/*.jar"/>
 			</fileset>
 		</copy>
 
 	</target>
 	
-	<target name="war" depends="clean, build" description="Genera los war de gait" >
-		<echo message="adpgait : ${webapps}/gait.war"/>
-		<jar destfile="${webapps}/gait.war">
-			<fileset dir="${webapps}/gait" includes="**/*"/>
+	<target name="war" depends="clean, build" description="Genera los war de gaem" >
+		<echo message="adpgaem : ${webapps}/gaem.war"/>
+		<jar destfile="${webapps}/gaem.war">
+			<fileset dir="${webapps}/gaem" includes="**/*"/>
 		</jar>
 
-		<echo message="adpgait : ${webapps}/adpgait.war"/>
-		<jar destfile="${webapps}/adpgait.war">
-			<fileset dir="${webapps}/adpgait" includes="**/*"/>
+		<echo message="adpgaem : ${webapps}/adpgaem.war"/>
+		<jar destfile="${webapps}/adpgaem.war">
+			<fileset dir="${webapps}/adpgaem" includes="**/*"/>
 		</jar>
 	</target>
 	
@@ -79,14 +79,14 @@
 	</target>
 	
 	<target name="reportes">
-		<copy failonerror="false" todir="/mnt/gait">
+		<copy failonerror="false" todir="/mnt/gaem">
 			<fileset dir="${etc}/fileshare" includes="**/*"/>
 		</copy>
 	</target>
 
 	<!-- setproxy proxyhost="" proxyport="" proxyuser="" proxypassword=""/ -->
 	<!-- export ANT_OPTS="$ANT_OPS -Dhttp.proxyHost=172.16.17.18 -Dhttp.proxyPort=3128" -->
-	<target name="resolve" description="Trae desde los repositorios las depencias de gait. NOTA: solo usar si esta modificando alguna dependencia.">
+	<target name="resolve" description="Trae desde los repositorios las depencias de gaem. NOTA: solo usar si esta modificando alguna dependencia.">
 		<ivy:retrieve type="jar,bundle" pattern="./lib/[conf]/[artifact]-[revision].[ext]" sync="false" refresh="false"/>
 		<ivy:report graph="false" todir="./lib/report-deps"/> 
 	</target>
@@ -95,12 +95,12 @@
 		<property environment="env"/>
 		<property name="env.CATALINA_HOME" value=".env/tomcat"/>
 		
-		<copy todir="${env.CATALINA_HOME}/webapps/gait">
-			<fileset dir="${webapps}/gait"/>
+		<copy todir="${env.CATALINA_HOME}/webapps/gaem">
+			<fileset dir="${webapps}/gaem"/>
 		</copy>
 		
-		<copy todir="${env.CATALINA_HOME}/webapps/adpgait">
-			<fileset dir="${webapps}/adpgait"/>
+		<copy todir="${env.CATALINA_HOME}/webapps/adpgaem">
+			<fileset dir="${webapps}/adpgaem"/>
 		</copy>
 	</target>
 	
