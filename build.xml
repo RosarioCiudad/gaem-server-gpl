@@ -111,5 +111,13 @@
 			<arg value="--conf"/>
 		</exec>
 	</target>
+	
+	<target name="env-conf" description="Pisa el arbol de directorios del tomcat instalado como esta en ./tomcat">
+		<property environment="env"/>
+		<property name="env.CATALINA_HOME" value=".env/tomcat"/>
+		<copy todir="${env.CATALINA_HOME}/conf" overwrite="true">
+			<fileset dir="${etc}/tomcat/conf" />
+		</copy>	
+	</target>
 
 </project>
