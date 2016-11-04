@@ -110,8 +110,8 @@ public class SegSeguridadServiceHbmImpl implements ISegSeguridadService {
 			if(menuAdapter.getTituloNivel2().length()>16){
 				menuAdapter.setTituloNivel2(menuAdapter.getTituloNivel2().substring(0, 16).concat("..."));
 			}
-			if(menuAdapter.getTituloNivel3().length()>26){
-				menuAdapter.setTituloNivel3(menuAdapter.getTituloNivel3().substring(0, 26).concat("..."));
+			if(menuAdapter.getTituloNivel3().length()>36){
+				menuAdapter.setTituloNivel3(menuAdapter.getTituloNivel3().substring(0, 36).concat("..."));
 			}
 
 			return menuAdapter;

@@ -7,7 +7,7 @@ html {
 
 body {
 	text-align: center;
-	background-color: #737754;
+/*	background-color: #737754;*/
 	font-family: sans-serif;
 	font-size: 11px;
 	color: #666666;
@@ -16,7 +16,7 @@ body {
 /* este div es para centrar todo el contenido */
 #container {
 	overflow: hidden;
-	width:920px;
+	/*width:920px;*/
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFF;
@@ -24,18 +24,46 @@ body {
 	padding: 0px;
 }
 
+.titulo-gaem {
+	font-family: 'Armata', sans-serif;
+	font-size: 17px !important;
+	color: #1B4F72;
+}
+
+.parrafo-inicio {
+	padding-top: 20px;
+    font-size: 15px !important;
+}
+
 /* Div para englobar el contenido */
 #contenido {
-	clear: both;
+	/*clear: both;
 	margin: 0px;
 	padding: 20px 30px 20px 30px;
 	height: auto;
 	min-height: auto;
 	display: block;
+	margin-left: 150px;
+	min-width: 1024px;*/
+	
+	padding-top:95px;
+    max-width: 1024px; 
+    min-height: 390px !important;
+    background-color: #ffffff;
+    padding-bottom: 5%;
+    min-height: 450px;
+    /*height: auto !important;*/
+    margin: 0 auto 0px;
+    min-width: 800px;
+    overflow: hidden;
+    margin-left: 163px;
+    margin-right: 163px;
 }
 
 #contenido h1 {
 	font-size: 12px;
+	text-transform: uppercase;
+	
 }
 
 #contenido p {
@@ -72,14 +100,19 @@ body {
 /*  Top */
 #top {
 	background-color: #0b1728;
-	background-image: url(../images/logo_gait.svg);
+	opacity: 0.9;
+	background-image: url(../images/logo_gaem.svg);
 	background-repeat: no-repeat;
-	background-size: 60px;
+	background-size: 85px;
 	background-position: left;
 	height: 60px;
-	padding: 0px;
+	padding: 5px;
 	margin: 0px;
 	border-bottom: 1px solid #ddddef;
+	left: 0;
+    position: fixed;
+    right: 0;
+    margin-top: -10px;
 }
 
 /* Link del top al www.rosario.gov.ar */
@@ -112,9 +145,29 @@ body {
 
 #iconostop ul li a {
 	display: block;
-	margin: 9px 8px 8px 8px;
+	margin: 9px 20px 8px 8px;
 	padding: 0px;
-	font-size: 12px;
+	font-size: 14px;
+	font-family: 'Bree Serif', serif;
+}
+
+#iconostop ul li a:hover {
+	color: #D4AC0D;
+}
+
+.usr-session {
+	background-color: #EAEDED;
+	color: #1B2631;
+    opacity: 0.9;
+    height: 20px;
+    padding: 0.5px; 
+    left: 0;
+    position: fixed;
+    right: 0;
+    margin-top: 65px;
+    padding-top: 5px;
+    text-align: -webkit-right;
+    padding-right: 30px;
 }
 
 /* * * * Fin Top * * * * */ 
@@ -259,7 +312,7 @@ body {
 }
 
 #pie a:hover {
-	color: #ff3300;
+	color: #D4AC0D;
 }
 
 /* * * * * Fin pie * * * * * */ /* Generales */
@@ -292,10 +345,11 @@ h2 {
 	font-size: 105%;
 	background-color: #FFFFFF;
 	color: #006699;
-	margin: 0px 0px 10px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 5px 0px 5px 20px;
 	clear: both;
-	/*border-bottom: 1px solid #12679B;*/
+	border-bottom: 1px solid #12679B;
+	text-transform: uppercase;
 }
 
 h3 {
@@ -475,7 +529,7 @@ td a.arriba {
 }
 
 .solapa h2 {
-	background-color: #B9D2E1;
+	background-color: #c6c7ca;
 	color: #006699;
 	border-radius: 5px 5px;	
 }
@@ -484,8 +538,8 @@ td a.arriba {
 	background-color: #ffffff;
 }
 
-#nivel3 {
-  width: 280px;
+.nivel3 {
+  width: 350px;
 }
 
 #online {
@@ -587,14 +641,14 @@ ul.blanco li a {
 }
 
 ul.blanco li a:hover {
-	background-color: #B9D2E1;
+	background-color: #E8F8F5;
 	border-radius: 4px 4px;
 }
 
 /* para dejar marcado el seleccionado */
 ul.blanco li a.activo {
-	background-color: #EEEEEE;
-	/*font-weight: bold;*/
+	background-color: #EAEDED;
+	font-weight: bold;
 	color : #222222;
 }
 
@@ -988,3 +1042,4 @@ div.horizscroll {
 	border:0px solid #cacaca;
 	margin:0px 0px 20px 0px;
 }
+

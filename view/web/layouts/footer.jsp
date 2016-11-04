@@ -7,15 +7,15 @@
    UserSession userSession = (UserSession) session.getAttribute("userSession");
    boolean showAnonimo = userSession == null ? true : userSession.getIsAnonimo();
 %>
-<h2>&nbsp;</h2>
+
 
 <div id="pie">          
 <p>
-Desarrollado con software libre por la <a href="http://www.rosario.gob.ar">Municipalidad de Rosario</a> y <a href="http://www.tecso.coop" target="_blank">Coop. Tecso Ltda</a> | Rosario | Santa Fe | Argentina | 2013
+Desarrollado con software libre por la <a href="http://www.rosario.gob.ar"><strong>Municipalidad de Rosario</strong></a> y <a href="http://www.tecso.coop" target="_blank"><strong>Coop. Tecso Ltda</strong></a> | Rosario | Santa Fe | Argentina | 2016
 <p/>
 
 <p>
-<a href="http://www.rosario.gov.ar/sitio/paginainicial/terminos.html" target="_blank">T&eacute;rminos y condiciones.</a>&nbsp;
+<a href="http://www.rosario.gov.ar/sitio/paginainicial/terminos.html" target="_blank"><strong>T&eacute;rminos y condiciones.</strong></a>&nbsp;
 <!--  a href="#" target="_blank">Contacto</a>  -->
 <p/>
 </div>

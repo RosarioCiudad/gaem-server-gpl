@@ -25,13 +25,13 @@
         		<li><a href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=build">&nbsp;&nbsp;Men&uacute;&nbsp;&nbsp;</a></li>
       			</ul>
 		</div>
+		<div class="usr-session">
+		    <bean:write name="userSession" property="longUserName"/> (<bean:write name="userSession" property="userName"/>)&nbsp; 
+		    <bean:write name="userSession" property="desDireccion"/> / <bean:write name="userSession" property="desArea"/>  	 
+	    </div>
 	</div>
-      	<div style="float:right; margin-right: 8px; margin-top: -18px">
-		<div>
-		<bean:write name="userSession" property="longUserName"/> (<bean:write name="userSession" property="userName"/>)&nbsp; 
-		<bean:write name="userSession" property="desDireccion"/> / <bean:write name="userSession" property="desArea"/>
-      		</div>
-	</div>
+
+
 <% } %>
 
 <% if(ar.gov.rosario.gait.base.iface.model.GaitParam.isWebGait() &&

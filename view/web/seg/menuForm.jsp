@@ -2,7 +2,7 @@
 <%@ taglib uri="/tags/struts-html" prefix="html" %>
 <%@ taglib uri="/tags/struts-logic" prefix="logic" %>
 
-<h1>Seleccione sus Opciones de Men&uacute;</h1>
+<h1 class="titulo-gaem">Gesti&oacute;n de Actas Electr&oacute;nicas M&oacute;viles</h1>
 <p>
 Aqu&iacute; se presentan las opciones del sistema ordenadas por m&oacute;dulo y subm&oacute;dulo. 
 </p>
@@ -34,7 +34,6 @@ Aqu&iacute; se presentan las opciones del sistema ordenadas por m&oacute;dulo y 
 
 <!-- Menu Nivel 2 -->
 <logic:notEmpty name="gaitMenuAdapter" property="listItemMenuNivel2">
-
 	<div class="col200">
 	<div class="solapa">
 	<h2><bean:write name="gaitMenuAdapter" property="tituloNivel2"/></h2>
@@ -51,37 +50,23 @@ Aqu&iacute; se presentan las opciones del sistema ordenadas por m&oacute;dulo y 
 		</logic:iterate>
 	</ul>
   	</div>
-	</div>
-	
+	</div>	
 </logic:notEmpty>
-
 
 <!-- Menu Nivel 3 -->
 <logic:notEmpty name="gaitMenuAdapter" property="listItemMenuNivel3">
-
-<div id="nivel3" class="col200">
-  <div class="solapa">
-    <h2><bean:write name="gaitMenuAdapter" property="tituloNivel3"/></h2>    
-    <div class="scrolable">
-    <table cellpadding="0" cellspacing="0" class="tabla250">
-    <thead></thead>
-    <colgroup></colgroup>
-    <colgroup style="width:20px; text-align:right;"></colgroup>
-    <tbody>
-		<logic:iterate id="itemMenuVO" name="gaitMenuAdapter" property="listItemMenuNivel3">
-	    <tr>
-	      <td>
-	   		<a href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel1" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel2" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel3=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>"><bean:write name="itemMenuVO" property="titulo"/></a>
-	      </td>
-	      <td>      
-	      </td>
-	    </tr>
-	    </logic:iterate>
-    </tbody>
-    </table>
-    </div>
-</div>
-</div>
+	<div class="col200 nivel3">
+	  <div class="solapa">
+        <h2><bean:write name="gaitMenuAdapter" property="tituloNivel3"/></h2>    
+          <ul class="blanco">
+		    <logic:iterate id="itemMenuVO" name="gaitMenuAdapter" property="listItemMenuNivel3">
+			  <li>
+	   		    <a href="<%= request.getContextPath()%>/seg/GaitMenu.do?method=select&idAccionModulo=<bean:write name="itemMenuVO" property="accModApl.id" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel1=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel1" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel2=<bean:write name="gaitMenuAdapter" property="idItemMenuNivel2" bundle="base" formatKey="general.format.id"/>&idItemMenuNivel3=<bean:write name="itemMenuVO" property="id" bundle="base" formatKey="general.format.id"/>"><bean:write name="itemMenuVO" property="titulo"/></a>
+			  </li>    
+	        </logic:iterate>
+	     </ul>
+     </div>
+	</div>
 </logic:notEmpty>
 
 <jsp:include page="/guide.jsp?g=menu" />

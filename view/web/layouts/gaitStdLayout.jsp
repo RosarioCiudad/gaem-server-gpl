@@ -12,17 +12,23 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<style type="text/css">
-	@import url("<%= request.getContextPath()%>/styles/tramites.css");
-	@import url("<%= request.getContextPath()%>/styles/gait.css");
-	@import url("<%= request.getContextPath()%>/styles/style.css");
+	<!-- Estilos -->
+	<style type="text/css">	
+	   @import url("<%= request.getContextPath()%>/styles/tramites.css");
+	   @import url("<%= request.getContextPath()%>/styles/gait.css");
+	   @import url("<%= request.getContextPath()%>/styles/style.css");
+	   @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+       @import url('https://fonts.googleapis.com/css?family=Armata');
+       @import url("<%= request.getContextPath()%>/styles/webLogin.css");
+       	
 	</style>
+	<!-- //Estilos -->
+	
 	<link rel="shortcut icon" href="<%= request.getContextPath()%>/images/favicon.ico" />
 	<title><bean:message bundle="base" key="base.gait.title"/></title>
 
     <script src="<%= request.getContextPath()%>/base/submitForm.js"></script>
-    <script src="<%= request.getContextPath()%>/base/calendar.js"></script>
-    
+    <script src="<%= request.getContextPath()%>/base/calendar.js"></script>   
     <script src="<%= request.getContextPath()%>/base/OpenLayers-2.11/OpenLayers.js"></script>
     <script src="<%= request.getContextPath()%>/base/proj4js-compressed.js"></script>
     <script src="<%= request.getContextPath()%>/base/mapa.js"></script>
@@ -35,8 +41,6 @@
 		<div id="contenido">	
 			<tiles:insert attribute="body"/>
 		</div>
-
-		<h1>&nbsp;</h1>
 
 		<tiles:insert attribute="footer"/>
 	</div>
