@@ -2,6 +2,7 @@
 	
 	<property name="build" value="./build"/>
 	<property name="webapps" value="${build}/webapps"/>	
+	<property name="server" value=".env/tomcat"/>
 	
 	<property name="etc" value="etc"/>
 
@@ -63,6 +64,9 @@
 	</target>
 	
 	<target name="war" depends="clean, build" description="Genera los war de gaem" >
+
+		
+
 		<echo message="adpgaem : ${webapps}/gaem.war"/>
 		<jar destfile="${webapps}/gaem.war">
 			<fileset dir="${webapps}/gaem" includes="**/*"/>
@@ -76,6 +80,7 @@
 	
 	<target name="clean" description="Limpia las classes y estructuras intermedias de la compilacion.">
 		<delete dir="${build}"/>
+		<delete dir="${server}/gaem" failonerror="false"/>
 	</target>
 	
 	<target name="reportes">
@@ -95,6 +100,8 @@
 		<property environment="env"/>
 		<property name="env.CATALINA_HOME" value=".env/tomcat"/>
 		
+		<copy file="${build}/view/classes/log4j.properties" tofile="${webapps}/gaem/WEB-INF/classes/log4j.properties"/>
+
 		<copy todir="${env.CATALINA_HOME}/webapps/gaem">
 			<fileset dir="${webapps}/gaem"/>
 		</copy>
@@ -102,6 +109,8 @@
 		<copy todir="${env.CATALINA_HOME}/webapps/adpgaem">
 			<fileset dir="${webapps}/adpgaem"/>
 		</copy>
+
+
 	</target>
 	
 	<target name="mkenv" description="Baja y Expande y Configura Tomcat.">
