@@ -621,7 +621,7 @@ update for_numeracion set valordesde = 1 where 1=1;
 update for_numeracion set valorhasta = 999999 where 1=1;
 update for_numeracion set valorrestante = 999999 where 1=1;
 -- Actualiz. parametro URL de TMF de Testing a Produccion
-update def_parametro set valor = "https://www.rosario.gov.ar/tribunal_ws/spring-ws/tribunal.wsdl" where codparam like "uriRegistrarActaTMF";
+update def_parametro set valor = "https://direccion-del-tribunal-municipal-de-faltas" where codparam like "uriRegistrarActaTMF";
 -- Actualiz. nodo de ejecucion proceson sincronismo de actas
 update pro_proceso set ejecnodo = "" where codproceso like 'ProcesoRegistrarActa'
 

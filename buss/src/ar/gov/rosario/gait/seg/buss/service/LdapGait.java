@@ -16,7 +16,7 @@ import javax.naming.directory.InitialDirContext;
 public class LdapGait {
 	static public final String LdapServerResource = "java:comp/env/config/ldap/server";
 	//static public final String LdapUserBase = "ou=People,ou=moviles,ou=Servers,o=MCR";
-	static public final String LdapUserBase = "ou=People,ou=moviles,ou=Servers,o=MCR";
+	static public final String LdapUserBase = "URL-INFO-BASE";
 	
 	/**
 	 * Valida si username y password son correctos para esta aplicación cargada en en el ldap.

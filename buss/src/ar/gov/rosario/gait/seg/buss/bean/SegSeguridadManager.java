@@ -19,6 +19,7 @@ import ar.gov.rosario.gait.apm.iface.model.UsuarioApmVO;
 import ar.gov.rosario.gait.base.buss.dao.GaitHibernateUtil;
 import ar.gov.rosario.gait.base.iface.model.GaitParam;
 import ar.gov.rosario.gait.seg.buss.dao.SegDAOFactory;
+import ar.gov.rosario.gait.seg.iface.service.SegServiceLocator;
 import ar.gov.rosario.gait.seg.iface.util.SegError;
 import ar.gov.rosario.gait.simgei.auth.AuthenticationWebServiceManager;
 import coop.tecso.demoda.iface.DemodaServiceException;
@@ -145,10 +146,9 @@ public class SegSeguridadManager {
 				usuarioApmVO.addRecoverableValueError("2- Usuario o Móvil sin permisos de acceso");
 				return usuarioApmVO;
 			}
-			// Verifico Usuario contra SIMGEI
 			boolean hasAccess = false;
 			try {
-				hasAccess = AuthenticationWebServiceManager.getInstance().authenticate(username, password);
+				hasAccess = SegServiceLocator.getAuthService().auth(username, password);
 			} catch (Exception e) {
 				if (log.isDebugEnabled()) log.debug(funcName + ": SIMGEI - **ERROR**", e);
 			}
