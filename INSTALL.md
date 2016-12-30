@@ -48,7 +48,7 @@ VALUES ('UriSimgei','URL consulta SIMGEI','http://10.20.12.26:8080/simgeiWS/Auth
 
 -- MSFGAEM-9: [TASK] - Servidor: Analizar factibilidad técnica cierre de certificados
 INSERT INTO def_parametro (codparam,desparam,valor,usuario,fechaultmdf,estado,version) 
-VALUES ('CertificatePath','Path certificado PKSC12','/mnt/gait/privado/Cert/lfagana0.p12','tecso',CURRENT_TIMESTAMP,1,1);
+VALUES ('CertificatePath','Path certificado XXX','/path/to/cert/','tecso',CURRENT_TIMESTAMP,1,1);
 
 
 

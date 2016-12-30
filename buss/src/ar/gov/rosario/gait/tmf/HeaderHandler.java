@@ -106,7 +106,7 @@ public class HeaderHandler implements SOAPHandler<SOAPMessageContext> {
 				dumpDocument(root);
 
 				KeyStore keyStore = KeyStore.getInstance("PKCS12", "BC");
-				keyStore.load(new FileInputStream("/mnt/gait/lfagana0.p12"), "".toCharArray());
+				keyStore.load(new FileInputStream("path/to/cert"), "".toCharArray());
 				
 
 				String alias = keyStore.aliases().nextElement();
